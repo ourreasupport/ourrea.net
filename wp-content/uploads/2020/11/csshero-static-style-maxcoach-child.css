@@ -1,0 +1,206 @@
+#bbpress-forums li {
+  font-size: 16px;
+}
+.bbp-pagination-count {
+  font-size: 15px;
+}
+#bbpress-forums fieldset.bbp-form legend {
+  font-size: 15px;
+}
+#bbpress-forums div.bbp-the-content-wrapper input[type=button] {
+  font-size: 13px;
+}
+#bbpress-forums fieldset.bbp-form label {
+  font-size: 15px;
+}
+#bbpress-forums fieldset.bbp-form p {
+  font-size: 14px;
+}
+#bbpress-forums a {
+  font-size: 15px;
+}
+#bbpress-forums div.bbp-breadcrumb p {
+  font-size: 15px;
+}
+.profile #learn-press-profile-header .profile-name {
+  font-size: 0px;
+}
+.profile .profile-contact-info {
+  font-size: 0px;
+}
+.profile .lp-profile-info {
+  font-size: 0px;
+  line-height: 0px;
+}
+.maxcoach-course .course-title a {
+  font-size: 16px;
+}
+.course-price .price {
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+.maxcoach-course .course-price .origin-price {
+  font-weight: 600;
+  font-size: 22px;
+}
+.maxcoach-progress.style-01 .progress-title {
+  font-size: 16px;
+}
+.profile .profile-courses-progress .profile-courses-heading {
+  font-size: 25px;
+}
+.profile #learn-press-profile-nav ul.tabs > li > a {
+  font-weight: 500;
+  font-size: 19px;
+}
+.learn-press-pagination ul.page-numbers li > a {
+  font-weight: 500;
+  font-size: 15px;
+}
+.learn-press-pagination ul.page-numbers li .current {
+  font-weight: 500;
+  font-size: 15px;
+}
+.page-title-bar-01 .heading {
+  font-size: 30px !important;
+  font-weight: 400;
+}
+.single-lp_course .course-curriculum ul.curriculum-sections .section-header .section-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+#learn-press-course-tabs ul.learn-press-nav-tabs .course-nav.active a {
+  font-size: 18px;
+}
+#learn-press-course-tabs ul.learn-press-nav-tabs .course-nav a {
+  font-weight: 500;
+}
+.related-courses .related-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.course-review-heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+.single-lp_course .lp-single-course .course-author .author-name a {
+  font-weight: 500;
+  font-size: 20px;
+}
+.single-lp_course .lp-single-course .course-price .origin-price {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+}
+.simple-footer .footer-text a {
+  color: #d9d9d9;
+}
+#learn-press-user-profile {
+  margin-top: -80px;
+}
+.profile #learn-press-profile-content {
+  margin-top: -70px;
+  margin-left: 45px;
+}
+.col-md-3 {
+  margin-top: -70px;
+}
+.profile .profile-courses-progress {
+  margin-top: -16px;
+}
+.profile .profile-courses-progress .maxcoach-progress {
+  margin-top: -17px;
+}
+.maxcoach-progress.style-01 .single-progress-bar + .single-progress-bar {
+  margin-top: 19px;
+}
+html > body > #page > div:nth-child(1) > #page-content > div > div > #page-main-content > #post-9 > div > div:nth-child(3) > strong:nth-child(2) > span {
+  color: #ffd83d;
+}
+html > body > #page > div:nth-child(1) > #page-content > div > div > #page-main-content > #post-10 > div > div:nth-child(3) > strong:nth-child(2) > span {
+  color: #ffffff !important;
+}
+@media screen and (max-width: 320px) {
+  .profile .status-box {
+    padding-left: 12px;
+    padding-right: 0px;
+    padding-bottom: 56px;
+    margin-bottom: 30px;
+  }
+  #learn-press-user-profile {
+    margin-top: -100px;
+    margin-right: 5px;
+    margin-left: -43px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .page-main-content article p {
+    margin-top: -25px;
+  }
+  .profile .status-box.success .status-number {
+    font-size: 38px;
+  }
+  .profile .status-box.warning .status-number {
+    font-size: 38px;
+  }
+  .profile .status-box.info .status-number {
+    font-size: 38px;
+  }
+  .profile .status-box.error .status-number {
+    font-size: 38px;
+  }
+  .profile .status-box .status-text {
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .maxcoach-progress.style-01 .progress-title {
+    font-size: 14px;
+  }
+  .profile .profile-courses-progress .profile-courses-heading {
+    font-size: 22px;
+  }
+  .simple-footer .footer-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .profile .lp-sub-menu {
+    font-size: 13px;
+  }
+  .learnpress .lp-list-table thead tr th {
+    font-size: 12px;
+    padding: 9px;
+    padding-top: px;
+    padding-bottom: px;
+    padding-right: px;
+    padding-left: px;
+  }
+  .lp-list-table tbody tr td a {
+    font-size: 12px;
+  }
+  .lp-list-table .list-table-nav td.nav-text {
+    font-size: 9px;
+  }
+  .profile-list-courses .column-date {
+    font-size: 12px;
+  }
+  .profile .lp-tab-sections {
+    margin-top: -30px;
+  }
+  .maxcoach-course .course-title a {
+    margin-top: -60px;
+  }
+}
+.woocommerce-account .woocommerce-MyAccount-content h2 {
+  font-size: 20px;
+}
+.woocommerce-account .woocommerce-MyAccount-content h3 a {
+  font-size: 14px;
+}
+.woocommerce-account .woocommerce-MyAccount-content table td {
+  padding: 0px;
+}
+.woocommerce-MyAccount-navigation li a {
+  padding: 10px 30px;
+}
+.page-id-11 .amount {
+  color: #f3c612;
+}

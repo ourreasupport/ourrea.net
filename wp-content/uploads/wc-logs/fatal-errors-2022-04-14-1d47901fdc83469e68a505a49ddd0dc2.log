@@ -1,0 +1,82 @@
+2022-04-14T02:44:37+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T04:57:45+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T04:58:53+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T05:49:07+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T05:49:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T16:55:34+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+
+2022-04-14T21:36:17+00:00 CRITICAL Uncaught PHPExcel_Exception: You tried to set a sheet active by the out of bounds index: 0. The actual number of sheets is 0. in C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\PHPExcel.php:695
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\formats\class-woe-formatter-xls.php(75): PHPExcel->setActiveSheetIndex()
+#1 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\core\class-wc-order-export-engine.php(194): WOE_Formatter_Xls->__construct()
+#2 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\core\class-wc-order-export-engine.php(423): WC_Order_Export_Engine::init_formater()
+#3 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\admin\tabs\ajax\trait-wc-order-export-admin-tab-abstract-ajax-export.php(86): WC_Order_Export_Engine::build_file()
+#4 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\class-wc-order-export-admin.php(446): WC_Order_Export_Admin_Tab_Abstract->a in C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\PHPExcel.php on line 695
+
+2022-04-14T21:38:03+00:00 CRITICAL Uncaught PHPExcel_Exception: You tried to set a sheet active by the out of bounds index: 0. The actual number of sheets is 0. in C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\PHPExcel.php:695
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\formats\class-woe-formatter-xls.php(75): PHPExcel->setActiveSheetIndex()
+#1 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\core\class-wc-order-export-engine.php(194): WOE_Formatter_Xls->__construct()
+#2 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\core\class-wc-order-export-engine.php(423): WC_Order_Export_Engine::init_formater()
+#3 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\admin\tabs\ajax\trait-wc-order-export-admin-tab-abstract-ajax-export.php(86): WC_Order_Export_Engine::build_file()
+#4 C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\class-wc-order-export-admin.php(446): WC_Order_Export_Admin_Tab_Abstract->a in C:\webroot\ourrea.net\wp-content\plugins\woo-order-export-lite\classes\PHPExcel.php on line 695
+

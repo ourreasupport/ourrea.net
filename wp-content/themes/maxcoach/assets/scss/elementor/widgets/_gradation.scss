@@ -1,0 +1,341 @@
+@keyframes gradationSignal {
+	0% {
+		opacity: 1;
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+.tm-gradation {
+	.title {
+		margin: 0;
+	}
+
+	.description {
+		margin: 9px 0 0;
+	}
+
+	.item {
+		position: relative;
+	}
+}
+
+.maxcoach-gradation-layout-block {
+	.tm-gradation {
+		.item {
+			display: flex;
+
+			&:last-child {
+				.line {
+					display: none;
+				}
+
+				.content-wrap {
+					padding: 0 !important;
+				}
+			}
+		}
+
+		.count-wrap {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			flex-shrink: 0;
+			margin: 0 20px 0 0;
+		}
+
+		.count {
+			flex-shrink: 0;
+		}
+
+		.content-wrap {
+			flex-grow: 1;
+			padding: 0 0 30px;
+		}
+	}
+}
+
+.maxcoach-gradation-layout-inline {
+	.tm-gradation {
+		display: flex;
+		margin: 0 -15px;
+
+		.item {
+			flex: 1 1 0;
+			padding: 0 15px;
+		}
+	}
+}
+
+.maxcoach-gradation-style-01 {
+	.tm-gradation {
+		.item {
+			&:last-child {
+				.line {
+					&:before {
+						display: none;
+					}
+				}
+			}
+
+			&:hover {
+				.count {
+					border-color: transparent;
+					color: #fff;
+					background-color: $primary-color;
+
+					&:before,
+					&:after {
+						animation-name: gradationSignal;
+					}
+				}
+			}
+		}
+
+		.count {
+			@extend %NormalTransition;
+			position: relative;
+			width: 50px;
+			height: 50px;
+			line-height: 48px;
+			border-radius: 50%;
+			text-align: center;
+			z-index: 3;
+			background: #fff;
+			border: 2px solid #e8e8e8;
+			color: #333;
+			font-size: 18px;
+			font-weight: 700;
+
+			&:before,
+			&:after {
+				content: '';
+				position: absolute;
+				left: -26px;
+				top: -26px;
+				opacity: 0;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				pointer-events: none;
+				border: 1px solid #ababab;
+				transform-origin: 50% 50%;
+				animation-timing-function: cubic-bezier(0, .55, .55, 1);
+				animation-duration: 2s;
+				animation-fill-mode: forwards;
+				animation-iteration-count: infinite;
+			}
+
+			&:after {
+				animation-delay: .75s;
+			}
+		}
+
+		.line {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 25px;
+				left: 15px;
+				width: 100%;
+				height: 1px;
+				background: #ededed;
+			}
+		}
+
+		.title {
+			font-size: 18px;
+			line-height: 1.67;
+		}
+	}
+
+	&.maxcoach-gradation-layout-inline {
+		.tm-gradation {
+			.count-wrap {
+				margin: 0 0 53px;
+			}
+		}
+	}
+
+	&.maxcoach-gradation-layout-block {
+		.tm-gradation {
+			.line {
+				&:before {
+					top: 15px;
+					left: 25px;
+					height: 100%;
+					width: 1px;
+				}
+			}
+		}
+	}
+}
+
+.maxcoach-gradation-style-02 {
+	.tm-gradation {
+		.count-wrap {
+			margin: 0 12px 0 0;
+		}
+
+		.count {
+			@extend %NormalTransition;
+			position: relative;
+			width: 54px;
+			height: 54px;
+			line-height: 54px;
+			text-align: center;
+			color: $primary-color;
+			font-size: 24px;
+			font-weight: 500;
+			display: inline-block;
+
+			&:before {
+				--d: 4deg; /* distance between dashes */
+				--n: 30; /* number of dashes */
+				--b: 2px; /* control the thickness of border */
+
+				display: inline-block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				content: '';
+				width: 100%;
+				height: 100%;
+				border-radius: 50%;
+				background: linear-gradient(45deg, $primary-color, #e0e0e0, $primary-color);
+				-webkit-mask: radial-gradient(farthest-side, transparent calc(100% - var(--b)), #fff calc(100% - var(--b) + 1px)),
+				repeating-conic-gradient(#000 0 calc(360deg / var(--n) - var(--d)), transparent 0 calc(360deg / var(--n)));
+				-webkit-mask-composite: source-in;
+				mask: radial-gradient(farthest-side, transparent calc(100% - var(--b)), #fff calc(100% - var(--b) + 1px)),
+				repeating-conic-gradient(#000 0 calc(360deg / var(--n) - var(--d)), transparent 0 calc(360deg / var(--n)));
+				mask-composite: intersect;
+			}
+		}
+
+		.title {
+			font-size: 20px;
+			font-weight: 500;
+			line-height: 1.67;
+		}
+	}
+
+	&.maxcoach-gradation-layout-inline {
+		.tm-gradation {
+			.item {
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+}
+
+.maxcoach-gradation-style-03 {
+	.tm-gradation {
+		.count {
+			@extend %NormalTransition;
+			width: 80px;
+			height: 80px;
+			line-height: 78px;
+			border-radius: 50%;
+			text-align: center;
+			z-index: 3;
+			border: 1px solid #e9e4e1;
+			color: $primary-color;
+			font-size: 42px;
+			font-weight: 400;
+		}
+
+		.title {
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 1.5;
+		}
+
+		.description {
+			font-size: 16px;
+			line-height: 30px;
+		}
+	}
+
+	&.maxcoach-gradation-layout-inline {
+		.tm-gradation {
+			.count-wrap {
+				margin: 0 0 53px;
+			}
+		}
+	}
+
+	&.maxcoach-gradation-layout-block {
+		.tm-gradation {
+			.content-wrap {
+				padding: 0 0 75px;
+			}
+
+			.line {
+				&:before {
+					top: 15px;
+					left: 25px;
+					height: 100%;
+					width: 1px;
+				}
+			}
+		}
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.maxcoach-gradation-style-01 .tm-gradation {
+		display: block;
+
+		.item {
+			width: 100%;
+
+			+ .item {
+				margin-top: 50px;
+			}
+		}
+
+		.count-wrap {
+			margin-bottom: 25px;
+		}
+
+		.line {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	.maxcoach-gradation-style-02 .tm-gradation {
+		display: block;
+
+		.item {
+			width: 100%;
+
+			+ .item {
+				margin-top: 30px;
+			}
+		}
+
+		.line {
+			&:before {
+				display: none;
+			}
+		}
+	}
+
+	.maxcoach-gradation-style-03 {
+		&.maxcoach-gradation-layout-block {
+			.tm-gradation {
+				.content-wrap {
+					padding: 0 0 40px;
+				}
+			}
+		}
+	}
+}

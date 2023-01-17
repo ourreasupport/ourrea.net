@@ -1,0 +1,1014 @@
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"----- Initiating master send function for BackupBuddy v8.5.7.0."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"Basename file: `backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip`. Post-send deletion: Yes"}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"Created fileoptions lock file `send-u50b8pnyiui7.txt.lock` with ID: 5f045a90c863f6.45555629."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.30","data":"Fileoptions `send-u50b8pnyiui7.txt` saved. 1152 bytes written."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"Initializing destination."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.29","data":"Loading destination init file `\/home\/vcusoftc\/beimeidichanxuetang.com\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1594095648,"u":"82","run":"0.71","mem":"28.36","data":"Destination init loaded."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.36","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.36","data":"Applying destination-specific defaults."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.36","data":"Applying global destination defaults."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.36","data":"Calling destination-specific send method `pb_backupbuddy_destination_dropbox2::send`."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.36","data":"Dropbox2 send function started. Remote send id: `u50b8pnyiui7`."}
+{"event":"details","time":1594095648,"u":"83","run":"0.72","mem":"28.37","data":"Connected to Dropbox."}
+{"event":"details","time":1594095649,"u":"21","run":"1.10","mem":"28.37","data":"Opening file `backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip` to send."}
+{"event":"details","time":1594095649,"u":"21","run":"1.10","mem":"28.37","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1594095649,"u":"21","run":"1.10","mem":"28.37","data":"About to put file `backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip` (469.03 MB) to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1594095649,"u":"21","run":"1.10","mem":"28.37","data":"Send Directory: \/\u5317\u7f8e\u5730\u4ea7\u5b66\u5802"}
+{"event":"details","time":1594095649,"u":"21","run":"1.10","mem":"28.37","data":"Chunk mode."}
+{"event":"details","time":1594095649,"u":"34","run":"1.23","mem":"32.45","data":"chunkedUploadStart start."}
+{"event":"details","time":1594095649,"u":"34","run":"1.23","mem":"32.45","data":"_chunkedUpload start."}
+{"event":"details","time":1594095649,"u":"34","run":"1.23","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/start?`."}
+{"event":"details","time":1594095649,"u":"35","run":"1.24","mem":"32.45","data":"About to exec in _chunkedUpload."}
+{"event":"details","time":1594095649,"u":"35","run":"1.24","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095650,"u":"52","run":"2.41","mem":"32.45","data":"chunkedUploadStart response: `Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => {\"session_id\": \"AAAAAAAAAFKoyyCWyIIQIA\"}\n)\n`."}
+{"event":"details","time":1594095650,"u":"52","run":"2.41","mem":"32.45","data":"_chunkedUploadCheckForOffsetCorrection start."}
+{"event":"details","time":1594095650,"u":"52","run":"2.41","mem":"32.45","data":"_chunkedUploadParse200Response start."}
+{"event":"details","time":1594095650,"u":"52","run":"2.41","mem":"32.45","data":"_chunkedUploadParse200Response finish."}
+{"event":"details","time":1594095650,"u":"52","run":"2.41","mem":"32.45","data":"Finished chunkedUploadStart."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `4194304`."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095650,"u":"65","run":"2.54","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095651,"u":"52","run":"3.41","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095651,"u":"52","run":"3.41","mem":"32.45","data":"Next byte offset calculated by client lib: `8388608`."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `8388608`."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095651,"u":"63","run":"3.52","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095652,"u":"44","run":"4.33","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095652,"u":"44","run":"4.33","mem":"32.45","data":"Next byte offset calculated by client lib: `12582912`."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `12582912`."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095652,"u":"51","run":"4.40","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095653,"u":"37","run":"5.26","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095653,"u":"37","run":"5.26","mem":"32.45","data":"Next byte offset calculated by client lib: `16777216`."}
+{"event":"details","time":1594095653,"u":"38","run":"5.27","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095653,"u":"38","run":"5.27","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `16777216`."}
+{"event":"details","time":1594095653,"u":"38","run":"5.27","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095653,"u":"38","run":"5.27","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095653,"u":"38","run":"5.27","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095653,"u":"38","run":"5.28","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095656,"u":"65","run":"8.54","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095656,"u":"65","run":"8.54","mem":"32.45","data":"Next byte offset calculated by client lib: `20971520`."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `20971520`."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095656,"u":"66","run":"8.55","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095658,"u":"27","run":"10.16","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095658,"u":"27","run":"10.16","mem":"32.45","data":"Next byte offset calculated by client lib: `25165824`."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `25165824`."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095658,"u":"28","run":"10.17","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095659,"u":"11","run":"11.00","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095659,"u":"11","run":"11.00","mem":"32.45","data":"Next byte offset calculated by client lib: `29360128`."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `29360128`."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095659,"u":"12","run":"11.01","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095660,"u":"06","run":"11.95","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095660,"u":"06","run":"11.95","mem":"32.45","data":"Next byte offset calculated by client lib: `33554432`."}
+{"event":"details","time":1594095660,"u":"06","run":"11.95","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095660,"u":"06","run":"11.95","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `33554432`."}
+{"event":"details","time":1594095660,"u":"06","run":"11.96","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095660,"u":"06","run":"11.96","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095660,"u":"07","run":"11.96","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095660,"u":"07","run":"11.96","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"Next byte offset calculated by client lib: `37748736`."}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `37748736`."}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095661,"u":"20","run":"13.09","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095661,"u":"21","run":"13.10","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095661,"u":"21","run":"13.10","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095662,"u":"16","run":"14.05","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095662,"u":"16","run":"14.05","mem":"32.45","data":"Next byte offset calculated by client lib: `41943040`."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `41943040`."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095662,"u":"17","run":"14.06","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095663,"u":"51","run":"15.40","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095663,"u":"51","run":"15.40","mem":"32.45","data":"Next byte offset calculated by client lib: `46137344`."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `46137344`."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095663,"u":"52","run":"15.41","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095665,"u":"44","run":"17.33","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095665,"u":"44","run":"17.33","mem":"32.45","data":"Next byte offset calculated by client lib: `50331648`."}
+{"event":"details","time":1594095665,"u":"44","run":"17.34","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095665,"u":"44","run":"17.34","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `50331648`."}
+{"event":"details","time":1594095665,"u":"45","run":"17.34","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095665,"u":"45","run":"17.34","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095665,"u":"45","run":"17.34","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095665,"u":"45","run":"17.34","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095666,"u":"17","run":"18.07","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"Next byte offset calculated by client lib: `54525952`."}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `54525952`."}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095666,"u":"18","run":"18.07","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095666,"u":"18","run":"18.08","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095667,"u":"33","run":"19.22","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095667,"u":"33","run":"19.23","mem":"32.45","data":"Next byte offset calculated by client lib: `58720256`."}
+{"event":"details","time":1594095667,"u":"34","run":"19.23","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095667,"u":"34","run":"19.23","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `58720256`."}
+{"event":"details","time":1594095667,"u":"34","run":"19.23","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095667,"u":"34","run":"19.23","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095667,"u":"35","run":"19.24","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095667,"u":"35","run":"19.24","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095668,"u":"25","run":"20.14","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095668,"u":"25","run":"20.14","mem":"32.45","data":"Next byte offset calculated by client lib: `62914560`."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `62914560`."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095668,"u":"26","run":"20.15","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095669,"u":"07","run":"20.96","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095669,"u":"07","run":"20.96","mem":"32.45","data":"Next byte offset calculated by client lib: `67108864`."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `67108864`."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095669,"u":"08","run":"20.97","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095670,"u":"17","run":"22.06","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095670,"u":"17","run":"22.06","mem":"32.45","data":"Next byte offset calculated by client lib: `71303168`."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `71303168`."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095670,"u":"18","run":"22.07","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"Next byte offset calculated by client lib: `75497472`."}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `75497472`."}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095671,"u":"14","run":"23.03","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095671,"u":"14","run":"23.04","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095671,"u":"14","run":"23.04","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"Next byte offset calculated by client lib: `79691776`."}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `79691776`."}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095671,"u":"97","run":"23.86","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095671,"u":"98","run":"23.87","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095671,"u":"98","run":"23.87","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095673,"u":"02","run":"24.91","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095673,"u":"02","run":"24.91","mem":"32.45","data":"Next byte offset calculated by client lib: `83886080`."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `83886080`."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095673,"u":"03","run":"24.92","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095673,"u":"81","run":"25.70","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095673,"u":"81","run":"25.70","mem":"32.45","data":"Next byte offset calculated by client lib: `88080384`."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `88080384`."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095673,"u":"82","run":"25.71","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095676,"u":"31","run":"28.20","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095676,"u":"31","run":"28.20","mem":"32.45","data":"Next byte offset calculated by client lib: `92274688`."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `92274688`."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095676,"u":"32","run":"28.21","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095677,"u":"06","run":"28.95","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095677,"u":"06","run":"28.95","mem":"32.45","data":"Next byte offset calculated by client lib: `96468992`."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `96468992`."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095677,"u":"07","run":"28.96","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095677,"u":"94","run":"29.83","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095677,"u":"94","run":"29.83","mem":"32.45","data":"Next byte offset calculated by client lib: `100663296`."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `100663296`."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095677,"u":"95","run":"29.84","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095678,"u":"76","run":"30.65","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095678,"u":"76","run":"30.65","mem":"32.45","data":"Next byte offset calculated by client lib: `104857600`."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `104857600`."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095678,"u":"77","run":"30.66","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095679,"u":"58","run":"31.47","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095679,"u":"58","run":"31.47","mem":"32.45","data":"Next byte offset calculated by client lib: `109051904`."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `109051904`."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095679,"u":"59","run":"31.48","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095680,"u":"86","run":"32.75","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095680,"u":"86","run":"32.75","mem":"32.45","data":"Next byte offset calculated by client lib: `113246208`."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `113246208`."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095680,"u":"87","run":"32.76","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095681,"u":"70","run":"33.59","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095681,"u":"70","run":"33.59","mem":"32.45","data":"Next byte offset calculated by client lib: `117440512`."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `117440512`."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095681,"u":"71","run":"33.60","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"Next byte offset calculated by client lib: `121634816`."}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `121634816`."}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095682,"u":"72","run":"34.61","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095682,"u":"72","run":"34.62","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095682,"u":"73","run":"34.62","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095686,"u":"73","run":"38.62","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095686,"u":"73","run":"38.62","mem":"32.45","data":"Next byte offset calculated by client lib: `125829120`."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `125829120`."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095686,"u":"74","run":"38.63","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"Next byte offset calculated by client lib: `130023424`."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `130023424`."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095687,"u":"67","run":"39.56","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095687,"u":"67","run":"39.57","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095688,"u":"74","run":"40.63","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095688,"u":"74","run":"40.63","mem":"32.45","data":"Next byte offset calculated by client lib: `134217728`."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `134217728`."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095688,"u":"75","run":"40.64","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095689,"u":"64","run":"41.53","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095689,"u":"64","run":"41.53","mem":"32.45","data":"Next byte offset calculated by client lib: `138412032`."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `138412032`."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095689,"u":"65","run":"41.54","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095690,"u":"82","run":"42.71","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095690,"u":"82","run":"42.71","mem":"32.45","data":"Next byte offset calculated by client lib: `142606336`."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `142606336`."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095690,"u":"83","run":"42.72","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095691,"u":"88","run":"43.77","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095691,"u":"88","run":"43.77","mem":"32.45","data":"Next byte offset calculated by client lib: `146800640`."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `146800640`."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095691,"u":"89","run":"43.78","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095693,"u":"35","run":"45.24","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095693,"u":"35","run":"45.24","mem":"32.45","data":"Next byte offset calculated by client lib: `150994944`."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `150994944`."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095693,"u":"36","run":"45.25","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095694,"u":"35","run":"46.24","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095694,"u":"35","run":"46.24","mem":"32.45","data":"Next byte offset calculated by client lib: `155189248`."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `155189248`."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095694,"u":"36","run":"46.25","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095695,"u":"37","run":"47.26","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095695,"u":"37","run":"47.26","mem":"32.45","data":"Next byte offset calculated by client lib: `159383552`."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `159383552`."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095695,"u":"38","run":"47.27","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095696,"u":"23","run":"48.12","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095696,"u":"23","run":"48.13","mem":"32.45","data":"Next byte offset calculated by client lib: `163577856`."}
+{"event":"details","time":1594095696,"u":"24","run":"48.13","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095696,"u":"24","run":"48.13","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `163577856`."}
+{"event":"details","time":1594095696,"u":"24","run":"48.13","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095696,"u":"24","run":"48.14","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095696,"u":"25","run":"48.14","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095696,"u":"25","run":"48.14","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"Next byte offset calculated by client lib: `167772160`."}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `167772160`."}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095697,"u":"57","run":"49.46","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095697,"u":"57","run":"49.47","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095697,"u":"57","run":"49.47","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095698,"u":"86","run":"50.75","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095698,"u":"86","run":"50.75","mem":"32.45","data":"Next byte offset calculated by client lib: `171966464`."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `171966464`."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095698,"u":"87","run":"50.76","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095699,"u":"70","run":"51.59","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095699,"u":"70","run":"51.59","mem":"32.45","data":"Next byte offset calculated by client lib: `176160768`."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `176160768`."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095699,"u":"71","run":"51.60","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095700,"u":"88","run":"52.77","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095700,"u":"88","run":"52.77","mem":"32.45","data":"Next byte offset calculated by client lib: `180355072`."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `180355072`."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095700,"u":"89","run":"52.78","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095701,"u":"74","run":"53.63","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095701,"u":"74","run":"53.63","mem":"32.45","data":"Next byte offset calculated by client lib: `184549376`."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `184549376`."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095701,"u":"75","run":"53.64","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095704,"u":"67","run":"56.56","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095704,"u":"67","run":"56.56","mem":"32.45","data":"Next byte offset calculated by client lib: `188743680`."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `188743680`."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095704,"u":"68","run":"56.57","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095705,"u":"69","run":"57.58","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095705,"u":"69","run":"57.58","mem":"32.45","data":"Next byte offset calculated by client lib: `192937984`."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `192937984`."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095705,"u":"70","run":"57.59","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095706,"u":"96","run":"58.86","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"Next byte offset calculated by client lib: `197132288`."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `197132288`."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095706,"u":"97","run":"58.86","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095707,"u":"86","run":"59.75","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095707,"u":"86","run":"59.75","mem":"32.45","data":"Next byte offset calculated by client lib: `201326592`."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `201326592`."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095707,"u":"87","run":"59.76","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095708,"u":"70","run":"60.59","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095708,"u":"70","run":"60.59","mem":"32.45","data":"Next byte offset calculated by client lib: `205520896`."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `205520896`."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095708,"u":"71","run":"60.60","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095709,"u":"60","run":"61.49","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095709,"u":"60","run":"61.49","mem":"32.45","data":"Next byte offset calculated by client lib: `209715200`."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `209715200`."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095709,"u":"61","run":"61.50","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095710,"u":"51","run":"62.40","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095710,"u":"51","run":"62.40","mem":"32.45","data":"Next byte offset calculated by client lib: `213909504`."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `213909504`."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095710,"u":"52","run":"62.41","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095711,"u":"40","run":"63.29","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095711,"u":"40","run":"63.29","mem":"32.45","data":"Next byte offset calculated by client lib: `218103808`."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `218103808`."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095711,"u":"41","run":"63.30","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095712,"u":"41","run":"64.30","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095712,"u":"41","run":"64.30","mem":"32.45","data":"Next byte offset calculated by client lib: `222298112`."}
+{"event":"details","time":1594095712,"u":"41","run":"64.31","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095712,"u":"42","run":"64.31","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `222298112`."}
+{"event":"details","time":1594095712,"u":"42","run":"64.31","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095712,"u":"42","run":"64.31","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095712,"u":"42","run":"64.31","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095712,"u":"42","run":"64.31","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095713,"u":"93","run":"65.82","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095713,"u":"93","run":"65.82","mem":"32.45","data":"Next byte offset calculated by client lib: `226492416`."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `226492416`."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095713,"u":"94","run":"65.83","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095714,"u":"71","run":"66.60","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095714,"u":"71","run":"66.60","mem":"32.45","data":"Next byte offset calculated by client lib: `230686720`."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `230686720`."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095714,"u":"72","run":"66.61","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095715,"u":"98","run":"67.87","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095715,"u":"98","run":"67.87","mem":"32.45","data":"Next byte offset calculated by client lib: `234881024`."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `234881024`."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095715,"u":"99","run":"67.88","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095716,"u":"92","run":"68.81","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095716,"u":"92","run":"68.81","mem":"32.45","data":"Next byte offset calculated by client lib: `239075328`."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `239075328`."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095716,"u":"93","run":"68.82","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095717,"u":"97","run":"69.86","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095717,"u":"97","run":"69.86","mem":"32.45","data":"Next byte offset calculated by client lib: `243269632`."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `243269632`."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095717,"u":"98","run":"69.87","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095719,"u":"79","run":"71.68","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095719,"u":"79","run":"71.68","mem":"32.45","data":"Next byte offset calculated by client lib: `247463936`."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `247463936`."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095719,"u":"80","run":"71.69","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095720,"u":"58","run":"72.47","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095720,"u":"58","run":"72.47","mem":"32.45","data":"Next byte offset calculated by client lib: `251658240`."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `251658240`."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095720,"u":"59","run":"72.48","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095721,"u":"47","run":"73.36","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095721,"u":"47","run":"73.36","mem":"32.45","data":"Next byte offset calculated by client lib: `255852544`."}
+{"event":"details","time":1594095721,"u":"48","run":"73.37","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095721,"u":"48","run":"73.37","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `255852544`."}
+{"event":"details","time":1594095721,"u":"48","run":"73.37","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095721,"u":"48","run":"73.37","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095721,"u":"49","run":"73.38","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095721,"u":"49","run":"73.38","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095722,"u":"44","run":"74.33","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095722,"u":"44","run":"74.33","mem":"32.45","data":"Next byte offset calculated by client lib: `260046848`."}
+{"event":"details","time":1594095722,"u":"44","run":"74.33","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095722,"u":"44","run":"74.34","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `260046848`."}
+{"event":"details","time":1594095722,"u":"44","run":"74.34","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095722,"u":"44","run":"74.34","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095722,"u":"45","run":"74.34","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095722,"u":"45","run":"74.34","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095723,"u":"85","run":"75.74","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095723,"u":"85","run":"75.74","mem":"32.45","data":"Next byte offset calculated by client lib: `264241152`."}
+{"event":"details","time":1594095723,"u":"87","run":"75.76","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095723,"u":"87","run":"75.76","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `264241152`."}
+{"event":"details","time":1594095723,"u":"87","run":"75.76","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095723,"u":"87","run":"75.76","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095723,"u":"88","run":"75.77","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095723,"u":"88","run":"75.77","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095724,"u":"63","run":"76.52","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095724,"u":"63","run":"76.53","mem":"32.45","data":"Next byte offset calculated by client lib: `268435456`."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `268435456`."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095724,"u":"64","run":"76.53","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095725,"u":"76","run":"77.65","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095725,"u":"76","run":"77.65","mem":"32.45","data":"Next byte offset calculated by client lib: `272629760`."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `272629760`."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095725,"u":"77","run":"77.66","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095726,"u":"66","run":"78.55","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095726,"u":"66","run":"78.55","mem":"32.45","data":"Next byte offset calculated by client lib: `276824064`."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `276824064`."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095726,"u":"67","run":"78.56","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095727,"u":"78","run":"79.67","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095727,"u":"78","run":"79.67","mem":"32.45","data":"Next byte offset calculated by client lib: `281018368`."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `281018368`."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095727,"u":"79","run":"79.68","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095728,"u":"77","run":"80.66","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095728,"u":"77","run":"80.66","mem":"32.45","data":"Next byte offset calculated by client lib: `285212672`."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `285212672`."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095728,"u":"78","run":"80.67","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095729,"u":"74","run":"81.63","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095729,"u":"74","run":"81.63","mem":"32.45","data":"Next byte offset calculated by client lib: `289406976`."}
+{"event":"details","time":1594095729,"u":"75","run":"81.64","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095729,"u":"75","run":"81.64","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `289406976`."}
+{"event":"details","time":1594095729,"u":"75","run":"81.64","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095729,"u":"75","run":"81.64","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095729,"u":"84","run":"81.73","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095729,"u":"84","run":"81.73","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095730,"u":"91","run":"82.80","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095730,"u":"91","run":"82.80","mem":"32.45","data":"Next byte offset calculated by client lib: `293601280`."}
+{"event":"details","time":1594095730,"u":"91","run":"82.80","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095730,"u":"91","run":"82.81","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `293601280`."}
+{"event":"details","time":1594095730,"u":"92","run":"82.81","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095730,"u":"92","run":"82.81","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095730,"u":"92","run":"82.81","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095730,"u":"92","run":"82.81","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095732,"u":"26","run":"84.15","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095732,"u":"26","run":"84.15","mem":"32.45","data":"Next byte offset calculated by client lib: `297795584`."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `297795584`."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095732,"u":"27","run":"84.16","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095733,"u":"21","run":"85.10","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095733,"u":"21","run":"85.10","mem":"32.45","data":"Next byte offset calculated by client lib: `301989888`."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `301989888`."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095733,"u":"22","run":"85.11","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095734,"u":"37","run":"86.26","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095734,"u":"37","run":"86.26","mem":"32.45","data":"Next byte offset calculated by client lib: `306184192`."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `306184192`."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095734,"u":"38","run":"86.27","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095735,"u":"37","run":"87.26","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095735,"u":"37","run":"87.26","mem":"32.45","data":"Next byte offset calculated by client lib: `310378496`."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `310378496`."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095735,"u":"38","run":"87.27","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095736,"u":"17","run":"88.06","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095736,"u":"17","run":"88.06","mem":"32.45","data":"Next byte offset calculated by client lib: `314572800`."}
+{"event":"details","time":1594095736,"u":"20","run":"88.09","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095736,"u":"20","run":"88.09","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `314572800`."}
+{"event":"details","time":1594095736,"u":"20","run":"88.09","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095736,"u":"20","run":"88.09","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095736,"u":"21","run":"88.10","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095736,"u":"21","run":"88.10","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095737,"u":"11","run":"89.00","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095737,"u":"11","run":"89.00","mem":"32.45","data":"Next byte offset calculated by client lib: `318767104`."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `318767104`."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095737,"u":"12","run":"89.01","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"Next byte offset calculated by client lib: `322961408`."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `322961408`."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095738,"u":"42","run":"90.31","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095738,"u":"42","run":"90.32","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095739,"u":"20","run":"91.09","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095739,"u":"20","run":"91.09","mem":"32.45","data":"Next byte offset calculated by client lib: `327155712`."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `327155712`."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095739,"u":"21","run":"91.10","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095740,"u":"84","run":"92.73","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095740,"u":"84","run":"92.73","mem":"32.45","data":"Next byte offset calculated by client lib: `331350016`."}
+{"event":"details","time":1594095740,"u":"85","run":"92.74","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095740,"u":"85","run":"92.74","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `331350016`."}
+{"event":"details","time":1594095740,"u":"85","run":"92.74","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095740,"u":"85","run":"92.74","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095740,"u":"85","run":"92.74","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095740,"u":"85","run":"92.75","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095741,"u":"74","run":"93.63","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095741,"u":"74","run":"93.63","mem":"32.45","data":"Next byte offset calculated by client lib: `335544320`."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `335544320`."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095741,"u":"75","run":"93.64","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095742,"u":"57","run":"94.46","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095742,"u":"57","run":"94.46","mem":"32.45","data":"Next byte offset calculated by client lib: `339738624`."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `339738624`."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095742,"u":"58","run":"94.47","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095743,"u":"70","run":"95.59","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095743,"u":"70","run":"95.59","mem":"32.45","data":"Next byte offset calculated by client lib: `343932928`."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `343932928`."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095743,"u":"71","run":"95.60","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095744,"u":"62","run":"96.51","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095744,"u":"62","run":"96.52","mem":"32.45","data":"Next byte offset calculated by client lib: `348127232`."}
+{"event":"details","time":1594095744,"u":"63","run":"96.52","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095744,"u":"63","run":"96.52","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `348127232`."}
+{"event":"details","time":1594095744,"u":"63","run":"96.52","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095744,"u":"63","run":"96.52","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095744,"u":"63","run":"96.53","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095744,"u":"63","run":"96.53","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095745,"u":"55","run":"97.44","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095745,"u":"55","run":"97.44","mem":"32.45","data":"Next byte offset calculated by client lib: `352321536`."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `352321536`."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095745,"u":"56","run":"97.45","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095746,"u":"46","run":"98.35","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095746,"u":"46","run":"98.35","mem":"32.45","data":"Next byte offset calculated by client lib: `356515840`."}
+{"event":"details","time":1594095746,"u":"46","run":"98.36","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095746,"u":"47","run":"98.36","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `356515840`."}
+{"event":"details","time":1594095746,"u":"47","run":"98.36","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095746,"u":"47","run":"98.36","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095746,"u":"47","run":"98.36","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095746,"u":"47","run":"98.36","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095747,"u":"38","run":"99.27","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095747,"u":"38","run":"99.27","mem":"32.45","data":"Next byte offset calculated by client lib: `360710144`."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `360710144`."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095747,"u":"39","run":"99.28","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095748,"u":"60","run":"100.49","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095748,"u":"60","run":"100.49","mem":"32.45","data":"Next byte offset calculated by client lib: `364904448`."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `364904448`."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095748,"u":"61","run":"100.50","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095749,"u":"34","run":"101.23","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095749,"u":"34","run":"101.23","mem":"32.45","data":"Next byte offset calculated by client lib: `369098752`."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `369098752`."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095749,"u":"35","run":"101.24","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"Next byte offset calculated by client lib: `373293056`."}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `373293056`."}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095750,"u":"18","run":"102.07","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095750,"u":"19","run":"102.08","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095750,"u":"19","run":"102.08","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095750,"u":"95","run":"102.84","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095750,"u":"95","run":"102.84","mem":"32.45","data":"Next byte offset calculated by client lib: `377487360`."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `377487360`."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095750,"u":"96","run":"102.85","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095751,"u":"89","run":"103.78","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095751,"u":"89","run":"103.78","mem":"32.45","data":"Next byte offset calculated by client lib: `381681664`."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `381681664`."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095751,"u":"90","run":"103.79","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095752,"u":"79","run":"104.68","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095752,"u":"79","run":"104.68","mem":"32.45","data":"Next byte offset calculated by client lib: `385875968`."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `385875968`."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095752,"u":"80","run":"104.69","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095753,"u":"63","run":"105.52","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095753,"u":"63","run":"105.52","mem":"32.45","data":"Next byte offset calculated by client lib: `390070272`."}
+{"event":"details","time":1594095753,"u":"63","run":"105.53","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095753,"u":"63","run":"105.53","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `390070272`."}
+{"event":"details","time":1594095753,"u":"64","run":"105.53","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095753,"u":"64","run":"105.53","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095753,"u":"64","run":"105.53","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095753,"u":"64","run":"105.53","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095754,"u":"63","run":"106.52","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095754,"u":"63","run":"106.52","mem":"32.45","data":"Next byte offset calculated by client lib: `394264576`."}
+{"event":"details","time":1594095754,"u":"63","run":"106.53","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095754,"u":"64","run":"106.53","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `394264576`."}
+{"event":"details","time":1594095754,"u":"64","run":"106.53","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095754,"u":"64","run":"106.53","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095754,"u":"64","run":"106.53","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095754,"u":"64","run":"106.53","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095755,"u":"40","run":"107.30","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095755,"u":"40","run":"107.30","mem":"32.45","data":"Next byte offset calculated by client lib: `398458880`."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `398458880`."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095755,"u":"41","run":"107.30","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095756,"u":"39","run":"108.28","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095756,"u":"39","run":"108.28","mem":"32.45","data":"Next byte offset calculated by client lib: `402653184`."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `402653184`."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095756,"u":"40","run":"108.29","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095757,"u":"24","run":"109.13","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095757,"u":"24","run":"109.13","mem":"32.45","data":"Next byte offset calculated by client lib: `406847488`."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `406847488`."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095757,"u":"25","run":"109.14","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095758,"u":"14","run":"110.03","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095758,"u":"14","run":"110.03","mem":"32.45","data":"Next byte offset calculated by client lib: `411041792`."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `411041792`."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095758,"u":"15","run":"110.04","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095759,"u":"04","run":"110.93","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095759,"u":"04","run":"110.93","mem":"32.45","data":"Next byte offset calculated by client lib: `415236096`."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `415236096`."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095759,"u":"05","run":"110.94","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095760,"u":"03","run":"111.92","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095760,"u":"03","run":"111.92","mem":"32.45","data":"Next byte offset calculated by client lib: `419430400`."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `419430400`."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095760,"u":"04","run":"111.93","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"Next byte offset calculated by client lib: `423624704`."}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `423624704`."}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095760,"u":"84","run":"112.73","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095760,"u":"84","run":"112.74","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095760,"u":"85","run":"112.74","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"Next byte offset calculated by client lib: `427819008`."}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `427819008`."}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095761,"u":"73","run":"113.62","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095761,"u":"74","run":"113.63","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095761,"u":"74","run":"113.63","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"Next byte offset calculated by client lib: `432013312`."}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `432013312`."}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095762,"u":"51","run":"114.40","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095762,"u":"52","run":"114.41","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095762,"u":"52","run":"114.41","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095763,"u":"54","run":"115.43","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095763,"u":"54","run":"115.43","mem":"32.45","data":"Next byte offset calculated by client lib: `436207616`."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `436207616`."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095763,"u":"55","run":"115.44","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095764,"u":"41","run":"116.30","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095764,"u":"41","run":"116.30","mem":"32.45","data":"Next byte offset calculated by client lib: `440401920`."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `440401920`."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095764,"u":"42","run":"116.31","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095765,"u":"32","run":"117.21","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095765,"u":"32","run":"117.21","mem":"32.45","data":"Next byte offset calculated by client lib: `444596224`."}
+{"event":"details","time":1594095765,"u":"32","run":"117.21","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095765,"u":"32","run":"117.21","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `444596224`."}
+{"event":"details","time":1594095765,"u":"32","run":"117.21","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095765,"u":"32","run":"117.22","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095765,"u":"33","run":"117.22","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095765,"u":"33","run":"117.22","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095766,"u":"15","run":"118.04","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095766,"u":"15","run":"118.04","mem":"32.45","data":"Next byte offset calculated by client lib: `448790528`."}
+{"event":"details","time":1594095766,"u":"16","run":"118.05","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095766,"u":"16","run":"118.05","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `448790528`."}
+{"event":"details","time":1594095766,"u":"16","run":"118.05","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095766,"u":"16","run":"118.05","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095766,"u":"16","run":"118.06","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095766,"u":"16","run":"118.06","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095767,"u":"01","run":"118.90","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095767,"u":"01","run":"118.90","mem":"32.45","data":"Next byte offset calculated by client lib: `452984832`."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `452984832`."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095767,"u":"02","run":"118.91","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095767,"u":"78","run":"119.67","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095767,"u":"78","run":"119.67","mem":"32.45","data":"Next byte offset calculated by client lib: `457179136`."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `457179136`."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095767,"u":"79","run":"119.68","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095768,"u":"72","run":"120.61","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095768,"u":"72","run":"120.61","mem":"32.45","data":"Next byte offset calculated by client lib: `461373440`."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `461373440`."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095768,"u":"73","run":"120.62","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095769,"u":"59","run":"121.48","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095769,"u":"59","run":"121.48","mem":"32.45","data":"Next byte offset calculated by client lib: `465567744`."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `465567744`."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095769,"u":"60","run":"121.49","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095770,"u":"49","run":"122.38","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095770,"u":"49","run":"122.38","mem":"32.45","data":"Next byte offset calculated by client lib: `469762048`."}
+{"event":"details","time":1594095770,"u":"50","run":"122.39","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095770,"u":"50","run":"122.39","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `469762048`."}
+{"event":"details","time":1594095770,"u":"50","run":"122.39","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095770,"u":"50","run":"122.39","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095770,"u":"50","run":"122.39","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095770,"u":"50","run":"122.40","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095771,"u":"47","run":"123.36","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095771,"u":"47","run":"123.36","mem":"32.45","data":"Next byte offset calculated by client lib: `473956352`."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `473956352`."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095771,"u":"48","run":"123.37","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095772,"u":"52","run":"124.41","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095772,"u":"52","run":"124.41","mem":"32.45","data":"Next byte offset calculated by client lib: `478150656`."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `478150656`."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095772,"u":"53","run":"124.42","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095773,"u":"45","run":"125.34","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095773,"u":"45","run":"125.34","mem":"32.45","data":"Next byte offset calculated by client lib: `482344960`."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `482344960`."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095773,"u":"46","run":"125.35","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095774,"u":"35","run":"126.24","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095774,"u":"35","run":"126.24","mem":"32.45","data":"Next byte offset calculated by client lib: `486539264`."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `486539264`."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095774,"u":"36","run":"126.25","mem":"32.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095775,"u":"19","run":"127.08","mem":"32.45","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095775,"u":"19","run":"127.08","mem":"32.45","data":"Next byte offset calculated by client lib: `490733568`."}
+{"event":"details","time":1594095775,"u":"19","run":"127.09","mem":"29.47","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1594095775,"u":"20","run":"127.09","mem":"29.47","data":"chunkedUploadContinue start to ID `AAAAAAAAAFKoyyCWyIIQIA`, offset `490733568`."}
+{"event":"details","time":1594095775,"u":"20","run":"127.09","mem":"29.47","data":"_chunkedUpload continue."}
+{"event":"details","time":1594095775,"u":"20","run":"127.09","mem":"29.47","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1594095775,"u":"20","run":"127.09","mem":"29.48","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1594095775,"u":"20","run":"127.09","mem":"29.48","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"Next byte offset calculated by client lib: `491810117`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"Call chunkedUploadFinish."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"chunkedUploadFinish start."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"Prepping params for chunk finish. Session: `AAAAAAAAAFKoyyCWyIIQIA`. Offset: `491810117`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.47","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/finish`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.48","data":"URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/finish`. Access token: `9arVstZkbEAAAAAAAAAADF-TLUYPlinVbvDnlJNvuh5tXru-5RwBrkszRE3MuS_F`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.48","data":"Putting params in header. Header added (length=260): `Dropbox-API-Arg: {\"cursor\":{\"session_id\":\"AAAAAAAAAFKoyyCWyIIQIA\",\"offset\":491810117},\"commit\":{\"path\":\"\\\/\\u5317\\u7f8e\\u5730\\u4ea7\\u5b66\\u5802\\\/backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false}}`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.48","data":"Content type: `application\/octet-stream`."}
+{"event":"details","time":1594095775,"u":"62","run":"127.51","mem":"29.48","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"About to load fileoptions data."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Fileoptions instance #14."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Created fileoptions lock file `send-u50b8pnyiui7.txt.lock` with ID: 5f045b10b50631.46733348."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Fileoptions data loaded."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Dropbox (non-chunked) transfer stats - Sent: `469.03 MB`, Transfer duration: `127.52407503128`, Speed: `3.68 MB\/sec`."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.45","data":"Fileoptions `send-u50b8pnyiui7.txt` saved. 1200 bytes written."}
+{"event":"message","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Success sending `backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip` to Dropbox!"}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Dropbox file limit in place. Proceeding with enforcement."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`. Access token: `9arVstZkbEAAAAAAAAAADF-TLUYPlinVbvDnlJNvuh5tXru-5RwBrkszRE3MuS_F`."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Putting params in post field."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"Content type: `application\/json`."}
+{"event":"details","time":1594095776,"u":"74","run":"128.63","mem":"28.44","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1594095776,"u":"94","run":"128.83","mem":"28.45","data":"Dropbox backup file count of `3` exceeds limit of `2`."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Initializing destination."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Applying destination-specific defaults."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Applying global destination defaults."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Dropbox2 Delete Function Started."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Connected to Dropbox."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`. Access token: `9arVstZkbEAAAAAAAAAADF-TLUYPlinVbvDnlJNvuh5tXru-5RwBrkszRE3MuS_F`."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Putting params in post field."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"Content type: `application\/json`."}
+{"event":"details","time":1594095777,"u":"10","run":"128.99","mem":"28.45","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.45","data":"Deleted excess Dropbox file: `backup-beimeidichanxuetang_com-2020_07_04-02_02am-full-qaq9qduzbw.zip`"}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.45","data":"All files sent."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"Completed send function. Success."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"About to load fileoptions data."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"Fileoptions instance #16."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"Created fileoptions lock file `send-u50b8pnyiui7.txt.lock` with ID: 5f045b11b6cbf9.27779244."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1594095777,"u":"74","run":"129.63","mem":"28.44","data":"Fileoptions data loaded."}
+{"event":"details","time":1594095777,"u":"74","run":"129.64","mem":"28.44","data":"Post-send deletion enabled."}
+{"event":"details","time":1594095777,"u":"74","run":"129.64","mem":"28.44","data":"Performing post-send deletion since transfer succeeded."}
+{"event":"details","time":1594095777,"u":"75","run":"129.64","mem":"28.44","data":"Deleting local file `\/home\/vcusoftc\/beimeidichanxuetang.com\/wp-content\/uploads\/backupbuddy_backups\/backup-beimeidichanxuetang_com-2020_07_07-02_21am-full-17pye0cmt5.zip`."}
+{"event":"details","time":1594095777,"u":"84","run":"129.73","mem":"28.44","data":"Deleted local file after successful remote destination send based on settings."}
+{"event":"archiveDeleted","time":1594095777,"u":"84","run":"129.73","mem":"28.44","data":""}
+{"event":"details","time":1594095777,"u":"84","run":"129.73","mem":"28.44","data":"Finished sending email NOT enabled. Skipping."}
+{"event":"details","time":1594095777,"u":"84","run":"129.73","mem":"28.45","data":"Ending send() function pass."}

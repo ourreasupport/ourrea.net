@@ -1,0 +1,117 @@
+.maxcoach-main-post {
+	.course-wrapper {
+		@extend %NormalTransition;
+		background: #fff;
+		border-radius: 5px;
+		overflow: hidden;
+
+		&:hover {
+			box-shadow: 0 14px 59px rgba(0, 0, 0, .12);
+		}
+	}
+
+	.course-info {
+		padding: 30px 30px 38px;
+	}
+
+	.course-title {
+		font-size: 20px;
+		line-height: 1.6;
+		font-weight: 700;
+		margin: 0;
+
+		a {
+			color: inherit;
+		}
+	}
+
+	.course-thumbnail {
+		img {
+			width: 100%;
+		}
+	}
+
+	.course-price {
+		font-size: 24px;
+		line-height: 1;
+		font-weight: 800;
+		margin: 0 0 12px;
+
+		.decimals-separator {
+			font-size: 18px;
+		}
+
+		.origin-price {
+			position: relative;
+			color: #ababab;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background: currentColor;
+				transform: translateY(-2px);
+			}
+		}
+	}
+
+	.course-meta {
+		font-size: 14px;
+		margin: 30px 0 0;
+
+		> div {
+			margin-right: 28px;
+			display: inline-block;
+		}
+
+		.meta-icon {
+			margin-right: 6px;
+		}
+	}
+}
+
+.lp-archive-courses {
+	ul.learn-press-courses {
+		.course {
+			.course-title {
+				font-size: 20px;
+				line-height: 1.6;
+				font-weight: 700;
+			}
+
+			.course-thumbnail {
+				img {
+					width: 100%;
+				}
+			}
+
+			.course-info {
+				.course-price {
+					.origin-price {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.course-form-filtering {
+		.maxcoach-fake-select-current {
+			.label {
+				&:before {
+					@extend %FontAwesomeRegular;
+					content: '\f036';
+					vertical-align: middle;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+
+.learn-press-pagination.learn-press-pagination {
+	margin: 0;
+}

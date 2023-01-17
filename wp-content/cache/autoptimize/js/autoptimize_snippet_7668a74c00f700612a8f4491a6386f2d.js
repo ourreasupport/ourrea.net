@@ -1,0 +1,2 @@
+(function($){'use strict';var MaxcoachTypedHeadlineHandler=function($scope,$){var $element=$scope.find('.tm-typed-headline');var $animateText=$element.find('.animate-text');var strings=$animateText.data('typed');if(''!==$animateText.text()){strings.unshift('placeholder');}
+var typed=new Typed($animateText[0],{strings:strings,loop:true,typeSpeed:50,backDelay:2000});};$(window).on('elementor/frontend/init',function(){elementorFrontend.hooks.addAction('frontend/element_ready/tm-typed-headline.default',MaxcoachTypedHeadlineHandler);});})(jQuery);

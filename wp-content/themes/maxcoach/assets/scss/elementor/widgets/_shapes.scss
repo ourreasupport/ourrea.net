@@ -1,0 +1,29 @@
+.maxcoach-shape {
+	.shape {
+		width: 200px;
+		color: #111;
+	}
+
+	svg {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.maxcoach-shape-circle {
+	.shape {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background: currentColor;
+	}
+}
+
+.maxcoach-shape-border-circle {
+	.shape {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 3px solid currentColor;
+	}
+}

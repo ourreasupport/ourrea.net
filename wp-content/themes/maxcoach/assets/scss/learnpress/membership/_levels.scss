@@ -1,0 +1,113 @@
+/**
+ * Membership levels
+ */
+.lp-pmpro-membership-list {
+	margin: 0;
+
+	&.show-mobile {
+		display: none;
+	}
+
+	.item-none {
+		color: #d85554;
+		font-size: 16px;
+	}
+
+	.item-check {
+		color: #7ed321;
+		font-size: 16px;
+	}
+
+	.lp-title {
+		display: block;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 1.38px;
+		margin: 0;
+	}
+
+	.lp-price {
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 1;
+		margin-bottom: 10px;
+
+		.amount {
+			font-size: inherit;
+		}
+	}
+
+	.lp-desc {
+		color: #696969 ;
+		font-weight: 400;
+		margin: 10px 0 0;
+	}
+
+	thead {
+		th {
+			padding: 30px 20px;
+		}
+	}
+
+	tbody {
+		td {
+			padding: 10px 20px;
+		}
+
+		.list-main {
+			text-align: left;
+		}
+	}
+
+	.lp-pmpro-footer {
+		td {
+			padding: 30px 10px 40px;
+		}
+	}
+
+	.pmpro_btn,
+	.pmpro_btn:link,
+	.pmpro_content_message a,
+	.pmpro_content_message a:link {
+		border: 0;
+		padding: 0 36px;
+		line-height: 52px;
+		height: 52px;
+		border-radius: 5px;
+	}
+}
+
+.maxcoach-membership-pricing {
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 40px rgba(0, 0, 0, .1);
+	padding: 30px;
+	margin: 0 0 30px;
+
+	.features {
+		list-style-type: none;
+		margin: 30px 0 30px;
+		padding: 0;
+		border-top: 1px solid #eee;
+
+		li {
+			margin: 0;
+			padding: 11px 20px 10px;
+			border-bottom: 1px solid #eee;
+		}
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.lp-pmpro-membership-list {
+		&.show-desktop {
+			display: none;
+		}
+
+		&.show-mobile {
+			display: block;
+		}
+	}
+}

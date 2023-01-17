@@ -1,0 +1,46 @@
+.maxcoach-widget-course-search-form {
+	&.style-01 {
+		form {
+			position: relative;
+		}
+
+		.search-field {
+			background: #fff;
+			box-shadow: none;
+			padding-right: 58px !important;
+		}
+
+		.search-submit {
+			position: absolute;
+			top: 50%;
+			transform: translate(0, -50%);
+			right: 4px;
+			padding: 0;
+			border: 0;
+			height: 48px;
+			width: 48px;
+			text-align: center;
+			box-shadow: none;
+			background: $primary-color;
+
+			&:hover {
+				background: $secondary-color;
+			}
+		}
+
+		.search-btn-text {
+			display: none;
+		}
+
+		.search-btn-icon {
+			@extend %FontAwesomeRegular;
+			content: '\f002';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 22px;
+			color: #fff;
+		}
+	}
+}

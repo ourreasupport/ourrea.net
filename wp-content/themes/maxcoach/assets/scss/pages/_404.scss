@@ -1,0 +1,63 @@
+.error404 {
+	.page-404-content {
+		text-align: center;
+
+		> .container {
+			> .row {
+				padding-top: 100px;
+				padding-bottom: 100px;
+			}
+		}
+	}
+
+	.error-image {
+		margin-bottom: 40px;
+
+		img {
+			max-width: 90%;
+		}
+	}
+
+	.error-404-title {
+		color: #fff;
+		font-size: 40px;
+		margin-bottom: 23px;
+	}
+
+	.error-404-text {
+		color: rgba(255, 255, 255, .5);
+		max-width: 560px;
+		margin: 0 auto;
+	}
+
+	.error-buttons {
+		margin: 35px -10px 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.tm-button-wrapper {
+			padding: 10px;
+		}
+
+		.tm-button {
+			min-width: 190px;
+		}
+	}
+}
+
+@include elementor-breakpoint-down(md) {
+	.error404 {
+		.error-404-title {
+			font-size: 34px;
+		}
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.error404 {
+		.error-404-title {
+			font-size: 28px;
+		}
+	}
+}

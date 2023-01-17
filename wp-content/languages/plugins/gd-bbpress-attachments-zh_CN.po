@@ -1,0 +1,613 @@
+# Translation of Plugins - GD bbPress Attachments - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - GD bbPress Attachments - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-21 06:37:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - GD bbPress Attachments - Development (trunk)\n"
+
+#: forms/uploader.php:2
+msgid "Upload Attachments"
+msgstr "上传附件"
+
+#: forms/tabs/attachments.php:102
+msgid "Plugin will attempt to load files automatically when needed. If that fails, try using this option."
+msgstr "插件将在需要时会自动加载文件。 如果失败，请尝试使用此选项。"
+
+#: code/front.php:89
+msgid "This operation is not reversible. Are you sure?"
+msgstr "此操作不可复原。 你确定吗？"
+
+#: forms/tabs/d4p.php:14
+msgid "More Free Plugins for bbPress"
+msgstr "更多免费插件的bbPress"
+
+#: forms/tabs/d4p.php:3
+msgid "Premium Plugins for bbPress"
+msgstr "用于 bbPress 的高级插件"
+
+#: forms/tabs/attachments.php:35
+msgid "Hide attachments"
+msgstr "隐藏附件"
+
+#: forms/panels.php:8
+msgid "Advanced"
+msgstr "高级"
+
+#: forms/panels.php:7
+msgid "Images"
+msgstr "图像"
+
+#: forms/more/toolbox.php:34
+msgid "8 Widgets"
+msgstr "8 小工具"
+
+#: forms/more/toolbox.php:33
+msgid "19 Topics views"
+msgstr "19 话题视图"
+
+#: forms/more/toolbox.php:32
+msgid "45 BBCodes and BBCodes Toolbar"
+msgstr "45 个 BBCodes 代码和 BBCodes 代码工具栏"
+
+#: forms/more/toolbox.php:31
+msgid "New and unread topics tracking"
+msgstr "新话题和未读话题跟踪"
+
+#: forms/more/toolbox.php:30
+msgid "Various SEO tools"
+msgstr "各种SEO工具"
+
+#: forms/more/toolbox.php:29
+msgid "Various privacy tools"
+msgstr "各种隐私工具"
+
+#: forms/more/toolbox.php:28
+msgid "Say Thanks to forum members"
+msgstr "感谢论坛成员"
+
+#: forms/more/toolbox.php:27
+msgid "Canned Replies"
+msgstr "罐装回复"
+
+#: forms/more/toolbox.php:25
+msgid "Enhanced attachments"
+msgstr "增强附件"
+
+#: forms/more/toolbox.php:23
+msgid "Some of the features you will get with GD bbPress Toolbox Pro"
+msgstr "一些功能，您会得到与GD bbPress工具箱专业"
+
+#: forms/more/toolbox.php:18
+msgid "Buy GD bbPress Toolbox Pro license or Dev4Press Plugins Club Membership license and get %s discount using this coupon"
+msgstr "购买 GD bbPress 工具箱专业许可证或 Dev4Press 插件俱乐部 Mmbership 许可证，并使用此优惠券获得 %s 折扣"
+
+#: forms/more/toolbox.php:11
+msgid "Official Plugin Website"
+msgstr "官方插件网站"
+
+#: forms/more/toolbox.php:8
+msgid "Expand bbPress powered forums with attachments upload, BBCodes, signatures, widgets, quotes, topics report, thanks, activity tracking, enhanced widgets, extra views..."
+msgstr "扩展 bbPress 支持论坛与附件上传，BBCodes，签名，小工具，引用话题，举报，感谢，活动跟踪，增强小工具，额外的视图..."
+
+#: forms/more/toolbox.php:7
+msgid "Enhancing WordPress forums powered by bbPress"
+msgstr "增强由 bbPress 支持的 WordPress 论坛"
+
+#: forms/more/toolbox.php:3
+msgid "consider upgrading to"
+msgstr "考虑升级到"
+
+#: forms/attachments/meta_forum.php:35 forms/tabs/attachments.php:41
+msgid "From visitors"
+msgstr "来自访客"
+
+#: forms/attachments/meta_forum.php:30
+msgid "Hide list of attachments"
+msgstr "隐藏附件列表"
+
+#: forms/attachments/meta_forum.php:27 forms/tabs/attachments.php:30
+msgid "at once"
+msgstr "立刻"
+
+#. Plugin URI of the plugin
+msgid "https://plugins.dev4press.com/gd-bbpress-attachments/"
+msgstr "https://plugins.dev4press.com/gd-bbpress-attachments/"
+
+#: forms/more/toolbox.php:26
+msgid "Report Topics and Replies"
+msgstr "举报话题和答复"
+
+#: forms/more/toolbox.php:13
+msgid "Dev4Press Plugins Club Membership"
+msgstr "Dev4Press 插件俱乐部会员资格"
+
+#: forms/tabs/d4p.php:24 forms/tabs/d4p.php:28
+msgid "Plugin Demo"
+msgstr "插件展示"
+
+#: forms/tabs/about.php:25
+msgid "PHP: "
+msgstr "PHP： "
+
+#: code/admin.php:96
+msgid "Knowledge Base"
+msgstr "知识库"
+
+#. Author URI of the plugin
+msgid "https://www.dev4press.com/"
+msgstr "https://www.dev4press.com/"
+
+#. Author of the plugin
+msgid "Milan Petrovic"
+msgstr "Milan Petrovic"
+
+#. Description of the plugin
+msgid "Implements attachments upload to the topics and replies in bbPress plugin through media library and add additional forum based controls."
+msgstr "通过媒体库在 bbPress 插件中实现附加到主题和回复的附件，并添加其他基于论坛的控件。"
+
+#. Plugin Name of the plugin
+msgid "GD bbPress Attachments"
+msgstr "GD bbPress 附件"
+
+#: forms/uploader.php:17
+msgid "Add another file"
+msgstr "添加另一个文件"
+
+#: forms/uploader.php:8
+msgid "Maximum file size allowed is %s."
+msgstr "允许的最大文件大小为 %s。"
+
+#: forms/more/toolbox.php:35
+msgid "and much more..."
+msgstr "以及更多..."
+
+#: forms/more/toolbox.php:12
+msgid "Toolbox Pro vs Free plugins"
+msgstr "Toolbox 专业版 VS 免费插件"
+
+#: forms/more/toolbox.php:10
+msgid "Important links"
+msgstr "重要链接"
+
+#: forms/more/toolbox.php:17
+msgid "Special upgrade discount"
+msgstr "特殊升级折扣"
+
+#: forms/tabs/d4p.php:44
+msgid "More Free Plugins"
+msgstr "更多免费插件"
+
+#: forms/tabs/d4p.php:32
+msgid "Other Premium Plugins"
+msgstr "其他高级插件"
+
+#: forms/tabs/d4p.php:23 forms/tabs/d4p.php:27
+msgid "Plugin Home Website"
+msgstr "插件主页网站"
+
+#: forms/tabs/advanced.php:125 forms/tabs/attachments.php:149
+#: forms/tabs/images.php:93
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: forms/tabs/images.php:75
+msgid "Thumbnail size"
+msgstr "图片尺寸"
+
+#: forms/tabs/images.php:69
+msgid "plugin"
+msgstr "插件"
+
+#: forms/tabs/images.php:68
+msgid "Changing thumbnails size affects only new image attachments. To use new size for old attachments, resize them using"
+msgstr "更改缩略图大小只会影响新图像附件。 要为旧附件使用新尺寸，请使用尺寸调整它们"
+
+#: forms/tabs/images.php:67
+msgid "Image thumbnails size"
+msgstr "图像缩略图大小"
+
+#: forms/tabs/images.php:59
+msgid "You can use these tags"
+msgstr "您可以使用这些标签"
+
+#: forms/tabs/images.php:55
+msgid "REL attribute"
+msgstr "REL 属性"
+
+#: forms/tabs/images.php:47
+msgid "CSS class"
+msgstr "CSS类"
+
+#: forms/tabs/images.php:37
+msgid "In line"
+msgstr "一致"
+
+#: forms/tabs/images.php:27
+msgid "With caption"
+msgstr "描述文字"
+
+#: forms/tabs/images.php:12
+msgid "Attached images can be displayed as thumbnails, and from here you can control this."
+msgstr "附加的图像可以显示为缩略图，从这里您可以控制它。"
+
+#: forms/tabs/images.php:11
+msgid "Display of image attachments"
+msgstr "显示图像附件"
+
+#: forms/tabs/attachments.php:136
+msgid "File Type Icons"
+msgstr "文件类型图标"
+
+#: forms/tabs/attachments.php:126
+msgid "Attachment Icon"
+msgstr "附件图标"
+
+#: forms/tabs/attachments.php:121
+msgid "With these options you can modify the forums to include attachment elements."
+msgstr "通过这些选项，您可以修改论坛以包含附件元素。"
+
+#: forms/tabs/attachments.php:120
+msgid "Forums Integration"
+msgstr "论坛集成"
+
+#: forms/tabs/advanced.php:102
+msgid "Author"
+msgstr "作者"
+
+#: forms/tabs/advanced.php:83
+msgid "Moderators"
+msgstr "版主"
+
+#: forms/tabs/advanced.php:78 forms/tabs/advanced.php:97
+#: forms/tabs/advanced.php:116
+msgid "Allow both delete and detach"
+msgstr "允许删除和分离"
+
+#: forms/tabs/advanced.php:75 forms/tabs/advanced.php:94
+#: forms/tabs/advanced.php:113
+msgid "Only detach from topic/reply"
+msgstr "只从主题/回复中分离出来"
+
+#: forms/tabs/advanced.php:72 forms/tabs/advanced.php:91
+#: forms/tabs/advanced.php:110
+msgid "Delete from Media Library"
+msgstr "从媒体库中删除"
+
+#: forms/tabs/advanced.php:69 forms/tabs/advanced.php:88
+#: forms/tabs/advanced.php:107
+msgid "Don't allow to delete"
+msgstr "不允许删除"
+
+#: forms/tabs/advanced.php:64
+msgid "Administrators"
+msgstr "管理员"
+
+#: forms/tabs/advanced.php:60
+msgid "Once uploaded and attached, attachments can be deleted. Only administrators and authors can do this."
+msgstr "一旦上传和添加，可以删除附件。只有管理员和作者也可以这样做。"
+
+#: forms/tabs/advanced.php:59
+msgid "Deleting attachments"
+msgstr "删除附件"
+
+#: forms/tabs/advanced.php:46
+msgid "Visible to author"
+msgstr "作者可见"
+
+#: forms/tabs/advanced.php:36
+msgid "Visible to moderators"
+msgstr "版主可见"
+
+#: forms/tabs/advanced.php:26
+msgid "Visible to administrators"
+msgstr "管理员可见"
+
+#: forms/tabs/advanced.php:17 forms/tabs/images.php:17
+msgid "Activated"
+msgstr "已启用"
+
+#: forms/tabs/advanced.php:12
+msgid "Each failed upload will be logged in postmeta table. Administrators and topic/reply authors can see the log."
+msgstr "每个失败的上传将记录在postmeta表中。 管理员和主题/回复作者可以查看日志。"
+
+#: forms/tabs/advanced.php:11
+msgid "Error logging"
+msgstr "错误记录"
+
+#: forms/tabs/attachments.php:107
+msgid "Always Include"
+msgstr "始终包含"
+
+#: forms/tabs/attachments.php:101
+msgid "If you use shortcodes to embed forums, and you rely on plugin to add JS and CSS, you also need to enable this option to skip checking for bbPress specific pages."
+msgstr "如果您使用短码嵌入论坛，并且您依靠插件添加JS和CSS，还需要启用此选项来跳过检查bbPress特定页面。"
+
+#: forms/tabs/attachments.php:100
+msgid "JavaScript and CSS Settings"
+msgstr "JavaScript 和 CSS 设置"
+
+#: forms/tabs/attachments.php:91
+msgid "Do nothing"
+msgstr "无动作"
+
+#: forms/tabs/attachments.php:88
+msgid "Delete"
+msgstr "删除"
+
+#: forms/tabs/attachments.php:85
+msgid "Leave in media library"
+msgstr "留在媒体库中"
+
+#: forms/tabs/attachments.php:80
+msgid "Attachments Action"
+msgstr "附件操作"
+
+#: forms/tabs/attachments.php:76
+msgid "Select what to do with attachments when topic or reply with attachments is deleted."
+msgstr "当主题或附件回复被删除时，选择如何处理附件。"
+
+#: forms/tabs/attachments.php:75
+msgid "Topic and Reply Deleting"
+msgstr "话题和回复删除"
+
+#: forms/tabs/attachments.php:54 forms/tabs/attachments.php:58
+msgid "Allow upload to"
+msgstr "允许上传到"
+
+#: forms/tabs/attachments.php:50
+msgid "Only users having one of the selected roles will be able to attach files."
+msgstr "只有具有所选角色之一的用户才能够附加文件。"
+
+#: forms/tabs/attachments.php:49
+msgid "Users Upload Restrictions"
+msgstr "用户上传限制"
+
+#: forms/tabs/attachments.php:12
+msgid "These settings can be overridden for individual forums."
+msgstr "这些设置可以覆盖个别论坛。"
+
+#: forms/tabs/attachments.php:11
+msgid "Global Attachments Settings"
+msgstr "全局附件设置"
+
+#: forms/tabs/advanced.php:3 forms/tabs/attachments.php:3
+#: forms/tabs/images.php:3
+msgid "Settings saved."
+msgstr "设置已保存"
+
+#: forms/tabs/about.php:43
+msgid "Page"
+msgstr "页面"
+
+#: forms/tabs/about.php:41
+msgid "Dev4Press Important Links"
+msgstr "Dev4Press 的重要链接"
+
+#: forms/tabs/about.php:40
+msgid "Plugin Support Forum on Dev4Press"
+msgstr "插件支持论坛 Dev4Press"
+
+#: forms/tabs/about.php:39
+msgid "Plugin Support"
+msgstr "插件支持"
+
+#: forms/tabs/about.php:38 forms/tabs/about.php:42
+msgid "on"
+msgstr "发布于"
+
+#: forms/tabs/about.php:37
+msgid "Home Page"
+msgstr "主页"
+
+#: forms/tabs/about.php:36
+msgid "Important Plugin Links"
+msgstr "重要插件链接"
+
+#: forms/tabs/about.php:29
+msgid "bbPress: "
+msgstr "bbPress： "
+
+#: forms/tabs/about.php:27
+msgid "WordPress: "
+msgstr "WordPress： "
+
+#: forms/tabs/about.php:22
+msgid "System Requirements"
+msgstr "系统要求"
+
+#: forms/tabs/about.php:15
+msgid "Build: "
+msgstr "编译："
+
+#: forms/tabs/about.php:13
+msgid "Status: "
+msgstr "状态："
+
+#: forms/tabs/about.php:11
+msgid "Release Date: "
+msgstr "发布时间："
+
+#: forms/panels.php:10
+msgid "About"
+msgstr "关于"
+
+#: forms/panels.php:9
+msgid "Dev4Press"
+msgstr "Dev4Press"
+
+#: forms/attachments/meta_forum.php:31
+msgid "Hide From Visitors"
+msgstr "从访客隐藏"
+
+#: forms/attachments/meta_forum.php:24 forms/attachments/meta_forum.php:25
+#: forms/tabs/attachments.php:26
+msgid "Maximum files to upload"
+msgstr "最大上传文件大小"
+
+#: forms/attachments/meta_forum.php:18 forms/attachments/meta_forum.php:19
+#: forms/tabs/attachments.php:17
+msgid "Maximum file size"
+msgstr "最大文件大小"
+
+#: forms/attachments/meta_forum.php:16
+msgid "Settings to override"
+msgstr "要覆盖的设置"
+
+#: forms/attachments/meta_forum.php:10 forms/attachments/meta_forum.php:11
+msgid "Override Defaults"
+msgstr "覆盖默认值"
+
+#: forms/attachments/meta_forum.php:3 forms/attachments/meta_forum.php:4
+msgid "Disable Attachments"
+msgstr "禁用附件"
+
+#: forms/attachments/meta_files.php:12
+msgid "edit"
+msgstr "编辑"
+
+#: forms/attachments/meta_files.php:5
+msgid "No attachments here."
+msgstr "没有附件。"
+
+#: code/defaults.php:54
+msgid "Server extension restriction stopped upload."
+msgstr "服务器扩展限制停止上传。"
+
+#: code/defaults.php:53
+msgid "Temporary folder for upload is missing."
+msgstr "上传临时文件夹未能找到。"
+
+#: code/defaults.php:52
+msgid "Can't write file to the disk."
+msgstr "无法将文件写入磁盘。"
+
+#: code/defaults.php:51
+msgid "Upload file only partially uploaded."
+msgstr "上传的文件只上传了一部分。"
+
+#: code/defaults.php:50
+msgid "Upload file size exceeds FORM specified file size."
+msgstr "上传的文件尺寸超过HTML表单所定义的MAX_FILE_SIZE值。"
+
+#: code/defaults.php:49
+msgid "Upload file size exceeds PHP maximum file size allowed."
+msgstr "文件尺寸太大，超出系统限制."
+
+#: code/defaults.php:48
+msgid "File not uploaded."
+msgstr "文件未上传。"
+
+#: code/defaults.php:47
+msgid "File exceeds allowed file size."
+msgstr "文件超出允许的文件大小。"
+
+#: forms/attachments/meta_files.php:21 code/front.php:392
+msgid "Upload Errors"
+msgstr "上传错误"
+
+#: code/front.php:293
+msgid "detach"
+msgstr "分离"
+
+#: code/front.php:289
+msgid "delete"
+msgstr "删除"
+
+#: code/front.php:254
+msgid "You must be <a href='%s'>logged in</a> to view attached files."
+msgstr "您需要<a href='%s'>登录</a>才能查看附件。"
+
+#: code/front.php:235
+msgid "attachment"
+msgid_plural "attachments"
+msgstr[0] "附件"
+
+#: code/meta.php:136 code/meta.php:137
+msgid "Attachments List"
+msgstr "附件列表"
+
+#: code/meta.php:135
+msgid "Attachments Settings"
+msgstr "附件设置"
+
+#: code/admin.php:97
+msgid "Premium support forum for all with valid licenses to get help. Also, report bugs and leave suggestions."
+msgstr "对所有有效许可证付费支持论坛得到帮助。此外，报告bug并留下建议。"
+
+#: code/admin.php:97
+msgid "Support Forums"
+msgstr "支持论坛"
+
+#: code/admin.php:96
+msgid "Premium and free tutorials for our plugins themes, and many general and practical WordPress tutorials."
+msgstr "优质和免费教程为我们的插件主题, 以及许多通用和实用的 WordPress 教程。"
+
+#: code/admin.php:95
+msgid "We have more than 10 plugins available, some of them are commercial and some are available for free."
+msgstr "我们有超过10插件可用, 其中一些是商业和一些免费提供。"
+
+#: code/admin.php:95
+msgid "Plugins"
+msgstr "插件"
+
+#: code/admin.php:94
+msgid "On Dev4Press website you can find many useful plugins, themes and tutorials, all for WordPress. Please, take a few minutes to browse some of these resources, you might find some of them very useful."
+msgstr "在 Dev4Press 网站上, 您可以找到许多有用的插件, 主题和教程, 所有的 WordPress。请花几分钟浏览一下这些资源, 您可能会发现其中一些非常有用。"
+
+#: code/admin.php:89
+msgid "Support Forum on WordPress.org"
+msgstr "技术支持论坛在 WordPress.org"
+
+#: code/admin.php:88
+msgid "Support Forum on Dev4Press.com"
+msgstr "Dev4Press.com 支持论坛"
+
+#: code/admin.php:87
+msgid "Getting Plugin Support"
+msgstr "获取插件支持"
+
+#: code/admin.php:86
+msgid "Home Page on WordPress.org"
+msgstr "WordPress.org 主页"
+
+#: code/admin.php:85
+msgid "Home Page on Dev4Press.com"
+msgstr "Dev4Press.com 主页"
+
+#: code/admin.php:84
+msgid "General Plugin Information"
+msgstr "通用插件信息"
+
+#: code/admin.php:83
+msgid "Get Help"
+msgstr "获取帮助"
+
+#: code/admin.php:79
+msgid "On Facebook"
+msgstr "在脸书"
+
+#: code/admin.php:78
+msgid "On Twitter"
+msgstr "在推特"
+
+#: code/admin.php:77
+msgid "Website"
+msgstr "网站"
+
+#: code/admin.php:66
+msgid "Upgrade to GD bbPress Toolbox Pro"
+msgstr "升级到 GD bbPress 工具箱专业版"
+
+#: forms/panels.php:6 code/admin.php:57
+msgid "Settings"
+msgstr "设置"
+
+#: forms/uploader.php:14 code/front.php:249 code/admin.php:44 code/meta.php:121
+msgid "Attachments"
+msgstr "附件"

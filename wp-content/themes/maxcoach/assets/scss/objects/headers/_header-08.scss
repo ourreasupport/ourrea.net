@@ -1,0 +1,42 @@
+.header-08 {
+	.header-wrap {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.branding {
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+	}
+
+	.page-navigation {
+		padding: 0 18px;
+	}
+
+	.header-right {
+		flex-grow: 1;
+	}
+
+	.header-search-form {
+		width: 250px;
+		max-width: 100%;
+	}
+
+	.page-header-inner {
+		> .container {
+			> .row {
+				> .col-xs-12 {
+					position: static;
+				}
+			}
+		}
+	}
+
+	.mobile-menu & {
+		.branding {
+			flex-grow: 1;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.header-11 {
+	.header-wrap {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.branding {
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+		width: 25%;
+	}
+
+	.page-navigation {
+		flex-grow: 1;
+	}
+
+	.header-right {
+		flex-shrink: 0;
+		width: 25%;
+	}
+
+	.header-search-form {
+		width: 220px;
+		max-width: 70%;
+	}
+
+	.page-header-inner {
+		> .container {
+			> .row {
+				> .col-xs-12 {
+					position: static;
+				}
+			}
+		}
+	}
+
+	.mobile-menu & {
+		.branding {
+			flex-grow: 1;
+		}
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.header-11 {
+		.page-header-inner {
+			> .container {
+				max-width: 1450px;
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+/**
+ * Dynamic Variables
+ */
+$primary-color: var(--maxcoach-color-primary);
+$secondary-color: var(--maxcoach-color-secondary);
+$text-color: var(--maxcoach-color-text);
+$heading-color: var(--maxcoach-color-heading);
+$link-color: var(--maxcoach-color-link);
+$link-hover-color: var(--maxcoach-color-link-hover);
+$body-font-family: var(--maxcoach-typography-body-font-family);
+$body-font-weight: var(--maxcoach-typography-body-font-weight);
+$body-font-size: var(--maxcoach-typography-body-font-size);
+$body-line-height: var(--maxcoach-typography-body-line-height);
+$body-letter-spacing: var(--maxcoach-typography-body-letter-spacing);
+$heading-font-family: var(--maxcoach-typography-headings-font-family);
+$heading-font-weight: var(--maxcoach-typography-headings-font-weight);
+$heading-line-height: var(--maxcoach-typography-headings-line-height);
+$heading-letter-spacing: var(--maxcoach-typography-headings-letter-spacing);

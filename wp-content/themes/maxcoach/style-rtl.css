@@ -1,0 +1,599 @@
+
+
+ul {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+ol {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+ol, ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ol li + li, ul li + li {
+  margin: 10px 0 0;
+}
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+.rtl blockquote {
+  margin: 50px 48px 44px 0 !important;
+  padding: 0 20px 0 0;
+  border-left: 0;
+  border-right: 4px solid #20ad96;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin: 0 3px 0 10px;
+}
+
+.rtl .header-search-form .search-field {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.rtl .header-search-form .search-submit {
+  left: 0;
+  right: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+.rtl .page-open-components:hover .circle-one {
+  -webkit-transform: translateX(-18px);
+      -ms-transform: translateX(-18px);
+          transform: translateX(-18px);
+}
+
+.rtl .page-open-components:hover .circle-three {
+  -webkit-transform: translateX(18px);
+      -ms-transform: translateX(18px);
+          transform: translateX(18px);
+}
+
+.rtl .insight_core_breadcrumb li + li {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.rtl .insight_core_breadcrumb li + li:before {
+  left: auto;
+  right: 10px;
+}
+
+.desktop-menu .toggle-sub-menu:before {
+  margin-top: 0;
+}
+
+.desktop-menu .sm-simple .children a .toggle-sub-menu {
+  left: 0;
+  right: auto;
+}
+
+.desktop-menu .sm-simple .children a .toggle-sub-menu:before {
+  left: 30px;
+  right: auto;
+  content: '\f053';
+}
+
+.page-mobile-menu-header {
+  padding: 0 30px 0 15px;
+}
+
+.page-mobile-menu-logo {
+  text-align: right;
+}
+
+.page-mobile-main-menu .menu__container {
+  text-align: right;
+}
+
+.page-mobile-main-menu .toggle-sub-menu {
+  left: 0;
+  right: auto;
+}
+
+.mobile-menu-push-to-right .page-mobile-main-menu > .inner,
+.mobile-menu-slide-to-right .page-mobile-main-menu > .inner {
+  float: left;
+}
+
+.page-search-popup .search-field {
+  padding: 15px 0 15px 50px;
+}
+
+.rtl .comment-list .comment-author {
+  float: right;
+}
+
+.rtl .comment-list .comment-content {
+  margin-left: 0;
+  margin-right: 125px;
+}
+
+.rtl .comment-list .comment-actions a,
+.rtl .comment-list .comment-datetime {
+  margin: 0 0 0 10px;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select-current {
+  padding: 3px 16px 3px 40px;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select-current:after {
+  right: auto;
+  left: 15px;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select-current .label {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select-current .label:before {
+  margin-left: 16px;
+  margin-right: 0;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select li {
+  text-align: right;
+}
+
+.rtl .maxcoach-fake-select-wrap .maxcoach-fake-select li:before {
+  left: auto;
+  right: 10px;
+}
+
+.tm-swiper .swiper-slide {
+  text-align: right;
+}
+
+.rtl .entry-post-meta .meta-icon {
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.rtl .entry-post-meta .post-author img {
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.rtl .entry-post-tags .tag-label {
+  margin: 0 0 0 7px;
+}
+
+.rtl .entry-post-share {
+  text-align: left;
+}
+
+.rtl .post-share.style-01 .share-label {
+  margin: 0 0 0 15px;
+}
+
+.rtl .post-share.style-02 .share-label {
+  margin: 0 0 0 15px;
+}
+
+.rtl .blog-nav-links .prev h6 {
+  padding: 20px 50px 20px 30px;
+}
+
+.rtl .blog-nav-links .prev h6:before {
+  left: auto;
+  right: 20px;
+  content: '\f105';
+}
+
+.rtl .blog-nav-links .next h6 {
+  text-align: left;
+  padding: 20px 30px 20px 50px;
+}
+
+.rtl .blog-nav-links .next h6:before {
+  right: auto;
+  left: 20px;
+  content: '\f104';
+}
+
+.archive-form-filtering {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .archive-form-filtering {
+    text-align: right;
+  }
+}
+
+.entry-course-info .course-price .meta-value,
+.entry-course-info .course-meta > div .meta-value {
+  text-align: left;
+}
+
+.single-lp_course .lp-single-course .course-author .author-avatar {
+  margin: 0 0 0 50px;
+}
+
+.single-lp_course .lp-single-course .course-author .author-name {
+  text-align: right;
+}
+
+.single-lp_course .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+  padding: 0 48px 0 30px;
+}
+
+.single-lp_course .course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta .course-item-status.trans {
+  margin: 0 11px 0 0;
+}
+
+body.rtl.single-lp_course.course-item-popup #learn-press-course-curriculum .scroll-content.curriculum-scrollable {
+  margin-right: 0 !important;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+  padding: 0 45px 0 20px;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:before {
+  left: auto !important;
+  right: 20px;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-item-nav .prev a {
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-item-nav .prev a:before {
+  left: auto;
+  right: 20px;
+  content: '\f105';
+}
+
+body.rtl.single-lp_course.course-item-popup .course-item-nav .next {
+  text-align: left;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-item-nav .next a {
+  padding-left: 70px;
+  padding-right: 20px;
+}
+
+body.rtl.single-lp_course.course-item-popup .course-item-nav .next a:before {
+  right: auto;
+  left: 20px;
+  content: '\f104';
+}
+
+.rtl.profile #learn-press-profile-header .profile-name {
+  text-align: right;
+}
+
+.rtl .status-box {
+  padding: 26px 30px 26px 10px;
+}
+
+.rtl .status-box:before {
+  left: auto;
+  right: 0;
+}
+
+.rtl .status-box .status-number {
+  margin: 0 0 0 26px;
+}
+
+@media (min-width: 768px) {
+  .rtl .col-md-push-1 {
+    left: auto;
+    right: 8.33333%;
+  }
+}
+
+.rtl .course-rating .average-rating {
+  margin-left: 70px;
+  margin-right: 0;
+}
+
+.rtl .course-rating .rating-rated-item .rating-count {
+  text-align: left;
+  margin: 0 5px 0 0;
+}
+
+.rtl .course-rating .rating-rated-item .rating-point {
+  margin: 0 0 0 22px;
+}
+
+.rtl #course-reviews .course-reviews-list > li {
+  padding-right: 5px;
+  padding-left: 20px;
+}
+
+.rtl #course-reviews .course-reviews-list .review-author {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.rtl #course-reviews .course-reviews-list .review-content {
+  margin-left: 0;
+  margin-right: 125px;
+}
+
+.rtl #course-reviews .course-reviews-list .review-stars-rated {
+  right: auto;
+  left: 0;
+}
+
+@media (max-width: 767px) {
+  .rtl .course-rating .average-rating {
+    margin-left: 30px;
+  }
+}
+
+.single-tp_event .entry-meta .meta-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.single-tp_event .entry-event-info li .meta-value {
+  text-align: left;
+}
+
+.event_auth_form_field label {
+  text-align: right;
+  margin: 0 0 0 10px;
+}
+
+.event_auth_payment_methods {
+  text-align: right;
+}
+
+.rtl .maxcoach-zoom-meetings .zvc-meta {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.rtl .maxcoach-zoom-meetings .zvc-loop-meta .meta-icon {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.rtl .dpn-zvc-single-content-wrapper .dpn-zvc-sidebar-wrapper .dpn-zvc-sidebar-content-list .value {
+  text-align: left;
+}
+
+.rtl.woocommerce .col2-set .col-1, .rtl.woocommerce-page .col2-set .col-1 {
+  float: right;
+}
+
+.rtl.woocommerce .col2-set .col-2, .rtl.woocommerce-page .col2-set .col-2 {
+  float: left;
+}
+
+.rtl .entry-product-share h6,
+.rtl .entry-product-meta h6 {
+  margin: 0 0 0 15px;
+}
+
+.rtl.single-product form.cart .single_add_to_cart_button,
+.rtl.single-product form.cart .product-action {
+  margin-right: 0;
+  margin-left: 11px;
+}
+
+.rtl.single-product form.cart .quantity-button-wrapper > label {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+@media (min-width: 1400px) {
+  .single-product-slider .entry-summary {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+}
+
+.rtl .comment-form-rating .stars {
+  margin: 0 26px 0 0 !important;
+}
+
+.rtl.woocommerce-cart .shop_table th, .rtl.woocommerce-cart .shop_table td {
+  padding-left: 10px;
+  padding-right: 0 !important;
+  text-align: right;
+}
+
+.rtl.woocommerce-cart .shop_table .coupon .button,
+.rtl.woocommerce-cart .shop_table .coupon .input-text {
+  margin: 0 0 10px 10px;
+}
+
+.rtl .btn-empty-cart {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.rtl.woocommerce-checkout .shop_table th, .rtl.woocommerce-checkout .shop_table td {
+  padding: 15px 0 15px 15px;
+  text-align: right;
+}
+
+.rtl.woocommerce-checkout .shop_table .coupon .button,
+.rtl.woocommerce-checkout .shop_table .coupon .input-text {
+  margin: 0 0 10px 10px;
+}
+
+.rtl.woocommerce-checkout .checkout_coupon .form-row {
+  float: right !important;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+.rtl .btn-empty-cart {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.rtl .mini-cart .widget_shopping_cart_content {
+  right: auto;
+  left: 0;
+}
+
+.rtl .mini-cart .widget_shopping_cart_content li > a:not(.remove) {
+  padding-right: 0;
+  padding-left: 20px;
+}
+
+.rtl .mini-cart .widget_shopping_cart_content .total .amount {
+  float: left;
+}
+
+.rtl .cart_list.product_list_widget li {
+  padding-left: 0;
+  padding-right: 100px;
+}
+
+.rtl .cart_list.product_list_widget li .remove {
+  float: left;
+}
+
+.rtl .cart_list.product_list_widget li img {
+  left: auto;
+  right: 0;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.rtl.woocommerce .select2-container--default .select2-selection--single .select2-selection__arrow {
+  left: 5px;
+  right: auto;
+}
+
+.rtl.woocommerce .select2-search--dropdown:after {
+  left: 40px;
+  right: auto;
+}
+
+.widget_recent_entries li a {
+  padding: 16px 30px 15px 0;
+}
+
+.widget_recent_entries li a:before, .widget_recent_entries li a:after {
+  content: '\f30a';
+  left: auto;
+  right: 0;
+}
+
+.widget_recent_entries li a:after {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.widget_recent_entries li a:hover:before {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.rtl .widget_search .search-field,
+.rtl .widget_product_search .search-field {
+  padding-right: 20px;
+  padding-left: 72px;
+}
+
+.rtl .widget_search .search-submit,
+.rtl .widget_product_search .search-submit {
+  left: 0;
+  right: auto;
+}
+
+.widget .tagcloud a {
+  float: right;
+}
+
+.rtl .tm-button.icon-left .button-icon {
+  margin-right: 0;
+  margin-left: 14px;
+}
+
+.rtl .tm-button.icon-right .button-icon {
+  margin-right: 14px;
+  margin-left: 0;
+}
+
+.rtl .maxcoach-blog .meta-icon {
+  margin-right: 0;
+  margin-left: 6px;
+}
+
+.rtl .maxcoach-blog-list-03 .post-title a {
+  padding: 0 30px 0 0;
+}
+
+.rtl .maxcoach-blog-list-03 .post-title a:before, .rtl .maxcoach-blog-list-03 .post-title a:after {
+  content: '\f30a';
+  left: auto;
+  right: 0;
+}
+
+.rtl .maxcoach-blog-list-03 .post-title a:after {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.rtl .maxcoach-blog-list-03 .post-title a:hover:before {
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.rtl .maxcoach-blog-list-03 .post-title a:hover:after {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.rtl .maxcoach-course .course-meta > div {
+  margin-left: 28px;
+  margin-right: 0;
+}
+
+.rtl .maxcoach-course .course-meta .meta-icon {
+  margin-left: 6px;
+  margin-right: 0;
+}
+
+.rtl .course-caption-style-03 .maxcoach-course .course-thumbnail-wrapper {
+  margin: 0 0 0 30px;
+}
+
+.rtl .tm-modern-heading mark span {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.rtl .elementor-widget-tm-testimonial.layout-image-inline.align-right .info {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: unset;
+      -ms-flex-direction: unset;
+          flex-direction: unset;
+}

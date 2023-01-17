@@ -1,0 +1,54 @@
+.learnpress.checkout {
+	#learn-press-checkout-login,
+	#learn-press-checkout-register {
+		border: 0;
+		padding: 0;
+	}
+
+	#checkout-form-login .learn-press-form-register,
+	#checkout-form-login .learn-press-form-login,
+	#checkout-form-register .learn-press-form-register,
+	#checkout-form-register .learn-press-form-login {
+		display: block;
+	}
+
+	.learn-press-form-wrap {
+		max-width: 100%;
+		flex: 0 0 100%;
+		left: 0;
+	}
+}
+
+.checkout-login-form-header,
+.checkout-register-form-header {
+	display: none;
+}
+
+.learn-press-checkout {
+	.lp-list-table {
+		thead {
+			tr {
+				th {
+					background: #111;
+					text-transform: uppercase;
+					font-size: 14px;
+					letter-spacing: 1px;
+				}
+			}
+		}
+
+		td.course-total,
+		.cart-subtotal td,
+		.order-total td {
+			font-weight: 800;
+		}
+	}
+}
+
+.learn-press-checkout-comment {
+	margin: 50px 0 0;
+}
+
+.learn-press-checkout-payment {
+	margin: 50px 0 0;
+}

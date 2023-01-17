@@ -1,0 +1,184 @@
+.nav-dark .form-flat input:not([type=submit]) {
+  font-size: 15px;
+}
+.box-text a:not(.button) {
+  font-size: 14px;
+}
+.box-text p {
+  font-size: 12px;
+}
+del span.amount {
+  font-size: 15px;
+}
+.pull-left small {
+  font-size: 12px;
+}
+.woocommerce div.product .product_title {
+  font-size: 20px;
+  color: #000000;
+}
+.woocommerce div.product .price .amount {
+  font-size: 15px;
+  line-height: 27px;
+}
+.woocommerce div.product form.cart {
+  font-size: 14px;
+}
+.woocommerce div.product .single_add_to_cart_button {
+  font-size: 15px;
+}
+.woocommerce div.product .product_meta > span {
+  font-size: 11px;
+}
+.widget h3 {
+  font-size: 15px;
+}
+ul.product_list_widget li a:not(.remove) {
+  font-size: 14px;
+}
+span.amount {
+  font-size: 14px;
+}
+.woocommerce.widget .widget-title {
+  font-size: 13px;
+}
+.woocommerce.widget a {
+  font-size: 13px;
+}
+.pt-half {
+  font-size: 18px;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  font-size: 14px;
+}
+.woocommerce .woocommerce-breadcrumb {
+  font-size: 12px;
+}
+.success-color {
+  font-size: 12px;
+}
+.widget_shopping_cart ul.product_list_widget li {
+  font-size: 14px;
+}
+.uppercase {
+  font-size: 17px;
+}
+.widget_shopping_cart p.total strong {
+  font-size: 16px;
+}
+.button:not(.icon) {
+  font-size: 13px;
+}
+.woocommerce .woocommerce-info {
+  font-size: 13px;
+  color: #000000;
+}
+.woocommerce-cart .woocommerce table.shop_table.cart thead th {
+  font-size: 16px;
+}
+.woocommerce .cart-collaterals .cart_totals table th {
+  font-size: 16px;
+}
+.woocommerce-cart .woocommerce table.shop_table.cart td.product-name {
+  font-size: 15px;
+}
+.woocommerce .cross-sells > h2 {
+  font-size: 15px;
+}
+.cart-sidebar .widget-title {
+  font-size: 15px;
+}
+.woocommerce form.checkout_coupon .input-text {
+  font-size: 15px;
+}
+.woocommerce form.checkout_coupon input[name=apply_coupon] {
+  font-size: 15px;
+}
+.woocommerce form.checkout h3 {
+  font-size: 15px;
+  color: #000000;
+}
+.woocommerce form.checkout .form-row label {
+  font-size: 11px;
+}
+.woocommerce-checkout .woocommerce .shop_table th {
+  font-size: 15px;
+}
+.woocommerce-checkout .woocommerce .shop_table td {
+  font-size: 14px;
+}
+.woocommerce form.checkout .form-row .input-text {
+  font-size: 15px;
+}
+.woocommerce-checkout .woocommerce p {
+  font-size: 13px;
+}
+.woocommerce #payment ul.payment_methods li {
+  font-size: 16px;
+}
+h3 > span strong {
+  color: #000000;
+}
+.col-inner h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+h1 > span strong {
+  font-size: 35px;
+  color: #000000;
+}
+.back-to-top.active {
+  border-width: 1px;
+  border-color: #000000;
+  padding-right: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.off-canvas:not(.off-canvas-center) .nav-vertical li > a {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 15px;
+  font-weight: 400;
+}
+.html .social-icons {
+  color: #535353;
+  font-weight: 300;
+}
+.form-flat input:not([type=submit]) {
+  font-size: 12px;
+}
+.nav-dropdown li.active > a {
+  font-size: 16px;
+}
+.woocommerce p.woocommerce-result-count {
+  font-size: 13px;
+}
+.woocommerce-ordering select {
+  font-size: 14px;
+}
+.woocommerce .woocommerce-pagination .page-numbers {
+  font-size: 11px;
+  border-style: solid;
+  border-width: 0px;
+}
+.woocommerce .woocommerce-pagination .page-number {
+  border-width: 1px;
+}
+.widget_price_filter .price_label {
+  font-size: 14px;
+}
+.z-1 {
+  font-size: 16px;
+}
+ul.product_list_widget li a.remove {
+  border-width: 1px;
+}
+.woocommerce-cart .woocommerce table.shop_table.cart td.product-remove a.remove {
+  border-width: 1px;
+}
+.nav-dropdown > li:last-child:not(.nav-dropdown-col) > a {
+  font-size: 13px;
+}
+.nav-dropdown.nav-dropdown-default > li > a {
+  font-size: 13px;
+}

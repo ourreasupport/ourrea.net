@@ -1,0 +1,1339 @@
+# Translation of Plugins - License Manager for WooCommerce - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - License Manager for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-04 13:20:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - License Manager for WooCommerce - Stable (latest release)\n"
+
+#: templates/page-settings.php:32
+msgid "Tools"
+msgstr "工具"
+
+#: templates/myaccount/lmfwc-view-license-keys.php:40
+msgid "Activation status"
+msgstr "激活状态"
+
+#: templates/licenses/page-edit.php:148 templates/licenses/page-import.php:106
+#: templates/licenses/page-add.php:83
+msgid "The user to which the license keys will be assigned."
+msgstr "序列号将分配给的用户。"
+
+#: includes/lists/LicensesList.php:1030 templates/licenses/page-edit.php:129
+#: templates/licenses/page-import.php:103 templates/licenses/page-add.php:80
+msgid "Customer"
+msgstr "客户"
+
+#: includes/Main.php:154 includes/lists/LicensesList.php:303
+msgid "Filter by user"
+msgstr "按用户筛选"
+
+#: includes/Main.php:151
+msgid "Search by user login, name or email"
+msgstr "通过用户登录名，姓名或电子邮件进行搜索"
+
+#: includes/api/v2/Licenses.php:581 includes/api/v2/Licenses.php:696
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr "抱歉，您不能编辑此资源。"
+
+#: includes/api/v2/Generators.php:341 includes/api/v2/Licenses.php:441
+msgid "Sorry, you are not allowed to edit resources."
+msgstr "抱歉，您不能编辑资源。"
+
+#: includes/api/v2/Generators.php:240 includes/api/v2/Licenses.php:317
+msgid "Sorry, you are not allowed to create resources."
+msgstr "抱歉，您不能创建资源。"
+
+#: includes/api/v2/Generators.php:182 includes/api/v2/Licenses.php:248
+#: includes/api/v2/Licenses.php:801
+msgid "Sorry, you cannot view this resource."
+msgstr "抱歉，您无法查看此资源。"
+
+#: includes/api/v2/Generators.php:129 includes/api/v2/Licenses.php:191
+msgid "Sorry, you cannot list resources."
+msgstr "抱歉，您无法列出资源。"
+
+#: includes/settings/OrderStatus.php:77
+msgid "Send"
+msgstr "发送"
+
+#: includes/settings/OrderStatus.php:76 templates/page-settings.php:26
+msgid "Order status"
+msgstr "订单状态"
+
+#: includes/settings/OrderStatus.php:60
+msgid "Define license key delivery"
+msgstr "定义序列号交付"
+
+#: includes/settings/Tools.php:167
+msgid "The selected columns will appear on the CSV export for license keys."
+msgstr "所选列将显示在CSV导出的序列号上。"
+
+#: includes/settings/Tools.php:133
+msgid "Updated by"
+msgstr "更新者"
+
+#: includes/settings/Tools.php:129
+msgid "Updated at"
+msgstr "更新于"
+
+#: includes/settings/Tools.php:125
+msgid "Created by"
+msgstr "创建者"
+
+#: includes/settings/Tools.php:121
+msgid "Created at"
+msgstr "创建于"
+
+#: includes/settings/Tools.php:117
+msgid "Times activated (max.)"
+msgstr "次激活（最大）"
+
+#: includes/settings/Tools.php:113
+msgid "Times activated"
+msgstr "次激活"
+
+#: includes/settings/Tools.php:93
+msgid "User ID"
+msgstr "用户ID"
+
+#: includes/settings/Tools.php:67
+msgid "CSV Export Columns"
+msgstr "CSV导出列"
+
+#: includes/settings/Tools.php:59
+msgid "License key export"
+msgstr "序列号导出"
+
+#: includes/settings/General.php:412
+msgid "Allow users to deactivate their license keys."
+msgstr "允许用户停用其序列号。"
+
+#: includes/settings/General.php:387 includes/settings/General.php:417
+msgid "The option will be visible from the 'License keys' section inside WooCommerce's 'My Account'"
+msgstr "该选项将从WooCommerce“我的帐户”中的“序列号”部分显示"
+
+#: includes/settings/General.php:382
+msgid "Allow users to activate their license keys."
+msgstr "允许用户激活其序列号。"
+
+#: includes/settings/General.php:357
+msgid "You might need to save your permalinks after enabling this option."
+msgstr "启用此选项后，您可能需要保存永久链接。"
+
+#: includes/settings/General.php:352
+msgid "Display the 'License keys' section inside WooCommerce's 'My Account'."
+msgstr "在WooCommerce“我的帐户”中显示“序列号”部分。"
+
+#: includes/settings/General.php:324
+msgid "The \"Synchronize\" button can be used to manually synchronize the product stock."
+msgstr "“同步”按钮可用于手动同步产品库存。"
+
+#: includes/settings/General.php:322
+msgid "Synchronize"
+msgstr "同步"
+
+#: includes/settings/General.php:313
+msgid "License Manager &rarr; Sell from stock"
+msgstr "许可证管理器→库存出售"
+
+#: includes/settings/General.php:312
+msgid "License Manager &rarr; Sell license keys"
+msgstr "许可证管理器&rarr;销售序列号"
+
+#: includes/settings/General.php:311
+msgid "Inventory &rarr; Manage stock?"
+msgstr "库存→管理库存？"
+
+#: includes/settings/General.php:310
+msgid "To use this feature, you also need to enable the following settings at a product level:"
+msgstr "要使用此功能，您还需要在产品级别启用以下设置："
+
+#: includes/settings/General.php:306
+msgid "Enable automatic stock management for WooCommerce products."
+msgstr "实现WooCommerce产品的自动库存管理。"
+
+#: includes/settings/General.php:278
+msgid "Allow duplicate license keys inside the licenses database table."
+msgstr "在序列号数据库表中允许重复的序列号。"
+
+#: includes/settings/General.php:158
+msgid "User deactivation"
+msgstr "用户停用"
+
+#: includes/settings/General.php:150
+msgid "User activation"
+msgstr "用户激活"
+
+#: includes/settings/General.php:142
+msgid "Enable \"License keys\""
+msgstr "启用\"序列号\""
+
+#: includes/settings/General.php:134
+msgid "My account"
+msgstr "我的帐户"
+
+#: includes/settings/General.php:117
+msgid "Stock management"
+msgstr "库存管理"
+
+#: includes/settings/General.php:109
+msgid "Allow duplicates"
+msgstr "允许重复"
+
+#: includes/settings/General.php:66
+msgid "The stock of all WooCommerce products is already synchronized."
+msgstr "所有WooCommerce产品的库存已经同步。"
+
+#: includes/settings/General.php:59
+msgid "Successfully updated the stock of %d WooCommerce products."
+msgstr "成功更新%d WooCommerce产品的库存。"
+
+#: includes/integrations/woocommerce/Order.php:378
+msgid "Please wait..."
+msgstr "请等待..."
+
+#: includes/integrations/woocommerce/Order.php:373
+msgid "Hide license key(s)"
+msgstr "隐藏序列号"
+
+#: includes/integrations/woocommerce/Order.php:367
+msgid "Show license key(s)"
+msgstr "显示序列号"
+
+#: includes/integrations/woocommerce/Order.php:335
+msgid "The following license keys have been sold by this order"
+msgstr "这个订单出售了下列序列号"
+
+#: includes/integrations/woocommerce/Order.php:302
+msgid "Send license key(s) to customer"
+msgstr "把序列号发给顾客"
+
+#. translators: placeholder is {blogname}, a variable that will be substituted
+#. when email is sent out
+#: includes/integrations/woocommerce/emails/CustomerDeliverLicenseKeys.php:28
+msgctxt "Default email subject for resent license key emails sent to the customer"
+msgid "[%s] - Your license keys are here!"
+msgstr "[%s] - 您的许可证密钥在这里！"
+
+#: includes/settings/OrderStatus.php:53
+#: includes/integrations/woocommerce/emails/CustomerDeliverLicenseKeys.php:24
+msgid "License key delivery"
+msgstr "序列号发送"
+
+#: includes/integrations/woocommerce/emails/CustomerDeliverLicenseKeys.php:20
+msgid "A manual email to send out license keys to the customer."
+msgstr "手动发送序列号给顾客。"
+
+#: includes/integrations/woocommerce/emails/CustomerDeliverLicenseKeys.php:19
+msgid "Deliver license keys"
+msgstr "发送序列号"
+
+#. translators: placeholder is {blogname}, a variable that will be substituted
+#. when email is sent out
+#: includes/integrations/woocommerce/emails/CustomerPreorderComplete.php:28
+msgctxt "Default email subject for completed pre-order emails sent to the customer"
+msgid "[%s] - Your preorder has arrived!"
+msgstr "[%s] - 你预订的已经到达！"
+
+#: includes/integrations/woocommerce/emails/CustomerPreorderComplete.php:24
+msgid "Preorder complete"
+msgstr "预订完成"
+
+#: includes/integrations/woocommerce/emails/CustomerPreorderComplete.php:20
+msgid "An email sent to the customer when a license key preorder is complete."
+msgstr "当序列号预定完成，给顾客发送电子邮件。"
+
+#: includes/integrations/woocommerce/emails/CustomerPreorderComplete.php:19
+msgid "Completed preorder"
+msgstr "已完成的预订"
+
+#: includes/integrations/woocommerce/ProductData.php:393
+msgid "License key(s) in stock and available for sale."
+msgstr "许可证密钥（有库存，可供出售）。"
+
+#: includes/integrations/woocommerce/ProductData.php:351
+msgid "Automatically generate license keys with each sold variation"
+msgstr "自动生成每个销售变体的许可证密钥"
+
+#: includes/integrations/woocommerce/ProductData.php:320
+msgid "Sell license keys for this variation"
+msgstr "出售此变体的许可证密钥"
+
+#: includes/integrations/woocommerce/ProductData.php:319
+msgid "Sell license key(s)"
+msgstr "销售序列号"
+
+#: includes/integrations/woocommerce/ProductData.php:260
+#: includes/integrations/woocommerce/ProductData.php:447
+msgid "Assign a generator if you wish to sell automatically generated licenses for this product."
+msgstr "如果你想出售自动生成的序列号，就为这个产品指定一个序列号生成器。"
+
+#: includes/integrations/woocommerce/ProductData.php:183
+msgid "License key(s) in stock and available for sale"
+msgstr "可以出售的库存序列号"
+
+#: includes/integrations/woocommerce/ProductData.php:176
+#: includes/integrations/woocommerce/ProductData.php:386
+msgid "Available"
+msgstr "可用的"
+
+#: includes/integrations/woocommerce/ProductData.php:167
+#: includes/integrations/woocommerce/ProductData.php:377
+msgid "Sell license keys from the available stock."
+msgstr "从可用库存中出售序列号。序列号每售出一个，库存减1。"
+
+#: includes/integrations/woocommerce/ProductData.php:166
+#: includes/integrations/woocommerce/ProductData.php:376
+msgid "Sell from stock"
+msgstr "从库存出售"
+
+#: includes/integrations/woocommerce/ProductData.php:154
+#: includes/integrations/woocommerce/ProductData.php:363
+msgid "Assign generator"
+msgstr "指定序列号生成器"
+
+#: includes/integrations/woocommerce/ProductData.php:143
+msgid "Automatically generate license keys with each sold product"
+msgstr "为每个售出的产品自动生成序列号"
+
+#: includes/integrations/woocommerce/ProductData.php:127
+#: includes/integrations/woocommerce/ProductData.php:334
+msgid "Defines the amount of license keys to be delivered upon purchase."
+msgstr "购买成功后，发送序列号的数量。"
+
+#: includes/integrations/woocommerce/ProductData.php:125
+#: includes/integrations/woocommerce/ProductData.php:332
+msgid "Delivered quantity"
+msgstr "发送数量"
+
+#: includes/integrations/woocommerce/ProductData.php:114
+msgid "Sell license keys for this product"
+msgstr "这个产品出售序列号"
+
+#: includes/integrations/woocommerce/ProductData.php:113
+msgid "Sell license keys"
+msgstr "销售序列号"
+
+#: includes/integrations/woocommerce/ProductData.php:89
+#: includes/integrations/woocommerce/ProductData.php:297
+msgid "Please select a generator"
+msgstr "请选择一个序列号生成器"
+
+#: includes/AdminMenus.php:412
+msgid "Thanks :)"
+msgstr "谢谢:)"
+
+#: includes/AdminMenus.php:410
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "如果你喜欢 %1$s，请给我们打%2$s。非常感谢！"
+
+#: includes/AdminMenus.php:336
+msgid "You do not have permission to edit this API Key"
+msgstr "你没有编辑API密钥的权限"
+
+#: includes/AdminMenus.php:208
+msgid "Invalid license key ID"
+msgstr "无效序列号编号"
+
+#: includes/AdminMenus.php:191 includes/AdminMenus.php:253
+msgid "Insufficient permission"
+msgstr "权限不足"
+
+#: includes/AdminMenus.php:156
+msgid "Generators per page"
+msgstr "每页序列号生成器数量"
+
+#: includes/AdminMenus.php:139
+msgid "License keys per page"
+msgstr "每页序列号数量"
+
+#: includes/AdminMenus.php:125
+msgid "Settings"
+msgstr "设置"
+
+#: includes/AdminMenus.php:124
+msgid "License Manager - Settings"
+msgstr "序列号管理器——设置"
+
+#: includes/AdminMenus.php:113
+msgid "License Manager - Generators"
+msgstr "序列号管理器——生成器"
+
+#: includes/integrations/woocommerce/ProductData.php:66
+#: includes/AdminMenus.php:92 includes/AdminMenus.php:93
+#: includes/AdminMenus.php:102
+msgid "License Manager"
+msgstr "序列号管理器"
+
+#: includes/Main.php:307
+msgid "Your license key(s)"
+msgstr "你的序列号"
+
+#: includes/Main.php:230
+msgid "Donate"
+msgstr "捐赠"
+
+#: includes/Main.php:225
+msgid "Documentation"
+msgstr "说明文件"
+
+#: includes/Main.php:150 includes/Main.php:176
+msgid "Search by product ID or product name"
+msgstr "按产品ID或产品名称搜索"
+
+#: includes/Main.php:149 includes/Main.php:175
+msgid "Search by order ID or customer email"
+msgstr "按订单ID或客户电子邮件搜索"
+
+#: includes/controllers/ApiKey.php:114
+msgid "There was a problem updating the API key."
+msgstr "更新API密钥遇到问题。"
+
+#: includes/controllers/ApiKey.php:110
+msgid "API key updated successfully."
+msgstr "API 密钥更新成功。"
+
+#: includes/controllers/ApiKey.php:92
+msgid "There was a problem generating the API key."
+msgstr "生成API密钥遇到问题。"
+
+#: includes/controllers/ApiKey.php:86
+msgid "API key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "API 密钥生成成功。确保立即复制新密钥，因为一旦你离开这个页面，密钥将被隐藏。"
+
+#: includes/controllers/ApiKey.php:59
+msgid "You do not have permission to assign API keys to the selected user."
+msgstr "您没有向所选用户分配 API 密钥的权限。"
+
+#: includes/controllers/ApiKey.php:42
+msgid "Permissions are missing."
+msgstr "权限丢失。"
+
+#: includes/controllers/ApiKey.php:38
+msgid "User is missing."
+msgstr "缺少用户。"
+
+#: includes/controllers/ApiKey.php:34
+msgid "Description is missing."
+msgstr "描述缺失。"
+
+#: includes/controllers/License.php:334 includes/controllers/License.php:354
+msgid "Invalid request."
+msgstr "无效请求。"
+
+#: includes/controllers/License.php:318
+msgid "There was a problem updating the license key."
+msgstr "更新序列号遇到问题。"
+
+#: includes/controllers/License.php:313
+msgid "Your license key has been updated successfully."
+msgstr "你的序列号已经成功更新。"
+
+#: includes/controllers/License.php:222
+msgid "There was a problem adding the license key."
+msgstr "添加序列号遇到问题。"
+
+#: includes/controllers/License.php:213
+msgid "1 license key(s) added successfully."
+msgstr "已成功添加1个许可证密钥。"
+
+#: includes/controllers/License.php:190 includes/controllers/License.php:279
+msgid "The license key already exists."
+msgstr "许可证密钥已存在。"
+
+#: includes/controllers/License.php:137
+msgid "%d key(s) have been imported, while %d key(s) were not imported."
+msgstr "%d的序列号已经导入，%d 的序列号未被导入。"
+
+#: includes/controllers/License.php:114
+msgid "%d license key(s) added successfully."
+msgstr "%d个许可证密钥已成功添加。"
+
+#: includes/controllers/License.php:75 includes/controllers/License.php:100
+#: includes/controllers/License.php:123
+msgid "There was a problem importing the license keys."
+msgstr "导入序列号遇到问题。"
+
+#: includes/controllers/Generator.php:263
+msgid "Successfully generated %d license key(s)."
+msgstr "已成功生成 %d 个许可证密钥。"
+
+#: includes/controllers/Generator.php:237
+msgid "The chosen product does not exist."
+msgstr "所选产品不存在。"
+
+#: includes/controllers/Generator.php:223
+msgid "The chosen order does not exist."
+msgstr "所选订单不存在。"
+
+#: includes/controllers/Generator.php:208
+msgid "The chosen generator does not exist."
+msgstr "所选生成器不存在。"
+
+#: includes/controllers/Generator.php:174
+msgid "The Generator was updated successfully."
+msgstr "生成器更新成功。"
+
+#: includes/controllers/Generator.php:170
+msgid "There was a problem updating the generator."
+msgstr "更新序列号生成器遇到问题。"
+
+#: includes/controllers/Generator.php:139
+msgid "The Generator chunk length is invalid."
+msgstr "生成器块长度无效。"
+
+#: includes/controllers/Generator.php:125
+msgid "The Generator chunks are invalid."
+msgstr "生成器块无效。"
+
+#: includes/controllers/Generator.php:111
+msgid "The Generator charset is invalid."
+msgstr "生成器字符集无效。"
+
+#: includes/controllers/Generator.php:97
+msgid "The Generator name is invalid."
+msgstr "生成器名称无效。"
+
+#: includes/controllers/Generator.php:78
+msgid "There was a problem adding the generator."
+msgstr "添加序列号生成器遇到问题。"
+
+#: includes/controllers/Generator.php:74
+msgid "The generator was added successfully."
+msgstr "添加序列号生成器成功。"
+
+#: includes/controllers/Generator.php:53
+msgid "Only integer values allowed for chunk length."
+msgstr "块长度只允许整数值。"
+
+#: includes/controllers/Generator.php:47
+msgid "Only integer values allowed for chunks."
+msgstr "块只允许整数值。"
+
+#: includes/controllers/Generator.php:41
+msgid "The charset is invalid."
+msgstr "字符集无效。"
+
+#: includes/controllers/Generator.php:35
+msgid "Generator name is missing."
+msgstr "序列号生成器名字缺失。"
+
+#: includes/settings/General.php:577
+msgid "The complete <b>API documentation</b> can be found <a href=\"%s\" target=\"_blank\" rel=\"noopener\">here</a>."
+msgstr "完整的<b>API文档</b>可以在<a href=\"%s\" target=\"_blank\" rel=\"noopener\">这里</a>找到。"
+
+#: includes/settings/General.php:566
+msgid "Deprecated"
+msgstr "已弃用"
+
+#: includes/settings/General.php:449
+msgid "This should only be activated for development purposes."
+msgstr "该选项仅用于开发目的。"
+
+#: includes/settings/General.php:444
+msgid "Enable the plugin API routes over insecure HTTP connections."
+msgstr "通过不安全的 HTTP 连接启用插件 API 终结点。"
+
+#: includes/settings/General.php:251
+msgid "If this setting is off, you must manually send out all license keys for completed orders."
+msgstr "如果未选中此选项，你必须手动给已完成的订单发送序列号。"
+
+#: includes/settings/General.php:246
+msgid "Automatically send license keys when an order is set to 'Complete'."
+msgstr "当订单设置为”完成“的时候自动发送序列号。"
+
+#: includes/settings/General.php:219
+msgid "All license keys will be hidden and only displayed when the 'Show' action is clicked."
+msgstr "所有序列号都被隐藏，只有当”显示“按钮被点击的时候才会看到。"
+
+#: includes/settings/General.php:215
+msgid "Hide license keys in the admin dashboard."
+msgstr "在管理员控制面板里隐藏序列号。"
+
+#: includes/settings/General.php:190
+msgid "Enable/disable API routes"
+msgstr "启用/禁用API路由"
+
+#: includes/settings/General.php:182
+msgid "API & SSL"
+msgstr "API & SSL"
+
+#: includes/settings/General.php:101
+msgid "Automatic delivery"
+msgstr "自动发送"
+
+#: includes/settings/General.php:93
+msgid "Obscure licenses"
+msgstr "模糊序列号"
+
+#: includes/lists/APIKeyList.php:396
+msgid "There was a problem revoking the API key(s)."
+msgstr "撤销API密钥遇到问题。"
+
+#: includes/lists/APIKeyList.php:392
+msgid "%d API key(s) permanently revoked."
+msgstr "%d API密钥被永久吊销。"
+
+#: includes/lists/APIKeyList.php:371
+msgid "No API keys were selected."
+msgstr "未选择 API 密钥。"
+
+#: includes/AdminMenus.php:320 includes/lists/APIKeyList.php:205
+msgid "%1$s at %2$s"
+msgstr "%1$s 的 %2$s"
+
+#: includes/AdminMenus.php:330 includes/lists/APIKeyList.php:184
+msgid "Read/Write"
+msgstr "读取/写入"
+
+#: includes/AdminMenus.php:329 includes/lists/APIKeyList.php:183
+msgid "Write"
+msgstr "写入"
+
+#: includes/AdminMenus.php:328 includes/lists/APIKeyList.php:182
+msgid "Read"
+msgstr "读取"
+
+#: includes/lists/APIKeyList.php:123 includes/lists/APIKeyList.php:228
+msgid "Revoke"
+msgstr "撤销"
+
+#: includes/lists/APIKeyList.php:112
+msgid "Revoke API key"
+msgstr "撤销API密钥"
+
+#: includes/lists/APIKeyList.php:111
+msgid "View/Edit"
+msgstr "查看/编辑"
+
+#: includes/lists/APIKeyList.php:92
+msgid "API key"
+msgstr "API密钥"
+
+#: includes/lists/APIKeyList.php:37
+msgid "No keys found."
+msgstr "没有找到密钥。"
+
+#: includes/lists/APIKeyList.php:26
+msgid "Keys"
+msgstr "密匙"
+
+#: includes/lists/APIKeyList.php:25
+msgid "Key"
+msgstr "密匙"
+
+#: includes/lists/GeneratorsList.php:417
+msgid "There was a problem deleting the generators."
+msgstr "删除序列号生成器遇到问题。"
+
+#: includes/lists/GeneratorsList.php:407
+msgid "%d generator(s) permanently deleted."
+msgstr "%d的序列号生成器被永久删除。"
+
+#: includes/lists/GeneratorsList.php:373
+msgid "No generators were selected."
+msgstr "未选择任何生成器。"
+
+#: includes/lists/GeneratorsList.php:114
+msgid "Number of products assigned to this generator"
+msgstr "分配到该序列号生成器的产品编号"
+
+#: includes/lists/GeneratorsList.php:83
+msgid "No generators found."
+msgstr "没有找到序列号生成器。"
+
+#: includes/lists/LicensesList.php:1176
+msgid "%d license key(s) permanently deleted."
+msgstr "%d的序列号被永久删除。"
+
+#: includes/lists/LicensesList.php:1138
+msgid "%d license key(s) updated successfully."
+msgstr "%d 个许可证密钥已成功更新。"
+
+#: includes/lists/LicensesList.php:1071
+msgid "No license keys were selected."
+msgstr "未选择许可证密钥。"
+
+#: includes/lists/GeneratorsList.php:359 includes/lists/APIKeyList.php:355
+#: includes/lists/LicensesList.php:1055
+msgid "The nonce is invalid or has expired."
+msgstr "随机字符无效或已过期。"
+
+#: includes/lists/LicensesList.php:1036
+msgid "Updated"
+msgstr "已更新"
+
+#: includes/lists/LicensesList.php:1035
+msgid "Created"
+msgstr "已创建"
+
+#: includes/settings/Tools.php:105 includes/lists/LicensesList.php:1033
+msgid "Valid for"
+msgstr "有效期至"
+
+#: includes/lists/LicensesList.php:1031
+msgid "Activation"
+msgstr "激活"
+
+#: includes/lists/LicensesList.php:1017
+msgid "No license keys found."
+msgstr "没有找到序列号。"
+
+#: includes/lists/LicensesList.php:869
+msgid "Export (PDF)"
+msgstr "导出（PDF）"
+
+#: includes/lists/LicensesList.php:868
+msgid "Export (CSV)"
+msgstr "导出(CSV)"
+
+#: includes/lists/LicensesList.php:866
+msgid "Mark as delivered"
+msgstr "标记为已送达"
+
+#: includes/lists/LicensesList.php:865
+msgid "Mark as sold"
+msgstr "标记为已售"
+
+#: includes/lists/GeneratorsList.php:233 includes/lists/LicensesList.php:766
+msgid "After purchase"
+msgstr "购买之后"
+
+#: includes/lists/GeneratorsList.php:231 includes/lists/LicensesList.php:765
+msgid "day(s)"
+msgstr "天"
+
+#: includes/lists/LicensesList.php:737
+msgid "Expired"
+msgstr "已过期"
+
+#: includes/lists/LicensesList.php:642 includes/lists/LicensesList.php:651
+#: includes/lists/LicensesList.php:695 includes/lists/LicensesList.php:704
+msgid "by"
+msgstr "由"
+
+#: includes/lists/LicensesList.php:628 includes/lists/LicensesList.php:681
+msgid "at"
+msgstr "在"
+
+#: includes/lists/LicensesList.php:498
+msgid "Variation of"
+msgstr "变化"
+
+#: includes/lists/GeneratorsList.php:128 includes/lists/GeneratorsList.php:295
+#: includes/lists/LicensesList.php:446 includes/lists/LicensesList.php:867
+msgid "Delete"
+msgstr "删除"
+
+#: includes/lists/LicensesList.php:430 includes/lists/LicensesList.php:864
+#: templates/myaccount/lmfwc-view-license-keys.php:83
+msgid "Deactivate"
+msgstr "停用"
+
+#: includes/lists/LicensesList.php:415 includes/lists/LicensesList.php:863
+#: templates/myaccount/lmfwc-view-license-keys.php:74
+msgid "Activate"
+msgstr "激活"
+
+#: includes/lists/LicensesList.php:397
+msgid "Hide"
+msgstr "隐藏"
+
+#: includes/lists/LicensesList.php:392
+msgid "Show"
+msgstr "显示"
+
+#: includes/lists/GeneratorsList.php:138 includes/lists/LicensesList.php:385
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/lists/GeneratorsList.php:119 includes/lists/APIKeyList.php:107
+#: includes/lists/LicensesList.php:370
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/Main.php:153 includes/lists/LicensesList.php:252
+msgid "Filter by product"
+msgstr "按产品过滤"
+
+#: includes/Main.php:152 includes/lists/LicensesList.php:195
+msgid "Filter by order"
+msgstr "按订单查找"
+
+#: includes/lists/LicensesList.php:152
+msgid "Filter"
+msgstr "过滤器"
+
+#: includes/lists/LicensesList.php:89
+msgid "All"
+msgstr "全部"
+
+#: includes/api/Authentication.php:312
+msgid "License Manager for WooCommerce API. Use a consumer key in the username field and a consumer secret in the password field."
+msgstr "WooCommerce API 的许可证管理器。在用户名字段中使用消费者密钥，在密码字段中使用消费者密钥。"
+
+#: includes/api/Authentication.php:276
+msgid "Unknown request method."
+msgstr "未知请求方式。"
+
+#: includes/api/Authentication.php:265
+msgid "The API key provided does not have write permissions."
+msgstr "提供的API密匙没有写入权限。"
+
+#: includes/api/Authentication.php:253
+msgid "The API key provided does not have read permissions."
+msgstr "提供的API密匙没有读取权限。"
+
+#: includes/api/Authentication.php:199
+msgid "Consumer secret is invalid."
+msgstr "用户密码无效。"
+
+#: includes/api/Authentication.php:186
+msgid "Consumer key is invalid."
+msgstr "用户密钥无效。"
+
+#: includes/api/Authentication.php:171
+msgid "Consumer key or secret is missing."
+msgstr "缺少用户密钥或者密码。"
+
+#: includes/api/Authentication.php:83
+msgid "The connection is not secure, therefore the API cannot be used."
+msgstr "网络连接不安全，所以无法使用API。"
+
+#: includes/api/v2/Generators.php:364
+msgid "The Generator ID is missing from the request."
+msgstr "请求的序列号生成器ID缺失。"
+
+#: includes/api/v2/Generators.php:317
+msgid "The Generator could not be added to the database."
+msgstr "序列号生成器无法加到数据库里。"
+
+#: includes/api/v2/Generators.php:286
+msgid "The Generator chunk length is missing from the request."
+msgstr "请求的序列号生成器区块长度缺失。"
+
+#: includes/api/v2/Generators.php:278
+msgid "The Generator chunks is missing from the request."
+msgstr "请求的序列号生成器区块长度缺失。"
+
+#: includes/api/v2/Generators.php:270
+msgid "The Generator charset is missing from the request."
+msgstr "请求中缺少生成器字符集。"
+
+#: includes/api/v2/Generators.php:262
+msgid "The Generator name is missing from the request."
+msgstr "请求中缺少生成器名称。"
+
+#: includes/enums/LicenseStatus.php:117 includes/lists/LicensesList.php:111
+#: includes/lists/LicensesList.php:792
+msgid "Delivered"
+msgstr "已发送"
+
+#: includes/enums/LicenseStatus.php:113 includes/lists/LicensesList.php:100
+#: includes/lists/LicensesList.php:786
+msgid "Sold"
+msgstr "已售"
+
+#: includes/enums/LicenseStatus.php:109 includes/lists/LicensesList.php:133
+#: includes/lists/LicensesList.php:804
+msgid "Inactive"
+msgstr "未激活的"
+
+#: includes/enums/LicenseStatus.php:105 includes/lists/LicensesList.php:122
+#: includes/lists/LicensesList.php:798
+msgid "Active"
+msgstr "激活的"
+
+#: includes/Export.php:51 includes/settings/Tools.php:89
+msgid "Product ID"
+msgstr "产品编号"
+
+#: includes/Export.php:50 includes/settings/Tools.php:85
+msgid "Order ID"
+msgstr "订单号"
+
+#: includes/Import.php:103
+msgid "%d license key(s) skipped because they already exist."
+msgstr "已跳过 %d 个许可证密钥，因为它们已存在。"
+
+#: includes/Import.php:64
+msgid "Invalid file content."
+msgstr "文件内容无效。"
+
+#: includes/Import.php:41
+msgid "Invalid file type, only TXT and CSV allowed."
+msgstr "文件格式无效，只支持TXT和CSV文件。"
+
+#: templates/generators/page-generate.php:44
+msgid "Define how many license keys will be generated."
+msgstr "定义将生成多少许可证密钥。"
+
+#: templates/generators/page-generate.php:41
+msgid "Amount"
+msgstr "数量"
+
+#: templates/generators/page-generate.php:35
+msgid "The selected generator's rules will be used to generate the license keys."
+msgstr "所选生成器的规则将用于生成许可证密钥。"
+
+#: includes/lists/GeneratorsList.php:34
+#: templates/generators/page-generate.php:26
+msgid "Generator"
+msgstr "序列号生成器"
+
+#: includes/integrations/woocommerce/ProductData.php:142
+#: includes/integrations/woocommerce/ProductData.php:350
+#: templates/generators/page-generate.php:14
+msgid "Generate license keys"
+msgstr "生成序列号"
+
+#: templates/generators/page-add.php:112
+msgid "Adds a word at the end (separator <b>not</b> included), i.e. <kbd>12-AB-34-CD<b>-SUF</b></kbd>."
+msgstr "在最后面加一个单词 (<b>不包括</b>分隔符), 比如<kbd>12-AB-34-CD<b>-SUF</b></kbd>."
+
+#: templates/generators/page-add.php:100
+msgid "Adds a word at the start (separator <b>not</b> included), i.e. <kbd><b>PRE-</b>12-AB-34-CD</kbd>."
+msgstr "在最前面加一个单词 (<b>不包括</b>分隔符), 比如<kbd><b>PRE-</b>12-AB-34-CD</kbd>."
+
+#: templates/generators/page-add.php:88
+msgid "i.e. for \"12-AB-34-CD\" the separator is <kbd>-</kbd>."
+msgstr "即对于\"12-AB-34-CD\"，分割符就是 <kbd>-</kbd>。"
+
+#: templates/generators/page-add.php:76
+msgid "i.e. for \"12-AB-34-CD\" the chunk length is <kbd>2</kbd>."
+msgstr "例如，对于\"12-AB-34-CD\" ，字符串长度就是<kbd>2</kbd>。"
+
+#: templates/generators/page-add.php:61
+msgid "i.e. for \"12-AB-34-CD\" the number of chunks is <kbd>4</kbd>."
+msgstr "即对于 \"12-AB-34-CD\" ，字符块长度就是<kbd>4</kbd>。"
+
+#: templates/generators/page-add.php:46
+msgid "i.e. for \"12-AB-34-CD\" the character map is <kbd>ABCD1234</kbd>."
+msgstr "即对于 “12-AB-34-CD”，字符串映射为 <kbd>ABCD1234</kbd>。"
+
+#: templates/generators/page-add.php:3
+msgid "Add new generator"
+msgstr "添加一个新序列号生成器"
+
+#: templates/generators/page-edit.php:154
+msgid "Update"
+msgstr "更新"
+
+#: templates/generators/page-edit.php:147 templates/generators/page-add.php:124
+msgid "The number of days for which the license key is valid after purchase. Leave blank if it doesn't expire."
+msgstr "购买之后序列号的有效期，如果没有失效期，请留空。"
+
+#: includes/lists/GeneratorsList.php:266 templates/generators/page-edit.php:142
+#: templates/generators/page-add.php:119
+msgid "Expires in"
+msgstr "失效"
+
+#: templates/generators/page-edit.php:135
+msgid "Adds a character set at the end of a license key (separator <b>not</b> included), i.e. for <code>12-AB-34-CD-SUF</code> the suffix is <code>-SUF</code>."
+msgstr "在许可证密钥的末尾添加一个字符集 (<b>不包括</b>分隔符)，即对于<code>12-ab-34-cd-SUF</code>，后缀为 <code>-SUF </code>。"
+
+#: includes/lists/GeneratorsList.php:265 templates/generators/page-edit.php:130
+#: templates/generators/page-add.php:107
+msgid "Suffix"
+msgstr "后缀"
+
+#: templates/generators/page-edit.php:123
+msgid "Adds a character set at the start of a license key (separator <b>not</b> included), i.e. for <code>PRE-12-AB-34-CD</code> the prefix is <code>PRE-</code>."
+msgstr "在许可证密钥的开头添加一个字符集 (<b>不包括</b>分隔符)，即对于<code>PRE-12-AB-34-CD</code>，前缀是<code>PRE-</code>。"
+
+#: includes/lists/GeneratorsList.php:264 templates/generators/page-edit.php:118
+#: templates/generators/page-add.php:95
+msgid "Prefix"
+msgstr "前缀"
+
+#: templates/generators/page-edit.php:111
+msgid "The special character separating the individual chunks, i.e. for <code>12-AB-34-CD</code> the separator is <code>-</code>."
+msgstr "分离单个块的特殊字符，即用于<code>12-AB-34-CD</code>的分隔符是 <code>-</code>。"
+
+#: templates/generators/page-edit.php:110
+#: templates/generators/page-edit.php:122
+#: templates/generators/page-edit.php:134
+#: templates/generators/page-edit.php:146 templates/generators/page-add.php:87
+#: templates/generators/page-add.php:99 templates/generators/page-add.php:111
+#: templates/generators/page-add.php:123
+msgid "Optional."
+msgstr "可选。"
+
+#: includes/lists/GeneratorsList.php:263 templates/generators/page-edit.php:106
+#: templates/generators/page-add.php:83
+msgid "Separator"
+msgstr "分隔符"
+
+#: templates/generators/page-edit.php:99
+msgid "The character length of an individual chunk, i.e. for <code>12-AB-34-CD</code> the chunk length is <code>2</code>."
+msgstr "单个块的字符长度，即对于<code>12-AB-34-CD</code>，块长度为 <code>2</code>。"
+
+#: includes/lists/GeneratorsList.php:261 templates/generators/page-edit.php:92
+#: templates/generators/page-add.php:69
+msgid "Chunk length"
+msgstr "字符串长度"
+
+#: templates/generators/page-edit.php:84
+msgid "The number of separated character sets, i.e. for <code>12-AB-34-CD</code> the number of chunks is <code>4</code>."
+msgstr "分隔字符集的数量，即对于<code>12-AB-34-CD</code>，块的数量为<code>4</code>。"
+
+#: includes/lists/GeneratorsList.php:260 templates/generators/page-edit.php:77
+#: templates/generators/page-add.php:54
+msgid "Number of chunks"
+msgstr "字符串块数量"
+
+#: templates/generators/page-edit.php:69
+msgid "The characters which will be used for generating a license key, i.e. for <code>12-AB-34-CD</code> the character map is <code>ABCD1234</code>."
+msgstr "用于生成许可证密钥的字符，即对于<code>12-AB-34-CD</code>，字符映射为<code>ABCD1234</code>。"
+
+#: includes/lists/GeneratorsList.php:259 templates/generators/page-edit.php:62
+#: templates/generators/page-add.php:39
+msgid "Character map"
+msgstr "字符映射"
+
+#: templates/generators/page-edit.php:45 templates/generators/page-add.php:22
+msgid "A short name to describe the generator."
+msgstr "一个短名字来说明序列号生成器。"
+
+#: includes/lists/GeneratorsList.php:258 templates/generators/page-edit.php:38
+#: templates/generators/page-add.php:15
+msgid "Name"
+msgstr "名字"
+
+#: templates/generators/page-edit.php:15
+msgid "This generator is assigned to the following product(s)"
+msgstr "此生成器分配给以下产品"
+
+#: templates/generators/page-edit.php:11
+msgid "Edit generator"
+msgstr "编辑序列号生成器"
+
+#: templates/generators/page-list.php:24
+msgid "You can not delete generators which are still assigned to active products! To delete those, please remove the generator from all of its assigned products first."
+msgstr "您不能删除已关联到活动产品的序列号生成器！要删除，请首先从其关联的产品中取消与序列号生成器的关联。"
+
+#: templates/generators/page-generate.php:81
+#: templates/generators/page-list.php:20
+msgid "Generate"
+msgstr "生成"
+
+#: includes/AdminMenus.php:114 includes/lists/GeneratorsList.php:35
+#: templates/generators/page-list.php:15
+msgid "Generators"
+msgstr "序列号生成器"
+
+#: templates/licenses/page-add.php:91
+msgid "Add"
+msgstr "添加"
+
+#: templates/licenses/page-add.php:3
+msgid "Add a single license key"
+msgstr "添加一个序列号"
+
+#: templates/generators/page-generate.php:65
+#: templates/licenses/page-import.php:88 templates/licenses/page-add.php:65
+msgid "The order to which the license keys will be assigned."
+msgstr "许可证密钥的分配顺序。"
+
+#: templates/licenses/page-import.php:58
+msgid "Number of days for which the license key is valid after purchase. Leave blank if the license key does not expire."
+msgstr "购买后许可证密钥有效的天数。如果许可证密钥不选择过期，请留空。"
+
+#: templates/licenses/page-import.php:36 templates/licenses/page-import.php:48
+msgid "One line per license key."
+msgstr "每行一个序列号。"
+
+#: templates/generators/page-list.php:23 templates/licenses/page-import.php:35
+#: templates/licenses/page-import.php:47
+msgid "Important"
+msgstr "注意"
+
+#: templates/licenses/page-import.php:31
+msgid "File"
+msgstr "文件"
+
+#: templates/licenses/page-import.php:25
+msgid "You can either upload a file containing the license keys, or copy-paste them into a text field."
+msgstr "您可以上传包含许可证密钥的文件，也可以将其复制到文本字段中。"
+
+#: templates/licenses/page-import.php:23
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: templates/licenses/page-import.php:19
+msgid "File upload"
+msgstr "文件上传"
+
+#: templates/licenses/page-import.php:15
+msgid "Source"
+msgstr "来源"
+
+#: templates/licenses/page-import.php:3
+msgid "Add license keys in bulk"
+msgstr "批量添加序列号"
+
+#: templates/generators/page-add.php:131 templates/licenses/page-edit.php:156
+msgid "Save"
+msgstr "保存"
+
+#: templates/generators/page-generate.php:74
+#: templates/licenses/page-edit.php:99 templates/licenses/page-edit.php:123
+#: templates/licenses/page-import.php:97 templates/licenses/page-add.php:74
+msgid "The product to which the license keys will be assigned."
+msgstr "许可证密钥将被分配到的产品。"
+
+#: includes/lists/LicensesList.php:1028
+#: templates/generators/page-generate.php:62
+#: templates/licenses/page-edit.php:80 templates/licenses/page-import.php:85
+#: templates/licenses/page-add.php:62
+#: templates/myaccount/lmfwc-view-license-keys.php:87
+msgid "Order"
+msgstr "订单"
+
+#: includes/settings/Tools.php:109 includes/lists/LicensesList.php:1034
+#: templates/generators/page-generate.php:50
+#: templates/licenses/page-edit.php:66 templates/licenses/page-import.php:73
+#: templates/licenses/page-add.php:50
+msgid "Status"
+msgstr "状态"
+
+#: templates/generators/page-edit.php:55 templates/generators/page-add.php:32
+#: templates/licenses/page-edit.php:60 templates/licenses/page-import.php:67
+#: templates/licenses/page-add.php:44
+msgid "Define how many times the license key can be marked as \"activated\" by using the REST API. Leave blank if you do not use the API."
+msgstr "定义使用“REST API”可以将许可证密钥标记为 “激活” 的次数（常用于多设备激活）。如果不使用 API，请留空。"
+
+#: includes/lists/GeneratorsList.php:262 templates/generators/page-edit.php:52
+#: templates/generators/page-add.php:29 templates/licenses/page-edit.php:57
+#: templates/licenses/page-import.php:64 templates/licenses/page-add.php:41
+msgid "Maximum activation count"
+msgstr "最大激活次数"
+
+#: templates/licenses/page-edit.php:51 templates/licenses/page-add.php:35
+msgid "The exact date this license key expires on. Leave blank if the license key does not expire. Cannot be used at the same time as the \"Valid for (days)\" field."
+msgstr "此许可证密钥过期的确切日期。如果许可证密钥未过期，请留空。不能与\"（天）有效\"字段同时使用。"
+
+#: includes/settings/Tools.php:101 includes/lists/LicensesList.php:1032
+#: templates/licenses/page-edit.php:48 templates/licenses/page-add.php:32
+msgid "Expires at"
+msgstr "到期日至"
+
+#: templates/licenses/page-edit.php:42 templates/licenses/page-add.php:26
+msgid "Number of days for which the license key is valid after purchase. Leave blank if the license key does not expire. Cannot be used at the same time as the \"Expires at\" field."
+msgstr "许可证密钥在购买后有效的天数。如果许可证密钥未过期，请留空。不能与\"过期\"字段同时使用。"
+
+#: templates/licenses/page-edit.php:39 templates/licenses/page-import.php:55
+#: templates/licenses/page-add.php:23
+msgid "Valid for (days)"
+msgstr "有效（天数）"
+
+#: templates/licenses/page-edit.php:33 templates/licenses/page-add.php:17
+msgid "The license key will be encrypted before it is stored inside the database."
+msgstr "序列号存入数据库之前会被加密。"
+
+#: includes/Export.php:49 includes/settings/Tools.php:81
+#: templates/licenses/page-edit.php:22
+msgid "ID"
+msgstr "ID"
+
+#: templates/licenses/page-edit.php:9
+msgid "Edit license key"
+msgstr "编辑序列号"
+
+#: includes/integrations/woocommerce/Order.php:349
+#: includes/integrations/woocommerce/Order.php:382
+#: templates/licenses/page-list.php:23
+msgid "Copied to clipboard"
+msgstr "已经拷贝到剪贴板"
+
+#: templates/licenses/page-list.php:18
+msgid "Search license key"
+msgstr "搜索许可证密钥"
+
+#: templates/licenses/page-list.php:8 templates/licenses/page-import.php:114
+msgid "Import"
+msgstr "导入"
+
+#: templates/generators/page-list.php:17 templates/licenses/page-list.php:5
+msgid "Add new"
+msgstr "添加新的"
+
+#: includes/settings/General.php:85
+#: includes/integrations/woocommerce/MyAccount.php:32
+#: includes/AdminMenus.php:103 includes/lists/LicensesList.php:61
+#: templates/licenses/page-list.php:3 templates/licenses/page-import.php:43
+msgid "License keys"
+msgstr "序列号"
+
+#: includes/Main.php:322 templates/myaccount/lmfwc-view-license-keys.php:41
+msgid "Valid until"
+msgstr "有效期至"
+
+#: includes/Export.php:52 includes/settings/Tools.php:97
+#: includes/lists/LicensesList.php:60 includes/lists/LicensesList.php:1027
+#: templates/licenses/page-edit.php:30 templates/licenses/page-add.php:14
+#: templates/myaccount/lmfwc-view-license-keys.php:39
+msgid "License key"
+msgstr "序列号"
+
+#: templates/myaccount/lmfwc-view-license-keys.php:27
+msgid "Your license keys"
+msgstr "您的许可证密钥"
+
+#: templates/settings/rest-api-show.php:77
+msgid "Nothing to see here..."
+msgstr "这里什么都没有......"
+
+#: templates/settings/rest-api-show.php:38
+msgid "Consumer secret"
+msgstr "用户密码"
+
+#: templates/settings/rest-api-show.php:23
+msgid "Consumer key"
+msgstr "用户密钥"
+
+#: templates/settings/rest-api-key.php:142
+#: templates/settings/rest-api-show.php:70
+msgid "Revoke key"
+msgstr "撤销密钥"
+
+#: templates/settings/rest-api-key.php:123
+msgid "Save changes"
+msgstr "保存更改"
+
+#: templates/settings/rest-api-key.php:120
+msgid "Generate API key"
+msgstr "生成API密钥"
+
+#: includes/lists/APIKeyList.php:213 includes/lists/LicensesList.php:810
+#: templates/settings/rest-api-key.php:110
+msgid "Unknown"
+msgstr "未知"
+
+#: includes/lists/APIKeyList.php:53 templates/settings/rest-api-key.php:103
+msgid "Last access"
+msgstr "最后一次访问"
+
+#: includes/lists/APIKeyList.php:50 templates/settings/rest-api-key.php:95
+msgid "Consumer key ending in"
+msgstr "用户密钥末尾"
+
+#: templates/settings/rest-api-key.php:88
+msgid "Select the access type of these keys."
+msgstr "选择该密钥的授权操作。"
+
+#: includes/lists/APIKeyList.php:52 templates/settings/rest-api-key.php:72
+msgid "Permissions"
+msgstr "权限"
+
+#: templates/settings/rest-api-key.php:66
+msgid "Owner of these keys."
+msgstr "该密钥的所有者。"
+
+#: templates/settings/rest-api-key.php:48
+msgid "Please select a user..."
+msgstr "请选择一个用户..."
+
+#: includes/lists/APIKeyList.php:51 templates/settings/rest-api-key.php:43
+msgid "User"
+msgstr "用户"
+
+#: templates/settings/rest-api-key.php:37
+msgid "Friendly name for identifying this key."
+msgstr "辨识该密钥的友好名字。"
+
+#: templates/settings/rest-api-key.php:36
+#: templates/settings/rest-api-key.php:65
+#: templates/settings/rest-api-key.php:87 templates/generators/page-edit.php:44
+#: templates/generators/page-edit.php:68 templates/generators/page-edit.php:83
+#: templates/generators/page-edit.php:98 templates/generators/page-add.php:21
+#: templates/generators/page-add.php:45 templates/generators/page-add.php:60
+#: templates/generators/page-add.php:75
+msgid "Required."
+msgstr "必填。"
+
+#: includes/lists/APIKeyList.php:49 templates/settings/rest-api-key.php:24
+msgid "Description"
+msgstr "说明"
+
+#: templates/settings/rest-api-key.php:11
+#: templates/settings/rest-api-show.php:11
+msgid "Key details"
+msgstr "序列号详细信息"
+
+#: templates/settings/rest-api-list.php:15
+msgid "Search key"
+msgstr "搜索密钥"
+
+#: templates/settings/rest-api-list.php:6
+msgid "Add key"
+msgstr "添加密钥"
+
+#: includes/settings/General.php:175 templates/settings/rest-api-list.php:4
+msgid "REST API"
+msgstr "REST API"
+
+#: templates/emails/lmfwc-email-order-license-notice.php:19
+msgid "Your license keys will shortly be delivered. It can take up to 24 hours, but usually doesn't take longer than a few minutes. Thank you for your patience."
+msgstr "序列号将很快发送给您。最多不超过24小时，但通常不会超过几分钟。感谢您的耐心等待。"
+
+#: templates/emails/lmfwc-email-order-details.php:77
+msgid "Note"
+msgstr "备注"
+
+#: templates/emails/lmfwc-email-order-details.php:40
+msgid "Price"
+msgstr "价格"
+
+#: templates/emails/lmfwc-email-order-details.php:39
+msgid "Quantity"
+msgstr "数量"
+
+#: includes/lists/LicensesList.php:1029
+#: templates/generators/page-generate.php:71
+#: templates/licenses/page-edit.php:105 templates/licenses/page-import.php:94
+#: templates/licenses/page-add.php:71
+#: templates/emails/lmfwc-email-order-details.php:38
+msgid "Product"
+msgstr "产品"
+
+#: templates/emails/lmfwc-email-order-details.php:23
+msgid "(Order #%s)"
+msgstr "(订单 #%s)"
+
+#: templates/emails/lmfwc-email-customer-preorder-complete.php:14
+msgid "The preorder #%d has been fulfilled. Order Details:"
+msgstr "预订单#%d 已经完成。订单具体内容："
+
+#: templates/page-settings.php:29
+msgid "REST API keys"
+msgstr "REST API 密钥"
+
+#: templates/page-settings.php:23
+msgid "General"
+msgstr "通用"
+
+#. Author of the plugin
+msgid "Dražen Bebić"
+msgstr "Dražen Bebić"
+
+#. Description of the plugin
+msgid "Easily sell and manage software license keys through your WooCommerce shop."
+msgstr "通过你的WooCommerce商店轻松销售和管理软件序列号。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.licensemanager.at/"
+msgstr "https://www.licensemanager.at/"
+
+#. Plugin Name of the plugin
+#: includes/integrations/woocommerce/ProductData.php:310
+#: includes/AdminMenus.php:411
+msgid "License Manager for WooCommerce"
+msgstr "License Manager for WooCommerce"

@@ -1,0 +1,162 @@
+.maxcoach-modern-carousel-02 {
+	.swiper-slide {
+		// Fix elementor override style.
+		overflow: visible !important;
+	}
+
+	.title {
+		margin: 0;
+	}
+
+	.description-wrap {
+		margin-top: 10px;
+	}
+
+	.slide-button {
+		&.left-icon {
+			.button-icon {
+				margin-right: 5px;
+			}
+		}
+
+		&.right-icon {
+			.button-icon {
+				margin-left: 5px;
+			}
+		}
+	}
+}
+
+.maxcoach-modern-carousel-02-style-01 {
+	.maxcoach-box {
+		display: flex;
+	}
+
+	.slide-image {
+		flex-shrink: 0;
+		max-width: 43%;
+		position: relative;
+		margin: 0 0 20px 20px;
+	}
+
+	.image-frame,
+	.image-pattern {
+		height: auto;
+		width: 100%;
+	}
+
+	.image-frame {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		color: #bad2de;
+		transform: translate(-20px, 20px);
+
+		path {
+			stroke: currentColor;
+		}
+	}
+
+	.image-pattern {
+		display: block;
+		position: relative;
+		z-index: 1;
+	}
+
+	.slide-content {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		position: relative;
+	}
+
+	.slide-layers {
+		position: relative;
+		z-index: 1;
+		max-width: 500px;
+		padding: 0 0 0 30px;
+	}
+
+	.slide-decorate-text {
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 150px;
+		line-height: 1;
+		font-weight: 700;
+		z-index: 0;
+		transform: translate(64px, -22px);
+	}
+
+	.title {
+		font-size: 40px;
+		line-height: 1.2;
+	}
+
+	.description-wrap {
+		margin-top: 32px;
+	}
+
+	.description {
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 1.67;
+	}
+
+	.button-wrap {
+		margin: 44px 0 0;
+	}
+}
+
+@include elementor-breakpoint-down(md) {
+	.maxcoach-modern-carousel-02-style-01 {
+		.title {
+			font-size: 34px;
+		}
+
+		.description-wrap {
+			margin: 20px 0  0;
+		}
+
+		.button-wrap {
+			margin: 30px 0 0;
+		}
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.maxcoach-modern-carousel-02-style-01 {
+		.maxcoach-box {
+			display: block;
+		}
+
+		.slide-image {
+			max-width: 100%;
+		}
+
+		.slide-content {
+			justify-content: center;
+		}
+
+		.slide-layers {
+			padding: 30px 0 0;
+		}
+
+		.title {
+			font-size: 28px;
+		}
+
+		.slide-decorate-text {
+			left: auto;
+			right: 0;
+			transform: translate(0, -22px);
+		}
+
+		.description {
+			font-size: 15px;
+			line-height: 1.78;
+		}
+	}
+}

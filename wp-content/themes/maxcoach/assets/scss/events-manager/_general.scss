@@ -1,0 +1,79 @@
+.event_auth_button {
+	padding: 0 41px;
+	height: 52px;
+	line-height: 50px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.tp-event-notice {
+	color: #333 !important;
+}
+
+.quantity {
+	position: relative;
+	width: 110px;
+
+	.qty {
+		padding: 2px 30px 2px 10px;
+		width: 100%;
+		min-height: 48px;
+		border: 1px solid #f8f8f8;
+		background: #f8f8f8;
+		text-align: center;
+		font-size: 15px;
+		font-weight: 700;
+		color: #333;
+	}
+
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		margin: 0;
+		-webkit-appearance: none;
+	}
+
+	button {
+		background: none;
+		position: absolute;
+		right: 0;
+		padding: 0;
+		width: 40px;
+		height: 24px;
+		border: 0;
+		font-size: 0;
+		box-shadow: none;
+		transform: none;
+
+		&:before {
+			@extend %NormalTransition;
+			content: '';
+			position: absolute;
+			right: 14px;
+			border-left: 5px solid transparent !important;
+			border-right: 5px solid transparent !important;
+		}
+	}
+
+	.increase {
+		top: 0;
+
+		&:before {
+			bottom: 4px;
+			border-bottom: 5px solid #ccc;
+		}
+	}
+
+	.decrease {
+		bottom: 0;
+
+		&:before {
+			top: 4px;
+			border-top: 5px solid #ccc;
+		}
+	}
+}

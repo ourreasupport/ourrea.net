@@ -1,0 +1,25 @@
+[May 2, 2020 23:51:26 -7-error] [] Unable to locate license information for backupbuddy/backupbuddy.php on this site. Please contact support for assistance.
+[May 2, 2020 23:52:17 -7-error] [] Unable to locate license information for backupbuddy/backupbuddy.php on this site. Please contact support for assistance.
+[May 2, 2020 23:52:17 -7-error] Plugin license information could not be found. Please contact support for further assistance. Error Code: 
+[May 2, 2020 23:52:27 -7-error] [] Unable to locate license information for backupbuddy/backupbuddy.php on this site. Please contact support for assistance.
+[May 2, 2020 23:52:27 -7-error] Plugin license information could not be found. Please contact support for further assistance. Error Code: 
+[May 2, 2020 23:52:30 -7-error] [] Unable to locate license information for backupbuddy/backupbuddy.php on this site. Please contact support for assistance.
+[May 3, 2020 00:01:09 -7-error] [] Error #58498954: Unable to list Dropbox directory. Details: `Unexpected HTTP status 409
+{"error_summary": "path/not_found/...", "error": {".tag": "path", "path": {".tag": "not_found"}}}`.
+[May 3, 2020 00:02:07 -7-error] [] Error #58498954: Unable to list Dropbox directory. Details: `Unexpected HTTP status 409
+{"error_summary": "path/not_found/.", "error": {".tag": "path", "path": {".tag": "not_found"}}}`.
+[May 3, 2020 00:17:58 -7-error] [brht739j3d] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[May 3, 2020 00:17:58 -7-error] [brht739j3d] Failed function `backup_zip_files`. Backup terminated.
+[May 3, 2020 00:18:23 -7-error] [hcse73zo2x] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[May 3, 2020 00:18:23 -7-error] [hcse73zo2x] Failed function `backup_zip_files`. Backup terminated.
+[May 3, 2020 00:20:34 -7-error] [qe9fqe450o] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[May 3, 2020 00:20:34 -7-error] [qe9fqe450o] Failed function `backup_zip_files`. Backup terminated.
+[May 3, 2020 00:26:44 -7-error] [xvke8xm6he] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[May 3, 2020 00:26:44 -7-error] [xvke8xm6he] Failed function `backup_zip_files`. Backup terminated.
+[Jul 6, 2020 04:18:25 -7-error] [itkie9dwro] Dropbox Error: Unexpected HTTP status 409
+{"error_summary": "incorrect_offset/..", "error": {".tag": "incorrect_offset", "correct_offset": 348127232}}
+[Jul 6, 2020 04:18:25 -7-error] [remote_send-1zp2kfkhcn5h] Dropbox Error: Unexpected HTTP status 409
+{"error_summary": "incorrect_offset/..", "error": {".tag": "incorrect_offset", "correct_offset": 348127232}}
+[Jul 6, 2020 04:18:25 -7-error] [itkie9dwro] Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details.
+[Jul 6, 2020 04:18:25 -7-error] [remote_send-1zp2kfkhcn5h] Error #8239823: One or more errors were encountered attempting to send. See log above for more information such as specific error numbers or the following details.
+[Jul 6, 2020 04:18:26 -7-error] [itkie9dwro] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "My Dropbox (v2)" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.

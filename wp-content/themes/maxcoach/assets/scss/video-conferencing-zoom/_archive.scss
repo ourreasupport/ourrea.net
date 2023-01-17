@@ -1,0 +1,70 @@
+.maxcoach-zoom-meetings {
+	.maxcoach-box {
+		height: 100%;
+		display: block;
+		background: #f8f8f8;
+		border-radius: 5px;
+
+		&:hover {
+			background: #fff;
+			box-shadow: 0 14px 59px rgba(0, 0, 0, .12);
+		}
+	}
+
+	.maxcoach-image {
+		border-radius: 5px 5px 0 0;
+	}
+
+	.zvc-caption {
+		padding: 19px 30px 23px;
+	}
+
+	.zvc-loop-title {
+		font-size: 20px;
+		line-height: 1.5;
+		margin: 0;
+	}
+
+	.zvc-loop-zoom-id {
+		display: flex;
+		align-items: center;
+		margin: 7px 0 0;
+
+		.label {
+			font-size: 13px;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 1.73px;
+			color: #9b9b9b;
+		}
+
+		.value {
+			font-size: 16px;
+			font-weight: 600;
+			letter-spacing: 2.13px;
+		}
+	}
+
+	.zvc-loop-meta {
+		margin: 11px 0 0;
+		font-size: 14px;
+		color: #7e7e7e;
+
+		.meta-icon {
+			margin-right: 4px;
+			color: #696969;
+		}
+	}
+
+	.zvc-meta {
+		display: inline-block;
+		padding: 3px 0;
+		margin-right: 20px;
+	}
+
+	.zvc-loop-start-time {
+		.start-time {
+			font-weight: 600;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.learnpress {
+	.become-teacher-form {
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+.become-teacher-form {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 30px rgba(0, 0, 0, .1);
+	padding: 56px 50px 60px;
+
+	.form-register-teacher-title {
+		font-size: 34px;
+		line-height: 1.42;
+		margin: 0 0 36px;
+		text-align: center;
+	}
+
+	form {
+		.become-teacher-fields {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+			.form-field {
+				width: 100%;
+				margin-bottom: 20px;
+
+				&:first-child,
+				&:nth-child(2) {
+					width: calc((100% - 20px) / 2);
+				}
+
+				.rwmb-field {
+					label {
+						display: none;
+					}
+
+					textarea {
+						height: 120px;
+					}
+				}
+			}
+		}
+
+		button{
+			display: block;
+			margin: 0 auto;
+			width: 260px;
+		}
+	}
+}

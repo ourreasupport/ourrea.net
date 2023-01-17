@@ -1,0 +1,145 @@
+.btn-back-to-class {
+	margin-top: 30px;
+}
+
+// Fix with woo
+.course-price {
+	.price {
+		color: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+	}
+}
+
+.learnpress {
+	.learn-press-progress {
+		.progress-bg {
+			background: #eee;
+		}
+	}
+
+	.lp-label {
+		height: 28px;
+		line-height: 28px;
+		padding: 0 10px;
+		border-radius: 5px;
+		margin-right: 6px;
+		background: #111;
+	}
+
+	.lp-label.label-enrolled,
+	.lp-label.label-started {
+		background: #111;
+	}
+}
+
+.learn-press-content-protected-message {
+	border-radius: 5px;
+	background: #fff4f6 !important;
+	color: #696969;
+	padding: 27px 20px !important;
+	font-weight: 500;
+}
+
+.learnpress.learnpress-page {
+	.lp-button {
+		height: 52px;
+		line-height: 50px;
+		padding: 0 41px;
+	}
+}
+
+.learnpress {
+	.learn-press-message {
+		padding-left: 45px;
+
+		&:before {
+			@extend %FontAwesomeRegular;
+			width: auto;
+			height: auto;
+			font-size: 16px;
+			background: none !important;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 15px;
+		}
+
+		&.success {
+			&:before {
+				content: '\f05a';
+				color: #00adff;
+			}
+		}
+
+		&.error {
+			&:before {
+				content: '\f071';
+				color: #d85554;
+			}
+		}
+	}
+
+	.learn-press-form {
+		.form-fields {
+			.form-field {
+				input[type="text"],
+				input[type="email"],
+				input[type="number"],
+				input[type="password"],
+				textarea {
+					padding: 3px 20px;
+					border-radius: 5px;
+				}
+
+				textarea {
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+
+	.answer-options {
+		.answer-option {
+
+			input[type="checkbox"],
+			input[type="radio"] {
+				position: relative;
+				padding: 5px;
+				margin: 0 10px 0 3px;
+				cursor: pointer;
+				width: unset;
+				height: unset;
+				min-width: 0;
+				border: 0;
+				z-index: 0;
+				background: transparent;
+				border-radius: 0;
+
+				&:after {
+					border: 0;
+					display: block;
+					width: 8px;
+					height: 8px;
+					transform: translate(-50%, -50%) scale(0);
+					left: 50%;
+					opacity: 1;
+					margin: 0;
+				}
+
+				&:checked:after {
+					transform: translate(-50%, -50%) scale(1);
+				}
+			}
+		}
+	}
+
+	.lp-list-table thead tr th {
+		background: #111;
+	}
+
+	.lp-label.label-finished,
+	.lp-label.label-completed {
+		color: #111;
+	}
+}
+

@@ -1,0 +1,60 @@
+.header-13 {
+	.header-wrap {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.branding {
+		display: flex;
+		align-items: center;
+	}
+
+	.page-navigation {
+		flex-grow: 1;
+
+		.branding-logo-li {
+			vertical-align: middle;
+
+			.branding {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+		}
+	}
+
+	.header-left,
+	.header-right {
+		flex-shrink: 0;
+		width: 12%;
+	}
+
+	.header-search-form {
+		width: 250px;
+		max-width: 100%;
+	}
+
+	.page-header-inner {
+		> .container {
+			> .row {
+				> .col-xs-12 {
+					position: static;
+				}
+			}
+		}
+	}
+
+	.desktop-menu & {
+		.header-wrap {
+			> .branding {
+				display: none;
+			}
+		}
+	}
+
+	.mobile-menu & {
+		.branding {
+			flex-grow: 1;
+		}
+	}
+}

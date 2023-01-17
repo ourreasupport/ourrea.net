@@ -1,0 +1,11 @@
+2022-08-26T14:20:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php:78
+Stack trace:
+#0 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Controller->getCustomerLicenseKeys()
+#1 C:\webroot\ourrea.net\wp-includes\plugin.php(212): WP_Hook->apply_filters()
+#2 C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Order.php(263): apply_filters()
+#3 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(287): LicenseManagerForWooCommerce\Integrations\WooCommerce\Order->showBoughtLicenses()
+#4 C:\webroot\ourrea.net\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters()
+#5 C:\webroot\ourrea.net\wp-includes\plugin.php(484): WP_Hook->do_action()
+#6 C:\webroot\ourrea.net\wp-content\plugins\woocommerce\templates\order\order-details.php(100): do_action()
+#7 C:\webroot\ourrea.net\wp-content\plu in C:\webroot\ourrea.net\wp-content\plugins\license-manager-for-woocommerce\includes\integrations\woocommerce\Controller.php on line 78
+

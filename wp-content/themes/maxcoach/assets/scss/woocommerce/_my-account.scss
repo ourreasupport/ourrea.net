@@ -1,0 +1,131 @@
+.woocommerce-MyAccount-navigation {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		border-radius: 5px;
+		border: 1px solid #eee;
+	}
+
+	li {
+		margin: -1px -1px 0;
+
+		&:first-child {
+			a {
+				border-radius: 5px 5px 0 0;
+			}
+		}
+
+		&:last-child {
+			a {
+				border-radius: 0 0 5px 5px;
+			}
+		}
+
+		a {
+			display: block;
+			padding: 14px 30px;
+			font-size: 16px;
+			font-weight: 500;
+			border-top: 1px solid #eee;
+			color: inherit;
+		}
+	}
+
+	.is-active a,
+	a:hover {
+		color: #fff;
+	}
+}
+
+.woocommerce-account {
+	.addresses .title .edit,
+	ul.digital-downloads li .count {
+		margin-top: 3px;
+	}
+
+	.woocommerce-MyAccount-navigation,
+	.woocommerce-MyAccount-content {
+		width: 100%;
+		float: none;
+	}
+}
+
+.woocommerce-edit-address {
+	.woocommerce-MyAccount-content {
+		h3 {
+			margin-bottom: 10px;
+		}
+
+		> form > h3 {
+			font-size: 24px;
+			margin-bottom: 40px;
+		}
+
+		address {
+			font-style: normal;
+		}
+	}
+}
+
+.woocommerce-account .page-main-content > article .woocommerce,
+.woocommerce-account .page-main-content > article > .woocommerce > .u-columns > div {
+	> h2 {
+		font-size: 40px;
+		text-align: center;
+		max-width: 380px;
+		margin: 0 auto 40px;
+	}
+}
+
+.woocommerce-form-login,
+.woocommerce-form-register,
+.lost_reset_password {
+	padding: 25px 20px;
+	max-width: 470px;
+	margin: 0 auto 10px;
+	background: #fff;
+	box-shadow: 0 15px 40px 5px rgba(0, 0, 0, .1);
+
+	label {
+		display: block;
+		font-size: 16px;
+		color: #111;
+		margin-bottom: 5px;
+		cursor: pointer;
+	}
+}
+
+.woocommerce-privacy-policy-text {
+	margin-bottom: 20px;
+}
+
+.woocommerce-form-login {
+	.woocommerce-form__label-for-checkbox {
+		float: left;
+		line-height: 56px;
+		margin: 0;
+	}
+
+	.button {
+		margin: 0 0 0 20px;
+	}
+}
+
+@include elementor-breakpoint-down(md) {
+	.woocommerce-account .page-main-content > article .woocommerce,
+	.woocommerce-account .page-main-content > article > .woocommerce > .u-columns > div {
+		> h2 {
+			font-size: 34px;
+		}
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.woocommerce-account .page-main-content > article .woocommerce,
+	.woocommerce-account .page-main-content > article > .woocommerce > .u-columns > div {
+		> h2 {
+			font-size: 28px;
+		}
+	}
+}

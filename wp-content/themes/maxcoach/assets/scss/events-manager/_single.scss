@@ -1,0 +1,444 @@
+.single-tp_event {
+	.entry-hero-section {
+		position: relative;
+		background: #333;
+		padding: 232px 0 184px;
+
+		.tp-event-notice {
+			background: #fff !important;
+		}
+	}
+
+	.entry-thumbnail {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			background: rgba(0, 0, 0, .4);
+		}
+	}
+
+	.entry-hero-content {
+		position: relative;
+		z-index: 1;
+		text-align: center;
+		color: #fff;
+	}
+
+	.entry-title {
+		font-size: 56px;
+		line-height: 1.15;
+		color: #fff;
+	}
+
+	.entry-date {
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		margin: 0 0 28px;
+	}
+
+	.entry-countdown {
+		max-width: 470px;
+		margin: 54px auto 0;
+	}
+
+	.tp_event_counter {
+		background: none;
+	}
+
+	.is-countdown {
+		border: 0;
+		background: none;
+		padding: 0;
+	}
+
+	.countdown-section {
+		background: none;
+		border: 0;
+	}
+
+	.countdown-amount {
+		font-size: 56px;
+		font-weight: 400;
+		line-height: 1;
+		color: #fff;
+	}
+
+	.countdown-period {
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #fff;
+		margin: 10px 0 0;
+	}
+
+	.page-content {
+		margin-top: 73px;
+	}
+
+	.entry-header {
+		margin-bottom: 58px;
+	}
+
+	.tp_single_event {
+		border-bottom: 1px solid #e7e7e7;
+		padding-bottom: 86px;
+		margin-bottom: 37px;
+	}
+
+	.entry-content {
+		margin-top: 0;
+	}
+
+	.entry-meta {
+		margin: 0 -12px;
+		text-align: center;
+
+		.meta-item {
+			display: inline-block;
+			position: relative;
+			padding: 0 12px;
+			margin-bottom: 5px;
+		}
+
+		.meta-icon {
+			margin-right: 5px;
+		}
+	}
+
+	.entry-event-heading {
+		margin: 0 0 20px;
+	}
+
+	.entry-event-heading,
+	.comment-reply-title {
+		font-size: 48px;
+		line-height: 1.17;
+		text-align: center;
+	}
+
+	.event-google-map-canvas {
+		height: 390px !important;
+	}
+
+	.entry-register {
+		a {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.tm-button {
+			width: 100%;
+			display: inline-flex;
+		}
+	}
+
+	.entry-details {
+		margin-bottom: 73px;
+	}
+
+	.entry-details-bar {
+		padding: 14px 30px 33px;
+		background: #fff;
+		box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+		border-radius: 5px;
+		width: 100%;
+		max-width: 340px;
+		min-height: 390px;
+		float: right;
+
+		.meta-icon {
+			color: #696969;
+			min-width: 28px;
+			text-align: center;
+		}
+
+		.meta-label {
+			font-size: 15px;
+		}
+
+		.event_auth_button {
+			text-align: center;
+			width: 100%;
+		}
+
+		.event-register-message {
+			text-align: center;
+
+			a {
+				font-weight: 500;
+				display: inline-block;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.entry-event-info {
+		list-style-type: none;
+		margin: 0 0 20px;
+		padding: 0;
+
+		.event-price {
+			font-size: 24px;
+			font-weight: 800;
+
+			.decimals-separator {
+				font-size: 18px;
+			}
+		}
+
+		li {
+			margin: 0;
+			padding: 14px 0;
+			display: flex;
+			align-items: center;
+			flex-grow: 1;
+
+			&.meta-price {
+				padding: 8px 0;
+			}
+
+			+ li {
+				border-top: 1px solid #eee;
+			}
+
+			.meta-label,
+			.meta-value {
+				flex-grow: 1;
+			}
+
+			.meta-value {
+				text-align: right;
+			}
+		}
+	}
+
+	.logged-in-as,
+	.comment-notes {
+		display: none;
+		text-align: center;
+	}
+
+	.comments-area {
+		max-width: 770px;
+		margin: 0 auto;
+	}
+
+	.comment-form {
+		margin-top: 38px;
+
+		textarea {
+			height: 200px;
+		}
+	}
+
+	.comment-form-cookies-consent {
+		text-align: center;
+	}
+
+	.form-submit {
+		text-align: center;
+	}
+
+	.entry-speakers {
+		margin-top: 90px;
+		padding-top: 67px;
+		border-top: 1px solid #e7e7e7;
+
+		.speaker-item {
+			text-align: center;
+		}
+
+		.speaker-thumbnail {
+			margin-bottom: 28px;
+
+			img {
+				width: 170px;
+				height: 170px;
+				border-radius: 50%;
+			}
+		}
+
+		.speaker-name {
+			font-size: 18px;
+			margin-bottom: 6px;
+		}
+	}
+
+	.entry-event-heading-speakers {
+		margin-bottom: 47px;
+	}
+
+	.event-speakers-description {
+		font-size: 18px;
+		line-height: 1.67;
+		width: 630px;
+		max-width: 100%;
+		text-align: center;
+		margin: 54px auto 0;
+	}
+}
+
+.entry-location-address {
+	text-align: center;
+	margin-top: 19px;
+}
+
+.entry-event-share {
+	margin-top: 20px;
+	text-align: center;
+
+	.share-list {
+		a {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			border-radius: 50%;
+			border: 1px solid #ededed;
+			margin: 5px 3px;
+
+			&:hover {
+				color: #fff;
+				background: #20ad96;
+			}
+		}
+	}
+}
+
+.event-lightbox-wrap {
+	.mfp-content {
+		width: 470px !important;
+		max-width: 100%;
+	}
+}
+
+// Popup
+#event-lightbox {
+	padding: 31px 30px 40px;
+	width: 470px;
+	max-width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, .06);
+
+	.event_auth_button {
+		width: 100%;
+	}
+}
+
+.event_register_header {
+	text-align: center;
+}
+
+.event-popup-title {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 29px;
+}
+
+.event-popup-date {
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 6px;
+}
+
+.event-popup-thumbnail {
+	margin-bottom: 30px;
+
+	img {
+		border-radius: 5px;
+	}
+}
+
+.event_auth_form_field {
+	display: flex;
+	align-items: center;
+
+	input[type='number'] {
+		padding: 2px 10px;
+		width: 80px;
+		min-height: 48px;
+		border: 1px solid #f8f8f8;
+		background: #f8f8f8;
+		text-align: center;
+		font-size: 15px;
+		font-weight: 700;
+		color: #333;
+	}
+}
+
+.event_auth_payment_methods {
+	background: none;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+}
+
+.event_register {
+	label {
+		font-size: 14px;
+		font-weight: 700;
+		color: #333;
+		flex-grow: 1;
+		cursor: pointer;
+	}
+}
+
+.event_auth_form_field {
+	label {
+		margin-right: 10px;
+	}
+}
+
+.event_register_foot {
+	margin-top: 30px;
+	text-align: center;
+}
+
+@include elementor-breakpoint-down(md) {
+	.single-tp_event {
+		.entry-title {
+			font-size: 48px
+		}
+
+		.entry-event-heading,
+		.comment-reply-title {
+			font-size: 42px;
+		}
+	}
+}
+
+@include elementor-breakpoint-down(sm) {
+	.single-tp_event {
+		.entry-title {
+			font-size: 40px
+		}
+
+		.entry-event-heading,
+		.comment-reply-title {
+			font-size: 36px;
+		}
+	}
+}

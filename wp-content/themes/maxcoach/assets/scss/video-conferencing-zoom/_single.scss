@@ -1,0 +1,128 @@
+.dpn-zvc-single-content-wrapper {
+	margin-top: 0;
+
+	.dpn-zvc-sidebar-wrapper {
+		padding-left: 30px;
+
+		.dpn-zvc-timer {
+			display: flex;
+			margin: -5px;
+			width: calc(100% + 10px);
+
+			.dpn-zvc-timer-cell {
+				flex: 1 1 0;
+				background: #fff;
+				border-radius: 5px;
+				box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+				font-size: 28px;
+				font-weight: 600;
+				margin: 5px;
+				padding: 13px 3px 11px;
+			}
+
+			.dpn-zvc-timer-cell-string {
+				font-size: 13px;
+				font-weight: 500;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				color: #777491;
+				margin: 3px 0 0;
+			}
+
+			.dpn-zvc-meeting-ended {
+				margin: 5px;
+				padding: 25px 30px;
+				border-radius: 5px;
+
+				h3 {
+					font-size: 24px;
+					line-height: 1.5;
+				}
+			}
+		}
+
+		.dpn-zvc-sidebar-box {
+			margin-top: 30px;
+
+			&.box-style-02 {
+				border-radius: 5px;
+				background: #fff;
+				box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+				padding: 27px 30px 30px;
+			}
+
+			.join-links {
+				.btn {
+					padding: 0 26px;
+					min-height: 52px;
+					line-height: 52px;
+					border-radius: 5px;
+					text-align: center;
+				}
+			}
+		}
+
+		.dpn-zvc-sidebar-tile {
+			background: none;
+			padding: 0;
+			border-radius: 0;
+
+			h3 {
+				font-size: 24px;
+				line-height: 1.5;
+				padding: 0;
+			}
+		}
+
+		.dpn-zvc-sidebar-content {
+			background: none;
+			padding: 0;
+		}
+
+		.dpn-zvc-sidebar-content-list {
+			display: flex;
+			align-items: center;
+			border: 0;
+			border-bottom: 1px solid #eee;
+			margin-bottom: 0 !important;
+			padding: 10px 0;
+			min-height: 62px;
+
+			.name {
+				font-size: 15px;
+				font-weight: 600;
+				width: 40%;
+			}
+
+			.value {
+				width: 60%;
+				text-align: right;
+			}
+		}
+
+		.dpn-zvc-sidebar-state {
+			border: 2px solid #eee;
+			border-radius: 5px;
+			background: #fff;
+			padding: 17px 28px 16px;
+			margin-top: 30px;
+
+			a {
+				font-size: 15px;
+				font-weight: 500;
+			}
+		}
+	}
+
+	.deepn-zvc-single-featured-img {
+		margin-bottom: 30px;
+
+		img {
+			border-radius: 5px;
+		}
+	}
+}
+
+.dpn-zvc-display-or-hide-localtimezone-notice {
+	margin-top: 19px;
+}

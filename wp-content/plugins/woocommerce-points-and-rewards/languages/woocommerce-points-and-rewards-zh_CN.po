@@ -1,0 +1,774 @@
+# Copyright (C) 2020 WooCommerce
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Points and Rewards 1.6.31\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"points-and-rewards\n"
+"POT-Creation-Date: 2020-03-04 18:08:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-04-26 10:32-0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh\n"
+
+#: includes/class-wc-points-rewards-actions.php:62
+msgid "Points earned for account signup"
+msgstr "为注册帐号获得的积分"
+
+#: includes/class-wc-points-rewards-actions.php:63
+msgid ""
+"Enter the amount of points earned when a customer signs up for an account."
+msgstr "输入客户登记帐户时所赚取的积分。"
+
+#: includes/class-wc-points-rewards-actions.php:74
+msgid "Points earned for writing a review"
+msgstr "发布评论获得的积分"
+
+#: includes/class-wc-points-rewards-actions.php:75
+msgid ""
+"Enter the amount of points earned when a customer first reviews a product."
+msgstr "输入当用户发布评论时获得的积分。"
+
+#: includes/class-wc-points-rewards-actions.php:108
+msgid "%s earned for product review"
+msgstr "发布评论获得的 %s"
+
+#: includes/class-wc-points-rewards-actions.php:109
+msgid "%s earned for account signup"
+msgstr "获得帐号注册的 %s"
+
+#: includes/class-wc-points-rewards-admin.php:45
+#: includes/class-wc-points-rewards-admin.php:215
+msgid "Manage Points"
+msgstr "管理积分"
+
+#: includes/class-wc-points-rewards-admin.php:46
+#: includes/class-wc-points-rewards-admin.php:209
+#: includes/class-wc-points-rewards-admin.php:353
+msgid "Points Log"
+msgstr "积分日志"
+
+#: includes/class-wc-points-rewards-admin.php:47
+msgid "Settings"
+msgstr "设置"
+
+#: includes/class-wc-points-rewards-admin.php:129
+msgid ""
+"WooCommerce Points and Rewards requires coupons to be %senabled%s in order "
+"to function properly and allow customers to redeem points during checkout."
+msgstr ""
+"WooCommerce积分和奖励要求优惠券为  %s 启用 %s 才能正常运行，并允许客户在结帐"
+"时兑换积分。"
+
+#. Author of the plugin/theme
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-points-rewards-admin.php:171
+#: includes/class-wc-points-rewards-admin.php:172
+#: includes/class-wc-points-rewards-privacy.php:12
+msgid "Points & Rewards"
+msgstr "积分和奖励"
+
+#: includes/class-wc-points-rewards-admin.php:326
+msgid "Manage Customer Points"
+msgstr "管理客户积分"
+
+#: includes/class-wc-points-rewards-admin.php:376
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: includes/class-wc-points-rewards-admin.php:434
+msgid ""
+"Are you sure you want to apply points to all previous orders that have not "
+"already had points generated? This cannot be reversed! Note that this can "
+"take some time in shops with a large number of orders, if an error occurs, "
+"simply Apply Points again to continue the process."
+msgstr ""
+"您确定要对所有尚未生成积分的先前订单应用积分？ 这不能扭转！ 请注意，这可能需"
+"要一些时间在具有大量订单的商店，如果发生错误，只需再次应用点来继续该过程。"
+
+#: includes/class-wc-points-rewards-admin.php:506
+msgid "Points Settings"
+msgstr "积分设置"
+
+#: includes/class-wc-points-rewards-admin.php:513
+msgid "Earn Points Conversion Rate"
+msgstr "赚取积分兑换率"
+
+#: includes/class-wc-points-rewards-admin.php:514
+msgid "Set the number of points awarded based on the product price."
+msgstr "根据商品价格设置奖励的积分数量。"
+
+#: includes/class-wc-points-rewards-admin.php:522
+msgid "Earn Points Rounding Mode"
+msgstr "赚取积分舍入模式"
+
+#: includes/class-wc-points-rewards-admin.php:523
+msgid "Set how points should be rounded."
+msgstr "设置点应该四舍五入。"
+
+#: includes/class-wc-points-rewards-admin.php:536
+msgid "Redemption Conversion Rate"
+msgstr "赎回转换率"
+
+#: includes/class-wc-points-rewards-admin.php:537
+msgid "Set the value of points redeemed for a discount."
+msgstr "设置多少积分可以抵扣多少金额."
+
+#: includes/class-wc-points-rewards-admin.php:545
+msgid "Partial Redemption"
+msgstr "部分赎回"
+
+#: includes/class-wc-points-rewards-admin.php:546
+msgid "Enable partial redemption"
+msgstr "启用部分兑换"
+
+#: includes/class-wc-points-rewards-admin.php:547
+msgid ""
+"Lets users enter how many points they wish to redeem during cart/checkout."
+msgstr "让用户在购物车/结帐时输入他们希望兑换多少积分。"
+
+#: includes/class-wc-points-rewards-admin.php:555
+msgid "Minimum Points Discount"
+msgstr "最低积分折扣"
+
+#: includes/class-wc-points-rewards-admin.php:556
+msgid ""
+"Set the minimum product discount allowed for the cart when redeeming points. "
+"Use a fixed monetary amount or leave blank to disable."
+msgstr "设置兑换积分时购物车允许的最低产品折扣。使用固定货币金额或留空以禁用。"
+
+#: includes/class-wc-points-rewards-admin.php:564
+#: includes/class-wc-points-rewards-product-admin.php:213
+#: includes/class-wc-points-rewards-product-admin.php:235
+#: includes/class-wc-points-rewards-product-admin.php:461
+msgid "Maximum Points Discount"
+msgstr "最高积分折扣"
+
+#: includes/class-wc-points-rewards-admin.php:565
+msgid ""
+"Set the maximum product discount allowed for the cart when redeeming points. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable."
+msgstr ""
+"设置兑换积分时购物车允许的最大商品折扣。 根据产品价格使用固定金额或百分比。 "
+"留空以禁用。"
+
+#: includes/class-wc-points-rewards-admin.php:573
+msgid "Maximum Product Points Discount"
+msgstr "最高产品积分折扣"
+
+#: includes/class-wc-points-rewards-admin.php:574
+msgid ""
+"Set the maximum product discount allowed when redeeming points per-product. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable. This can be overridden at the category and "
+"product level."
+msgstr ""
+"设置每个产品兑换积分时允许的最大商品折扣。 根据产品价格使用固定金额或百分"
+"比。 留空以禁用。 这可以在类别和产品级别被覆盖。"
+
+#: includes/class-wc-points-rewards-admin.php:582
+msgid "Tax Setting"
+msgstr "税收设置"
+
+#: includes/class-wc-points-rewards-admin.php:583
+msgid "Whether or not points should apply to prices inclusive of tax."
+msgstr "积分是否应适用于包括税金在内的价格。"
+
+#: includes/class-wc-points-rewards-admin.php:595
+msgid "Points Label"
+msgstr "积分标签"
+
+#: includes/class-wc-points-rewards-admin.php:596
+msgid "The label used to refer to points on the frontend, singular and plural."
+msgstr "标签用于指前端积分，单数和复数。"
+
+#: includes/class-wc-points-rewards-admin.php:598
+#: includes/class-wc-points-rewards-manage-points-list-table.php:40
+#: includes/class-wc-points-rewards-points-log-list-table.php:40
+msgid "Point"
+msgstr "积分"
+
+#: includes/class-wc-points-rewards-admin.php:598
+#: includes/class-wc-points-rewards-admin.php:746
+#: includes/class-wc-points-rewards-admin.php:1105
+#: includes/class-wc-points-rewards-manage-points-list-table.php:41
+#: includes/class-wc-points-rewards-manage-points-list-table.php:76
+#: includes/class-wc-points-rewards-points-log-list-table.php:41
+#: includes/class-wc-points-rewards-points-log-list-table.php:60
+msgid "Points"
+msgstr "积分"
+
+#: includes/class-wc-points-rewards-admin.php:604
+msgid "Points Expire After"
+msgstr "积分过期"
+
+#: includes/class-wc-points-rewards-admin.php:605
+msgid "Set the period after which points expire once granted to a user"
+msgstr "设置一旦被授予用户的时间到期"
+
+#: includes/class-wc-points-rewards-admin.php:613
+msgid "Product / Cart / Checkout Messages"
+msgstr "商品/购物车/结账信息"
+
+#: includes/class-wc-points-rewards-admin.php:614
+msgid ""
+"Adjust the message by using %1$s{points}%2$s and %1$s{points_label}%2$s to "
+"represent the points earned / available for redemption and the label set for "
+"points."
+msgstr ""
+"使用 %1$s{points}%2$s 和 %1$s{points_label}%2$s 来调整邮件，以表示获得/可用于"
+"兑换的积分和积分的标签。"
+
+#: includes/class-wc-points-rewards-admin.php:621
+msgid "Single Product Page Message"
+msgstr "单个产品页面信息"
+
+#: includes/class-wc-points-rewards-admin.php:622
+msgid ""
+"Add an optional message to the single product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+"在价格下方的单一产品页面中添加可选消息。 使用{积分}和{积分标签}自定义消息。 "
+"允许有限的HTML。 留空以禁用。"
+
+#: includes/class-wc-points-rewards-admin.php:625
+msgid "Purchase this product now and earn %s!"
+msgstr "注册会员购买这个产品，将获得 %s 金币奖励!"
+
+#: includes/class-wc-points-rewards-admin.php:631
+msgid "Variable Product Page Message"
+msgstr "变量产品页面信息"
+
+#: includes/class-wc-points-rewards-admin.php:632
+msgid ""
+"Add an optional message to the variable product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+"在价格以下的可变产品页面添加可选消息。 使用{积分}和{积分标签}自定义消息。 允"
+"许有限的HTML。 留空以禁用。"
+
+#: includes/class-wc-points-rewards-admin.php:635
+msgid "Earn up to %s."
+msgstr "赚取高达 %s。"
+
+#: includes/class-wc-points-rewards-admin.php:641
+msgid "Earn Points Cart/Checkout Page Message"
+msgstr "赚取积分购物车/结帐页面消息"
+
+#: includes/class-wc-points-rewards-admin.php:642
+msgid ""
+"Displayed on the cart and checkout page when points are earned. Customize "
+"the message using {points} and {points_label}. Limited HTML is allowed."
+msgstr ""
+"在积分获得时，在购物车和结帐页上显示。 使用{积分}和{积分标签}自定义消息。 允"
+"许有限的HTML。"
+
+#: includes/class-wc-points-rewards-admin.php:645
+msgid "Complete your order and earn %s for a discount on a future purchase"
+msgstr "完成订单获得 %s，可在下次购物中使用"
+
+#: includes/class-wc-points-rewards-admin.php:651
+msgid "Redeem Points Cart/Checkout Page Message"
+msgstr "兑换积分购物车/结帐页面消息"
+
+#: includes/class-wc-points-rewards-admin.php:652
+msgid ""
+"Displayed on the cart and checkout page when points are available for "
+"redemption. Customize the message using {points}, {points_value}, and "
+"{points_label}. Limited HTML is allowed."
+msgstr ""
+"当积分可兑换时显示在购物车和结帐页上。 使用{积分}，{积分值}和{积分标签}自定义"
+"消息。 允许有限的HTML。"
+
+#: includes/class-wc-points-rewards-admin.php:655
+msgid "Use %s for a %s discount on this order!"
+msgstr "使用 %s 作为订单的 %s 折扣！"
+
+#: includes/class-wc-points-rewards-admin.php:661
+msgid "Thank You / Order Received Page Message"
+msgstr "非常感谢/订单收到的页面消息"
+
+#: includes/class-wc-points-rewards-admin.php:662
+msgid ""
+"Displayed on the thank you / order received page when points were earned. "
+"Customize the message using {points}, {total_points}, {points_label}, and "
+"{total_points_label}. Limited HTML is allowed."
+msgstr ""
+"在获得积分时，显示在感谢/订单收到的页面上。 使用{points}，{total_points}，"
+"{points_label}和{total_points_label}自定义消息。 允许有限的HTML。"
+
+#: includes/class-wc-points-rewards-admin.php:665
+msgid "You have earned %s for this order. You have a total of %s."
+msgstr "您已经获得了此订单的 %s. 你总共有 %s."
+
+#: includes/class-wc-points-rewards-admin.php:672
+msgid "Points Earned for Actions"
+msgstr "获得积分的动作"
+
+#: includes/class-wc-points-rewards-admin.php:673
+msgid ""
+"Customers can also earn points for actions like creating an account or "
+"writing a product review. You can enter the amount of points the customer "
+"will earn for each action in this section."
+msgstr ""
+"客户还可以赚取积分，例如创建帐户或撰写产品评论。 您可以输入客户在本节中为每个"
+"操作赚取的积分金额。"
+
+#: includes/class-wc-points-rewards-admin.php:682
+msgid "Actions"
+msgstr "操作"
+
+#: includes/class-wc-points-rewards-admin.php:687
+msgid "Apply Points to Previous Orders"
+msgstr "将积分应用于以前的订单"
+
+#: includes/class-wc-points-rewards-admin.php:688
+msgid ""
+"This will apply points to all previous orders (processing and completed) and "
+"cannot be reversed."
+msgstr "这将适用于所有以前的订单（处理和完成），不能逆转。"
+
+#: includes/class-wc-points-rewards-admin.php:689
+msgid "Apply Points"
+msgstr "应用积分"
+
+#: includes/class-wc-points-rewards-admin.php:933
+msgid "%sOnly apply to points earned since%s - %sOptional%s"
+msgstr "%s 仅适用于从%s - %s选择%s以来获得的积分"
+
+#: includes/class-wc-points-rewards-admin.php:935
+msgid "Leave blank to apply to all points"
+msgstr "留空以适用于所有积分"
+
+#: includes/class-wc-points-rewards-admin.php:968
+msgid "%sUp Until%s - %sOptional%s: Leave blank to apply to all orders"
+msgstr "%s 直到 %s - %s 选择%s ：留空以应用于所有订单"
+
+#: includes/class-wc-points-rewards-admin.php:1047
+msgid "Database error while applying user points."
+msgstr "数据出错，但仍然应用积分。"
+
+#: includes/class-wc-points-rewards-admin.php:1074
+msgid "%d order updated."
+msgid_plural "%s orders updated."
+msgstr[0] "%d %s 订单已更新."
+
+#: includes/class-wc-points-rewards-admin.php:1108
+msgid "Earned:"
+msgstr "已获得："
+
+#: includes/class-wc-points-rewards-admin.php:1109
+#: includes/class-wc-points-rewards-admin.php:1113
+msgid "None"
+msgstr "无"
+
+#: includes/class-wc-points-rewards-admin.php:1112
+msgid "Redeemed:"
+msgstr "已兑换："
+
+#: includes/class-wc-points-rewards-admin.php:1134
+msgid "Points Modifier"
+msgstr "积分修改"
+
+#: includes/class-wc-points-rewards-admin.php:1135
+msgid ""
+"Enter a percentage which modifies how points are earned when this coupon is "
+"applied. For example, enter 200% to double the amount of points typically "
+"earned when the coupon is applied."
+msgstr ""
+"输入一个百分比，修改应用该优惠券时如何赚取积分。 例如，输入200％，将应用优惠"
+"券通常获得的积分数量加倍。"
+
+#: includes/class-wc-points-rewards-admin.php:1201
+msgid "Reset Points and Rewards"
+msgstr "重置积分和奖励"
+
+#: includes/class-wc-points-rewards-admin.php:1202
+msgid "Delete all points and rewards and clear the logs."
+msgstr "删除所有积分和奖励并清除日志。"
+
+#: includes/class-wc-points-rewards-admin.php:1203
+msgid ""
+"<strong class=\"red\">Note:</strong> This action will remove all customer "
+"points and cannot be undone."
+msgstr ""
+"<strong class=\"red\">注意：</strong> 此操作将删除所有客户点，无法撤消。"
+
+#: includes/class-wc-points-rewards-admin.php:1218
+msgid "All points and rewards successfully deleted"
+msgstr "所有积分和奖励成功删除"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:70
+msgid "Points redemption"
+msgstr "积分兑换"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:311
+msgid "Apply Discount"
+msgstr "应用折扣"
+
+#: includes/class-wc-points-rewards-cart-checkout.php:503
+msgid "How many points would you like to apply?"
+msgstr "你想申请多少积分？"
+
+#: includes/class-wc-points-rewards-discount.php:220
+#: includes/class-wc-points-rewards-legacy-discount.php:128
+msgid "Discount Applied Successfully"
+msgstr "折扣成功申请"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:58
+#: includes/class-wc-points-rewards-manage-points-list-table.php:77
+#: includes/class-wc-points-rewards-manage-points-list-table.php:159
+msgid "Update"
+msgstr "更新"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:75
+#: includes/class-wc-points-rewards-points-log-list-table.php:59
+msgid "Customer"
+msgstr "客户"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:227
+msgid "%d customer updated."
+msgid_plural "%s customers updated."
+msgstr[0] "％d 客户已更新."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:230
+msgid "%d customer could not be updated."
+msgid_plural "%s customers could not be updated."
+msgstr[0] "%d 客户无法更新."
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:366
+msgid "No user points found"
+msgstr "没有找到用户积分"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:368
+msgid ""
+"User points will appear here for you to view and manage once you have "
+"customers."
+msgstr "用户积分将出现在这里，供您查看和管理客户。"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:392
+#: includes/class-wc-points-rewards-points-log-list-table.php:268
+msgid "Invalid customer"
+msgstr "无效学员"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:399
+#: includes/class-wc-points-rewards-manage-points-list-table.php:408
+#: includes/class-wc-points-rewards-points-log-list-table.php:275
+#: includes/class-wc-points-rewards-points-log-list-table.php:284
+msgid "Show All Customers"
+msgstr "显示所有客户"
+
+#: includes/class-wc-points-rewards-manage-points-list-table.php:411
+#: includes/class-wc-points-rewards-points-log-list-table.php:301
+msgid "Filter"
+msgstr "筛选"
+
+#: includes/class-wc-points-rewards-manager.php:76
+msgid "%s adjusted by \"admin\""
+msgstr "%s 调整由“管理员”"
+
+#: includes/class-wc-points-rewards-manager.php:77
+msgid "%s earned for purchase"
+msgstr "%s购买获得"
+
+#: includes/class-wc-points-rewards-manager.php:78
+msgid "%s adjusted for cancelled order"
+msgstr "已取消订单已调整 %s"
+
+#: includes/class-wc-points-rewards-manager.php:79
+msgid "%s adjusted for an order refund"
+msgstr "%s 根据订单退款进行调整"
+
+#: includes/class-wc-points-rewards-manager.php:80
+msgid "%s redeemed towards purchase"
+msgstr "%s赎回购买"
+
+#: includes/class-wc-points-rewards-manager.php:81
+msgid "%s expired"
+msgstr "%s 已过期"
+
+#. translators: 1: points 2: points label
+#: includes/class-wc-points-rewards-order.php:112
+msgid "Customer earned %1$d %2$s for purchase."
+msgstr "客户消费可获得 %d %s。"
+
+#. translators: 1: points earned 2: points label 3: discount amount
+#: includes/class-wc-points-rewards-order.php:253
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr "%1$d %2$s 兑换为 %3$s 折扣。"
+
+#. translators: 1: points earned 2: points earned label
+#: includes/class-wc-points-rewards-order.php:313
+#: includes/class-wc-points-rewards-order.php:368
+msgid "%1$d %2$s removed."
+msgstr "%1$d %2$s 已移除。"
+
+#. translators: 1: points redeemed 2: points redeemed label
+#: includes/class-wc-points-rewards-order.php:329
+msgid "%1$d %2$s credited back to customer."
+msgstr "%1$d %2$s 记入客户。"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:61
+#: templates/myaccount/my-points.php:27
+msgid "Event"
+msgstr "事件"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:62
+#: templates/myaccount/my-points.php:28
+msgid "Date"
+msgstr "日期"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:115
+msgid "Unknown"
+msgstr "未知"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:241
+msgid "No log entries found"
+msgstr "找不到日志条目"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:243
+msgid "Point log entries will appear here for you to view and manage."
+msgstr "点日志条目将显示在此，供您查看和管理。"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:288
+msgid "Show All Event Types"
+msgstr "显示所有事件类型"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:329
+msgid "Show all Event Dates"
+msgstr "显示所有活动日期"
+
+#: includes/class-wc-points-rewards-points-log-list-table.php:341
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class-wc-points-rewards-points-log.php:131
+msgid "%s ago"
+msgstr "%s 前"
+
+#: includes/class-wc-points-rewards-privacy.php:20
+msgid ""
+"By using this extension, you may be storing personal data or sharing data "
+"with an external service. <a href=\"%s\" target=\"_blank\">Learn more about "
+"how this works, including what you may want to include in your privacy "
+"policy.</a>"
+msgstr ""
+"通过使用此扩展, 您可能正在存储个人数据或与外部服务共享数据。<a href=\"%s\" "
+"target=\"_blank\"> 了解有关此工作原理的详细信息, 包括您可能希望在隐私策略中包"
+"含的内容. </a>"
+
+#: includes/class-wc-points-rewards-product-admin.php:117
+#: includes/class-wc-points-rewards-product-admin.php:208
+#: includes/class-wc-points-rewards-product-admin.php:230
+#: includes/class-wc-points-rewards-product-admin.php:301
+#: includes/class-wc-points-rewards-product-admin.php:335
+#: includes/class-wc-points-rewards-product-admin.php:454
+#: includes/class-wc-points-rewards-product-admin.php:547
+msgid "Points Earned"
+msgstr "获得的积分"
+
+#: includes/class-wc-points-rewards-product-admin.php:118
+msgid ""
+"This can be either a fixed number of points earned for purchasing this "
+"product, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the normal rate, enter "
+"200%.  This setting modifies the global Points Conversion Rate and overrides "
+"any category value.  Use 0 to assign no points for this product, and empty "
+"to use the global/category settings."
+msgstr ""
+"这可以是购买本产品所获得的固定数量的积分，也可以是根据价格分配积分的百分比。 "
+"例如，如果要奖励等于正常比例倍数的积分，请输入200％。 此设置修改全局积分转换"
+"率并覆盖任何类别值。 使用0可以为此产品分配任何积分，并使用空格以使用全局/类别"
+"设置。"
+
+#: includes/class-wc-points-rewards-product-admin.php:129
+msgid "Maximum Discount"
+msgstr "最高折扣"
+
+#: includes/class-wc-points-rewards-product-admin.php:130
+#: includes/class-wc-points-rewards-product-admin.php:202
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+"输入固定的最大折扣金额或百分比，限制可根据产品价格折扣的折扣积分。 例如，如果"
+"要将本产品的折扣限制为最高50％，请输入50％，或输入5以将最大折扣限制为￥ 5。 "
+"此设置将覆盖全局/类别默认值，使用0禁用此产品的积分折扣，并使用全局/类别默认值"
+"为空。"
+
+#: includes/class-wc-points-rewards-product-admin.php:142
+#: includes/class-wc-points-rewards-product-admin.php:220
+#: includes/class-wc-points-rewards-product-admin.php:245
+#: includes/class-wc-points-rewards-product-admin.php:471
+msgid "Change Renewal Points"
+msgstr "更改续订积分"
+
+#: includes/class-wc-points-rewards-product-admin.php:143
+#: includes/class-wc-points-rewards-product-admin.php:203
+#: includes/class-wc-points-rewards-product-admin.php:451
+msgid ""
+"For Subscription renewals with a different point value than the signup, "
+"enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+"对于具有与注册不同的积分的订购续订，请输入固定的最大折扣金额或百分比，以限制"
+"可根据产品价格兑换折扣的积分金额。 例如，如果要将此产品的折扣限制为最大50％，"
+"请输入50％，或输入5以将最大折扣限制为$ 5。 此设置将覆盖全局/类别默认值，使用0"
+"可禁用此产品的点折扣，使用空白以使用全局/类别默认值。"
+
+#: includes/class-wc-points-rewards-product-admin.php:201
+msgid ""
+"This can either be a fixed number of points earned for purchasing this "
+"variation, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the the normal rate, "
+"enter 200%.  This setting modifies the global Points Conversion Rate and "
+"overrides any category value.  Use 0 to assign no points for this variation, "
+"and empty to use the global/category settings."
+msgstr ""
+"这可以是用于购买此变体所获得的固定数量的积分，也可以是基于价格分配积分的百分"
+"比。 例如，如果要奖励等于正常比例1倍的积分，请输入200％。 此设置修改全局点转"
+"换率并覆盖任何类别值。 使用0可以为此变体指定任何积分，并且为空使用全局/类别设"
+"置。"
+
+#: includes/class-wc-points-rewards-product-admin.php:209
+#: includes/class-wc-points-rewards-product-admin.php:231
+msgid "Variation Points Earned"
+msgstr "获得的差异点"
+
+#: includes/class-wc-points-rewards-product-admin.php:214
+#: includes/class-wc-points-rewards-product-admin.php:236
+msgid "Variation Max Points Discount"
+msgstr "变化最大积分折扣"
+
+#: includes/class-wc-points-rewards-product-admin.php:221
+#: includes/class-wc-points-rewards-product-admin.php:246
+msgid "Variation Change Rewards Points"
+msgstr "变化更改积分"
+
+#: includes/class-wc-points-rewards-product-admin.php:311
+msgid "Enter a value"
+msgstr "输入一个值"
+
+#: includes/class-wc-points-rewards-product-admin.php:340
+msgid "— No Change —"
+msgstr "— 没有变化 —"
+
+#: includes/class-wc-points-rewards-product-admin.php:341
+msgid "Change to:"
+msgstr "改为："
+
+#: includes/class-wc-points-rewards-product-admin.php:342
+msgid "Increase by (fixed amount or %):"
+msgstr "增加 (固定金额或 %):"
+
+#: includes/class-wc-points-rewards-product-admin.php:343
+msgid "Decrease by (fixed amount or %):"
+msgstr "减少（固定金额或％）："
+
+#: includes/class-wc-points-rewards-product-admin.php:353
+msgid "Enter Points Earned"
+msgstr "输入积分"
+
+#: includes/class-wc-points-rewards-product-admin.php:449
+msgid ""
+"This can either be a fixed number of points earned for the purchase of any "
+"product that belongs to this category, or a percentage which assigns points "
+"based on the price of the product. For example, if you want to award points "
+"equal to double the normal rate, enter 200%.  This setting modifies the "
+"global Points Conversion Rate, but can be overridden by a product/variation. "
+"Use 0 to assign no points for products belonging to this category, and empty "
+"to use the global setting."
+msgstr ""
+"这可以是用于购买属于此类别的任何产品获得的固定数量的积分，也可以是根据产品价"
+"格分配积分的百分比。 例如，如果要奖励等于正常比例1倍的积分，请输入200％。 此"
+"设置修改全局点转换率，但可以被产品/变体覆盖。 使用0可以为属于此类别的产品指定"
+"任何积分，而为了使用全局设置为空。"
+
+#: includes/class-wc-points-rewards-product-admin.php:450
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the price "
+"of the product in this category. For example, if you want to restrict the "
+"discount on this category to a maximum of 50%, enter 50%, or enter $5 to "
+"restrict the maximum discount to $5.  This setting overrides the global "
+"default, but can be overridden by a product/variation. Use 0 to disable "
+"point discounts for this product, and blank to use the global/category "
+"default."
+msgstr ""
+"输入固定的最大折扣金额或百分比，限制根据此类别中的产品价格可折扣的折扣积分。 "
+"例如，如果要限制此类别的折扣最多为50％，请输入50％，或输入￥5以将最大折扣限制"
+"为￥ 5。 此设置将覆盖全局默认值，但可以被产品/变体覆盖。 使用0禁用此产品的积"
+"分折扣，并使用全局/类别默认值为空。"
+
+#: includes/class-wc-points-rewards-product-admin.php:456
+msgid "Category Points Earned"
+msgstr "类别积分获得"
+
+#. translators: 1: points
+#: includes/class-wc-points-rewards-product.php:175
+msgid "Earn at least <strong>%d</strong> points by purchasing this product."
+msgstr "通过购买此产品至少获得 <strong>%d</strong> 积分。"
+
+#: templates/myaccount/my-points.php:19
+msgid "My %s"
+msgstr "我的%s"
+
+#: templates/myaccount/my-points.php:21
+msgid "You have %d %s"
+msgstr "%d"
+
+#: templates/myaccount/my-points.php:51
+msgid "Previous"
+msgstr "上一个"
+
+#: templates/myaccount/my-points.php:55
+msgid "Next"
+msgstr "下一个"
+
+#: woocommerce-points-and-rewards.php:399
+msgid "Configure"
+msgstr "配置"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Points and Rewards"
+msgstr "WooCommerce 积分和奖励"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/woocommerce-points-and-rewards/"
+msgstr "https://woocommerce.com/products/woocommerce-points-and-rewards/"
+
+#. Description of the plugin/theme
+msgid ""
+"Reward customers for purchases and other actions with points which can be "
+"redeemed for discounts"
+msgstr "奖励顾客购买的物品和其他可以兑换折扣的物品"
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: includes/class-wc-points-rewards-admin.php:934
+#: includes/class-wc-points-rewards-admin.php:969
+msgctxt "placeholder"
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"

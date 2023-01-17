@@ -1,0 +1,33 @@
+.frc-option-add-edit table p {
+    color: #838383;
+    font-size: 12px;
+}
+.spider-tab-content table p {
+    color: #838383;
+    font-size: 12px;
+}
+.spider-tab-content p {
+    color: #838383;
+    font-size: 12px;
+}
+.todo-and-author-class li {
+    color: #336600;
+    font-size: 13px;
+}
+.frc-appreciate-class li {
+    float: left; font-size: 12px; width: 150px;
+    color: #0027ff;
+}
+.p-tips-style {
+    color: #9e9d24;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.p-tips-style-color1 {
+    color: #3300aa;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear};fa-spin{0%{-webkit-transform:rotate(0deg);
+    transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);
+    transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
